@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+*.cursorignore
+
+# Data
+data/sthv2/
+*.zip
+*.tar.gz
+*.tar
+
+# Model outputs
+outputs/
+checkpoints/
+logs/
+wandb/
+test_output/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+diffusers/
+extract_videos.sh
+
+# HuggingFace cache
+.cache/
+hf_cache/
