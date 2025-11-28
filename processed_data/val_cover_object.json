@@ -1,0 +1,3755 @@
+[
+  {
+    "id": "202564",
+    "label": "covering salt shaker with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "salt shaker",
+      "a towel"
+    ]
+  },
+  {
+    "id": "33395",
+    "label": "covering a chappal with mat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a chappal",
+      "mat"
+    ]
+  },
+  {
+    "id": "27484",
+    "label": "covering a pen with a shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a shirt"
+    ]
+  },
+  {
+    "id": "103498",
+    "label": "covering toy figure with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toy figure",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "55968",
+    "label": "covering doll with doily",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "doll",
+      "doily"
+    ]
+  },
+  {
+    "id": "207771",
+    "label": "covering die with paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "die",
+      "paper towel"
+    ]
+  },
+  {
+    "id": "19993",
+    "label": "covering sketch pen with book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "sketch pen",
+      "book"
+    ]
+  },
+  {
+    "id": "110181",
+    "label": "covering a deodorant with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a deodorant",
+      "a towel"
+    ]
+  },
+  {
+    "id": "191962",
+    "label": "covering glass of water with paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "glass of water",
+      "paper towel"
+    ]
+  },
+  {
+    "id": "142356",
+    "label": "covering cord with hands",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cord",
+      "hands"
+    ]
+  },
+  {
+    "id": "166933",
+    "label": "covering bed with sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bed",
+      "sheet"
+    ]
+  },
+  {
+    "id": "36139",
+    "label": "covering coupon with pamphlet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coupon",
+      "pamphlet"
+    ]
+  },
+  {
+    "id": "158255",
+    "label": "covering a toy with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a toy",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "135581",
+    "label": "covering book with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "book",
+      "newspaper"
+    ]
+  },
+  {
+    "id": "119426",
+    "label": "covering branch with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "branch",
+      "paper"
+    ]
+  },
+  {
+    "id": "16083",
+    "label": "covering box with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "towel"
+    ]
+  },
+  {
+    "id": "175539",
+    "label": "covering a smartphone with my hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a smartphone",
+      "my hand"
+    ]
+  },
+  {
+    "id": "91736",
+    "label": "covering pillow with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "blanket"
+    ]
+  },
+  {
+    "id": "173521",
+    "label": "covering the bottle with the hoodie",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "the bottle",
+      "the hoodie"
+    ]
+  },
+  {
+    "id": "104599",
+    "label": "covering tissue with clothes",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tissue",
+      "clothes"
+    ]
+  },
+  {
+    "id": "103842",
+    "label": "covering remote control with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote control",
+      "pillow"
+    ]
+  },
+  {
+    "id": "158855",
+    "label": "covering remote with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "plate"
+    ]
+  },
+  {
+    "id": "215058",
+    "label": "covering marker with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "marker",
+      "tissue"
+    ]
+  },
+  {
+    "id": "131082",
+    "label": "covering paper clip with paper napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paper clip",
+      "paper napkin"
+    ]
+  },
+  {
+    "id": "42504",
+    "label": "covering a pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "158429",
+    "label": "covering a tomato with a washcloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a tomato",
+      "a washcloth"
+    ]
+  },
+  {
+    "id": "63599",
+    "label": "covering flower with cup",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "flower",
+      "cup"
+    ]
+  },
+  {
+    "id": "84466",
+    "label": "covering football with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "football",
+      "towel"
+    ]
+  },
+  {
+    "id": "55329",
+    "label": "covering bag with plastic cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bag",
+      "plastic cover"
+    ]
+  },
+  {
+    "id": "193595",
+    "label": "covering the tape with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "the tape",
+      "a towel"
+    ]
+  },
+  {
+    "id": "148029",
+    "label": "covering a wok with a lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a wok",
+      "a lid"
+    ]
+  },
+  {
+    "id": "89686",
+    "label": "covering apple with hand towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "apple",
+      "hand towel"
+    ]
+  },
+  {
+    "id": "59410",
+    "label": "covering a pen with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a paper"
+    ]
+  },
+  {
+    "id": "55204",
+    "label": "covering a watch with a paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a watch",
+      "a paper towel"
+    ]
+  },
+  {
+    "id": "105492",
+    "label": "covering dog with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "dog",
+      "blanket"
+    ]
+  },
+  {
+    "id": "62548",
+    "label": "covering empty water bottle with comforter",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "empty water bottle",
+      "comforter"
+    ]
+  },
+  {
+    "id": "35330",
+    "label": "covering a ball with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a ball",
+      "a cloth"
+    ]
+  },
+  {
+    "id": "155989",
+    "label": "covering a glass with a scarf",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a glass",
+      "a scarf"
+    ]
+  },
+  {
+    "id": "13953",
+    "label": "covering bottle with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "cloth"
+    ]
+  },
+  {
+    "id": "87900",
+    "label": "covering shirt with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "shirt",
+      "blanket"
+    ]
+  },
+  {
+    "id": "119146",
+    "label": "covering magnifying glass with duster",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "magnifying glass",
+      "duster"
+    ]
+  },
+  {
+    "id": "162359",
+    "label": "covering coaster with book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coaster",
+      "book"
+    ]
+  },
+  {
+    "id": "62115",
+    "label": "covering mug with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mug",
+      "shirt"
+    ]
+  },
+  {
+    "id": "18518",
+    "label": "covering stuffed animal with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stuffed animal",
+      "blanket"
+    ]
+  },
+  {
+    "id": "775",
+    "label": "covering baby with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "baby",
+      "blanket"
+    ]
+  },
+  {
+    "id": "199091",
+    "label": "covering glass jar with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "glass jar",
+      "cloth"
+    ]
+  },
+  {
+    "id": "82237",
+    "label": "covering pen with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "napkin"
+    ]
+  },
+  {
+    "id": "220123",
+    "label": "covering card with papper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "card",
+      "papper"
+    ]
+  },
+  {
+    "id": "176844",
+    "label": "covering a doll with a face towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a doll",
+      "a face towel"
+    ]
+  },
+  {
+    "id": "88820",
+    "label": "covering chapstick with a pot lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "chapstick",
+      "a pot lid"
+    ]
+  },
+  {
+    "id": "95683",
+    "label": "covering a toy with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a toy",
+      "a towel"
+    ]
+  },
+  {
+    "id": "215203",
+    "label": "covering computer with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "computer",
+      "blanket"
+    ]
+  },
+  {
+    "id": "133764",
+    "label": "covering glasses with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "glasses",
+      "cloth"
+    ]
+  },
+  {
+    "id": "74405",
+    "label": "covering tablet with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "newspaper"
+    ]
+  },
+  {
+    "id": "111134",
+    "label": "covering a cream tube with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cream tube",
+      "a paper"
+    ]
+  },
+  {
+    "id": "130007",
+    "label": "covering paperclip with notepad",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paperclip",
+      "notepad"
+    ]
+  },
+  {
+    "id": "218395",
+    "label": "covering shaker with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "shaker",
+      "napkin"
+    ]
+  },
+  {
+    "id": "65849",
+    "label": "covering pen with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "cloth"
+    ]
+  },
+  {
+    "id": "217325",
+    "label": "covering tool with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tool",
+      "cloth"
+    ]
+  },
+  {
+    "id": "204410",
+    "label": "covering a salt shaker with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a salt shaker",
+      "a towel"
+    ]
+  },
+  {
+    "id": "88101",
+    "label": "covering cup with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cup",
+      "blanket"
+    ]
+  },
+  {
+    "id": "153394",
+    "label": "covering a container with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a container",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "3763",
+    "label": "covering a mug with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mug",
+      "a towel"
+    ]
+  },
+  {
+    "id": "33444",
+    "label": "covering keys with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "cloth"
+    ]
+  },
+  {
+    "id": "209939",
+    "label": "covering pen with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "cloth"
+    ]
+  },
+  {
+    "id": "39889",
+    "label": "covering gear wheel with black pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "gear wheel",
+      "black pouch"
+    ]
+  },
+  {
+    "id": "120176",
+    "label": "covering lighter with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lighter",
+      "tissue"
+    ]
+  },
+  {
+    "id": "42228",
+    "label": "covering mobilephone with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mobilephone",
+      "paper"
+    ]
+  },
+  {
+    "id": "85905",
+    "label": "covering keys with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "towel"
+    ]
+  },
+  {
+    "id": "207871",
+    "label": "covering shoe with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "shoe",
+      "shirt"
+    ]
+  },
+  {
+    "id": "190668",
+    "label": "covering a mug with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mug",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "66269",
+    "label": "covering cell phone with envelope",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cell phone",
+      "envelope"
+    ]
+  },
+  {
+    "id": "100253",
+    "label": "covering feuerzeug with papier",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "feuerzeug",
+      "papier"
+    ]
+  },
+  {
+    "id": "151294",
+    "label": "covering keyboard with clothes",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keyboard",
+      "clothes"
+    ]
+  },
+  {
+    "id": "157330",
+    "label": "covering bottle with big bottle",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "big bottle"
+    ]
+  },
+  {
+    "id": "52432",
+    "label": "covering glass with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "glass",
+      "plate"
+    ]
+  },
+  {
+    "id": "45463",
+    "label": "covering remote with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "pillow"
+    ]
+  },
+  {
+    "id": "141418",
+    "label": "covering a pen with a sweater",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a sweater"
+    ]
+  },
+  {
+    "id": "1524",
+    "label": "covering mobile with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mobile",
+      "towel"
+    ]
+  },
+  {
+    "id": "53345",
+    "label": "covering waterbottle with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "waterbottle",
+      "blanket"
+    ]
+  },
+  {
+    "id": "216460",
+    "label": "covering paste with box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paste",
+      "box"
+    ]
+  },
+  {
+    "id": "12384",
+    "label": "covering kettle with cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "kettle",
+      "cap"
+    ]
+  },
+  {
+    "id": "21642",
+    "label": "covering bottle with jacket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "jacket"
+    ]
+  },
+  {
+    "id": "143962",
+    "label": "covering headphone with hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "headphone",
+      "hand"
+    ]
+  },
+  {
+    "id": "29620",
+    "label": "covering rubix cube with white hand kerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "rubix cube",
+      "white hand kerchief"
+    ]
+  },
+  {
+    "id": "40186",
+    "label": "covering legs with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "legs",
+      "blanket"
+    ]
+  },
+  {
+    "id": "214684",
+    "label": "covering glass jar with paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "glass jar",
+      "paper towel"
+    ]
+  },
+  {
+    "id": "166247",
+    "label": "covering tape with cardboard",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tape",
+      "cardboard"
+    ]
+  },
+  {
+    "id": "166839",
+    "label": "covering jar with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "jar",
+      "towel"
+    ]
+  },
+  {
+    "id": "35459",
+    "label": "covering chair with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "chair",
+      "blanket"
+    ]
+  },
+  {
+    "id": "41000",
+    "label": "covering a pan with a lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pan",
+      "a lid"
+    ]
+  },
+  {
+    "id": "79967",
+    "label": "covering a phone with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a phone",
+      "paper"
+    ]
+  },
+  {
+    "id": "217772",
+    "label": "covering a watch with a cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a watch",
+      "a cap"
+    ]
+  },
+  {
+    "id": "204269",
+    "label": "covering orange color pencil sharpner with wallet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "orange color pencil sharpner",
+      "wallet"
+    ]
+  },
+  {
+    "id": "219646",
+    "label": "covering bottle with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "plate"
+    ]
+  },
+  {
+    "id": "26614",
+    "label": "covering lamp with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lamp",
+      "blanket"
+    ]
+  },
+  {
+    "id": "195901",
+    "label": "covering a banana with baking tray",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a banana",
+      "baking tray"
+    ]
+  },
+  {
+    "id": "112165",
+    "label": "covering a plush with a shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a plush",
+      "a shirt"
+    ]
+  },
+  {
+    "id": "146427",
+    "label": "covering calculator with it's protective lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "calculator",
+      "it's protective lid"
+    ]
+  },
+  {
+    "id": "152597",
+    "label": "covering a shor with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a shor",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "209309",
+    "label": "covering remote with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "blanket"
+    ]
+  },
+  {
+    "id": "72745",
+    "label": "covering blue spoon with white handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "blue spoon",
+      "white handkerchief"
+    ]
+  },
+  {
+    "id": "32641",
+    "label": "covering a headphones with a remote control",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a headphones",
+      "a remote control"
+    ]
+  },
+  {
+    "id": "127560",
+    "label": "covering cellphone with handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cellphone",
+      "handkerchief"
+    ]
+  },
+  {
+    "id": "37731",
+    "label": "covering a candle holder with a dishcloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a candle holder",
+      "a dishcloth"
+    ]
+  },
+  {
+    "id": "142103",
+    "label": "covering bolt with sky blue colour cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bolt",
+      "sky blue colour cloth"
+    ]
+  },
+  {
+    "id": "44513",
+    "label": "covering a cell phone with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cell phone",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "4270",
+    "label": "covering garlic with box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "garlic",
+      "box"
+    ]
+  },
+  {
+    "id": "93748",
+    "label": "covering pick with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pick",
+      "cloth"
+    ]
+  },
+  {
+    "id": "80491",
+    "label": "covering a cat with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cat",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "5143",
+    "label": "covering a phone with a piece of cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a phone",
+      "a piece of cloth"
+    ]
+  },
+  {
+    "id": "32914",
+    "label": "covering white chalk with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "white chalk",
+      "paper"
+    ]
+  },
+  {
+    "id": "132942",
+    "label": "covering pens with a pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pens",
+      "a pillow"
+    ]
+  },
+  {
+    "id": "47610",
+    "label": "covering sunglasses with a scarf",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "sunglasses",
+      "a scarf"
+    ]
+  },
+  {
+    "id": "184393",
+    "label": "covering keys with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "a towel"
+    ]
+  },
+  {
+    "id": "139064",
+    "label": "covering wood piece with a basket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "wood piece",
+      "a basket"
+    ]
+  },
+  {
+    "id": "40317",
+    "label": "covering bucket with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bucket",
+      "towel"
+    ]
+  },
+  {
+    "id": "135871",
+    "label": "covering a tablet with cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a tablet",
+      "cap"
+    ]
+  },
+  {
+    "id": "188097",
+    "label": "covering dedorant with tablet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "dedorant",
+      "tablet"
+    ]
+  },
+  {
+    "id": "41130",
+    "label": "covering a stuffed rabbit with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a stuffed rabbit",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "92656",
+    "label": "covering notepad with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "notepad",
+      "towel"
+    ]
+  },
+  {
+    "id": "201591",
+    "label": "covering bag with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bag",
+      "cloth"
+    ]
+  },
+  {
+    "id": "57857",
+    "label": "covering usb cable with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "usb cable",
+      "cloth"
+    ]
+  },
+  {
+    "id": "123295",
+    "label": "covering coaster with box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coaster",
+      "box"
+    ]
+  },
+  {
+    "id": "40642",
+    "label": "covering matchbox with box cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "matchbox",
+      "box cap"
+    ]
+  },
+  {
+    "id": "135948",
+    "label": "covering a key with a note book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a key",
+      "a note book"
+    ]
+  },
+  {
+    "id": "79933",
+    "label": "covering baloon with beanie",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "baloon",
+      "beanie"
+    ]
+  },
+  {
+    "id": "38481",
+    "label": "covering a book with another book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a book",
+      "another book"
+    ]
+  },
+  {
+    "id": "112031",
+    "label": "covering ball with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "ball",
+      "newspaper"
+    ]
+  },
+  {
+    "id": "67242",
+    "label": "covering box with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "cloth"
+    ]
+  },
+  {
+    "id": "122743",
+    "label": "covering a cup with a book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cup",
+      "a book"
+    ]
+  },
+  {
+    "id": "27141",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "14379",
+    "label": "covering paper with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paper",
+      "paper"
+    ]
+  },
+  {
+    "id": "211788",
+    "label": "covering a spoon with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a spoon",
+      "a cloth"
+    ]
+  },
+  {
+    "id": "147302",
+    "label": "covering screwdriver with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "screwdriver",
+      "paper"
+    ]
+  },
+  {
+    "id": "94351",
+    "label": "covering plastic tin with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "plastic tin",
+      "cloth"
+    ]
+  },
+  {
+    "id": "86635",
+    "label": "covering stepstool with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stepstool",
+      "blanket"
+    ]
+  },
+  {
+    "id": "140049",
+    "label": "covering box with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "napkin"
+    ]
+  },
+  {
+    "id": "204029",
+    "label": "covering battery with cookie box lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "battery",
+      "cookie box lid"
+    ]
+  },
+  {
+    "id": "200621",
+    "label": "covering a teddy bear with a bandanna",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a teddy bear",
+      "a bandanna"
+    ]
+  },
+  {
+    "id": "36630",
+    "label": "covering toy with bowl",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toy",
+      "bowl"
+    ]
+  },
+  {
+    "id": "174766",
+    "label": "covering toy idol with black pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toy idol",
+      "black pouch"
+    ]
+  },
+  {
+    "id": "38204",
+    "label": "covering a glass with a tea towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a glass",
+      "a tea towel"
+    ]
+  },
+  {
+    "id": "191873",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "27612",
+    "label": "covering a spoon with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a spoon",
+      "a napkin"
+    ]
+  },
+  {
+    "id": "118706",
+    "label": "covering phone with rag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "rag"
+    ]
+  },
+  {
+    "id": "167714",
+    "label": "covering a pencil with a ruler",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pencil",
+      "a ruler"
+    ]
+  },
+  {
+    "id": "58396",
+    "label": "covering remote with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "tissue"
+    ]
+  },
+  {
+    "id": "123998",
+    "label": "covering magnifying gless with black cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "magnifying gless",
+      "black cloth"
+    ]
+  },
+  {
+    "id": "100109",
+    "label": "covering screw with aluminium foil",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "screw",
+      "aluminium foil"
+    ]
+  },
+  {
+    "id": "32140",
+    "label": "covering tray with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tray",
+      "cloth"
+    ]
+  },
+  {
+    "id": "27662",
+    "label": "covering keys with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "cloth"
+    ]
+  },
+  {
+    "id": "51932",
+    "label": "covering a hamper with its lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a hamper",
+      "its lid"
+    ]
+  },
+  {
+    "id": "27587",
+    "label": "covering cellphone with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cellphone",
+      "towel"
+    ]
+  },
+  {
+    "id": "99441",
+    "label": "covering pencil with sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pencil",
+      "sheet"
+    ]
+  },
+  {
+    "id": "167440",
+    "label": "covering remote with a magazine",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "a magazine"
+    ]
+  },
+  {
+    "id": "204806",
+    "label": "covering something with something",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "something",
+      "something"
+    ]
+  },
+  {
+    "id": "16224",
+    "label": "covering bowl with lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bowl",
+      "lid"
+    ]
+  },
+  {
+    "id": "67800",
+    "label": "covering fan with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "fan",
+      "blanket"
+    ]
+  },
+  {
+    "id": "127526",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "186803",
+    "label": "covering a lid with a paper heart",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a lid",
+      "a paper heart"
+    ]
+  },
+  {
+    "id": "9398",
+    "label": "covering rc with cushion",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "rc",
+      "cushion"
+    ]
+  },
+  {
+    "id": "111489",
+    "label": "covering a stappler with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a stappler",
+      "a paper"
+    ]
+  },
+  {
+    "id": "1736",
+    "label": "covering an ipad with a shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "an ipad",
+      "a shirt"
+    ]
+  },
+  {
+    "id": "165393",
+    "label": "covering tv remote with plastic bag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tv remote",
+      "plastic bag"
+    ]
+  },
+  {
+    "id": "155006",
+    "label": "covering bottle with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "cloth"
+    ]
+  },
+  {
+    "id": "175715",
+    "label": "covering a phone with a book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a phone",
+      "a book"
+    ]
+  },
+  {
+    "id": "162652",
+    "label": "covering a battery with a letter",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a battery",
+      "a letter"
+    ]
+  },
+  {
+    "id": "1425",
+    "label": "covering light bulb with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "light bulb",
+      "napkin"
+    ]
+  },
+  {
+    "id": "20649",
+    "label": "covering comb with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "comb",
+      "plate"
+    ]
+  },
+  {
+    "id": "142509",
+    "label": "covering phone with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "paper"
+    ]
+  },
+  {
+    "id": "180028",
+    "label": "covering a phone with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a phone",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "46853",
+    "label": "covering bangles with leaf",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bangles",
+      "leaf"
+    ]
+  },
+  {
+    "id": "197302",
+    "label": "covering apple tv remote with coaster",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "apple tv remote",
+      "coaster"
+    ]
+  },
+  {
+    "id": "61889",
+    "label": "covering a rubiks cube with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a rubiks cube",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "176845",
+    "label": "covering rock with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "rock",
+      "towel"
+    ]
+  },
+  {
+    "id": "216111",
+    "label": "covering cup with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cup",
+      "shirt"
+    ]
+  },
+  {
+    "id": "150774",
+    "label": "covering a candle with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a candle",
+      "a towel"
+    ]
+  },
+  {
+    "id": "33232",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "54056",
+    "label": "covering toothbrushes with hand towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toothbrushes",
+      "hand towel"
+    ]
+  },
+  {
+    "id": "76434",
+    "label": "covering an ipad with a cardboard",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "an ipad",
+      "a cardboard"
+    ]
+  },
+  {
+    "id": "94613",
+    "label": "covering pillows with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillows",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "80980",
+    "label": "covering sunglasses with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "sunglasses",
+      "a paper"
+    ]
+  },
+  {
+    "id": "51559",
+    "label": "covering humidifier with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "humidifier",
+      "towel"
+    ]
+  },
+  {
+    "id": "106598",
+    "label": "covering a stuffed animal with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a stuffed animal",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "179280",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "171852",
+    "label": "covering earring with bottle",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "earring",
+      "bottle"
+    ]
+  },
+  {
+    "id": "112723",
+    "label": "covering remote control with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote control",
+      "paper"
+    ]
+  },
+  {
+    "id": "147799",
+    "label": "covering notebook with hat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "notebook",
+      "hat"
+    ]
+  },
+  {
+    "id": "140933",
+    "label": "covering bottle with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "pillow"
+    ]
+  },
+  {
+    "id": "115694",
+    "label": "covering round case with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "round case",
+      "towel"
+    ]
+  },
+  {
+    "id": "24498",
+    "label": "covering cat with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cat",
+      "towel"
+    ]
+  },
+  {
+    "id": "203107",
+    "label": "covering controller with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "controller",
+      "pillow"
+    ]
+  },
+  {
+    "id": "161657",
+    "label": "covering a watch with a hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a watch",
+      "a hand"
+    ]
+  },
+  {
+    "id": "194332",
+    "label": "covering headphones with clothing",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "headphones",
+      "clothing"
+    ]
+  },
+  {
+    "id": "76243",
+    "label": "covering phone with book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "book"
+    ]
+  },
+  {
+    "id": "212356",
+    "label": "covering cashew with cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cashew",
+      "cap"
+    ]
+  },
+  {
+    "id": "195673",
+    "label": "covering mobile phone with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mobile phone",
+      "blanket"
+    ]
+  },
+  {
+    "id": "30654",
+    "label": "covering teacup with saucer",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "teacup",
+      "saucer"
+    ]
+  },
+  {
+    "id": "123891",
+    "label": "covering eye of stove with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "eye of stove",
+      "towel"
+    ]
+  },
+  {
+    "id": "207877",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "24300",
+    "label": "covering tablet box with red pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet box",
+      "red pouch"
+    ]
+  },
+  {
+    "id": "22417",
+    "label": "covering marker with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "marker",
+      "paper"
+    ]
+  },
+  {
+    "id": "214597",
+    "label": "covering cup with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cup",
+      "towel"
+    ]
+  },
+  {
+    "id": "117030",
+    "label": "covering box with cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "cap"
+    ]
+  },
+  {
+    "id": "203770",
+    "label": "covering striker coin with blue spectacle box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "striker coin",
+      "blue spectacle box"
+    ]
+  },
+  {
+    "id": "39249",
+    "label": "covering a coaster with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a coaster",
+      "paper"
+    ]
+  },
+  {
+    "id": "134413",
+    "label": "covering scissors with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "scissors",
+      "tissue"
+    ]
+  },
+  {
+    "id": "137318",
+    "label": "covering headphones with sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "headphones",
+      "sheet"
+    ]
+  },
+  {
+    "id": "212276",
+    "label": "covering tablet with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "paper"
+    ]
+  },
+  {
+    "id": "123799",
+    "label": "covering keys with cushion",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "cushion"
+    ]
+  },
+  {
+    "id": "15754",
+    "label": "covering pen with book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "book"
+    ]
+  },
+  {
+    "id": "117272",
+    "label": "covering a clip with a lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a clip",
+      "a lid"
+    ]
+  },
+  {
+    "id": "137612",
+    "label": "covering cup with paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cup",
+      "paper towel"
+    ]
+  },
+  {
+    "id": "9344",
+    "label": "covering duster with scarf",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "duster",
+      "scarf"
+    ]
+  },
+  {
+    "id": "95943",
+    "label": "covering stroller with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stroller",
+      "towel"
+    ]
+  },
+  {
+    "id": "29234",
+    "label": "covering doll with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "doll",
+      "blanket"
+    ]
+  },
+  {
+    "id": "199935",
+    "label": "covering bottle with tea towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "tea towel"
+    ]
+  },
+  {
+    "id": "194840",
+    "label": "covering foldable knife with punching machine",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "foldable knife",
+      "punching machine"
+    ]
+  },
+  {
+    "id": "119800",
+    "label": "covering ballpen with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "ballpen",
+      "towel"
+    ]
+  },
+  {
+    "id": "186406",
+    "label": "covering a container with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a container",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "124947",
+    "label": "covering a computer mouse with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a computer mouse",
+      "a paper"
+    ]
+  },
+  {
+    "id": "71770",
+    "label": "covering tape with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tape",
+      "shirt"
+    ]
+  },
+  {
+    "id": "89190",
+    "label": "covering a stuffed animal with a pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a stuffed animal",
+      "a pillow"
+    ]
+  },
+  {
+    "id": "203848",
+    "label": "covering a book with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a book",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "93475",
+    "label": "covering eraser with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "eraser",
+      "cloth"
+    ]
+  },
+  {
+    "id": "23480",
+    "label": "covering a candle with a plastic lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a candle",
+      "a plastic lid"
+    ]
+  },
+  {
+    "id": "205981",
+    "label": "covering red spoon with cookie box lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "red spoon",
+      "cookie box lid"
+    ]
+  },
+  {
+    "id": "113707",
+    "label": "covering goggles with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "goggles",
+      "cloth"
+    ]
+  },
+  {
+    "id": "26489",
+    "label": "covering smartphone with recipe book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "smartphone",
+      "recipe book"
+    ]
+  },
+  {
+    "id": "31045",
+    "label": "covering a red pencil with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a red pencil",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "18814",
+    "label": "covering coin with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coin",
+      "paper"
+    ]
+  },
+  {
+    "id": "13187",
+    "label": "covering cup with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cup",
+      "cloth"
+    ]
+  },
+  {
+    "id": "134649",
+    "label": "covering lotion tube with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lotion tube",
+      "paper"
+    ]
+  },
+  {
+    "id": "16665",
+    "label": "covering a penny with a tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a penny",
+      "a tissue"
+    ]
+  },
+  {
+    "id": "188276",
+    "label": "covering cigarette lighter with cookie box lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cigarette lighter",
+      "cookie box lid"
+    ]
+  },
+  {
+    "id": "174077",
+    "label": "covering remote with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "cloth"
+    ]
+  },
+  {
+    "id": "127517",
+    "label": "covering a bowl with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a bowl",
+      "a cloth"
+    ]
+  },
+  {
+    "id": "45776",
+    "label": "covering a chair with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a chair",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "175215",
+    "label": "covering tailoring tap with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tailoring tap",
+      "cloth"
+    ]
+  },
+  {
+    "id": "16026",
+    "label": "covering onion with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "onion",
+      "cloth"
+    ]
+  },
+  {
+    "id": "107791",
+    "label": "covering tv remote with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tv remote",
+      "pillow"
+    ]
+  },
+  {
+    "id": "47113",
+    "label": "covering glass with cotton towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "glass",
+      "cotton towel"
+    ]
+  },
+  {
+    "id": "181663",
+    "label": "covering bed with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bed",
+      "blanket"
+    ]
+  },
+  {
+    "id": "75949",
+    "label": "covering a pen with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "204105",
+    "label": "covering a cat with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cat",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "117461",
+    "label": "covering pendrive with simba plush",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pendrive",
+      "simba plush"
+    ]
+  },
+  {
+    "id": "29287",
+    "label": "covering lantern with jacket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lantern",
+      "jacket"
+    ]
+  },
+  {
+    "id": "70556",
+    "label": "covering key with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "key",
+      "tissue"
+    ]
+  },
+  {
+    "id": "170105",
+    "label": "covering a calculator with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a calculator",
+      "a cloth"
+    ]
+  },
+  {
+    "id": "12454",
+    "label": "covering spoon with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "spoon",
+      "plate"
+    ]
+  },
+  {
+    "id": "85694",
+    "label": "covering a cup with a rag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cup",
+      "a rag"
+    ]
+  },
+  {
+    "id": "94286",
+    "label": "covering mobile with tissue paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mobile",
+      "tissue paper"
+    ]
+  },
+  {
+    "id": "142530",
+    "label": "covering smartphone with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "smartphone",
+      "pillow"
+    ]
+  },
+  {
+    "id": "199182",
+    "label": "covering a baby doll with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a baby doll",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "159131",
+    "label": "covering coin with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coin",
+      "paper"
+    ]
+  },
+  {
+    "id": "185280",
+    "label": "covering remote control with hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote control",
+      "hand"
+    ]
+  },
+  {
+    "id": "77223",
+    "label": "covering scissor with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "scissor",
+      "cloth"
+    ]
+  },
+  {
+    "id": "161595",
+    "label": "covering red chili with small box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "red chili",
+      "small box"
+    ]
+  },
+  {
+    "id": "45078",
+    "label": "covering pen with folder",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "folder"
+    ]
+  },
+  {
+    "id": "90043",
+    "label": "covering blue colour pen with white sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "blue colour pen",
+      "white sheet"
+    ]
+  },
+  {
+    "id": "63640",
+    "label": "covering toothbrush with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toothbrush",
+      "plate"
+    ]
+  },
+  {
+    "id": "211835",
+    "label": "covering mug with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mug",
+      "towel"
+    ]
+  },
+  {
+    "id": "178125",
+    "label": "covering wallet with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "wallet",
+      "cloth"
+    ]
+  },
+  {
+    "id": "79214",
+    "label": "covering phone with folder",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "folder"
+    ]
+  },
+  {
+    "id": "65448",
+    "label": "covering a mug with a dish towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mug",
+      "a dish towel"
+    ]
+  },
+  {
+    "id": "80618",
+    "label": "covering comb with wipes",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "comb",
+      "wipes"
+    ]
+  },
+  {
+    "id": "22140",
+    "label": "covering stone with cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stone",
+      "cap"
+    ]
+  },
+  {
+    "id": "104402",
+    "label": "covering box with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "blanket"
+    ]
+  },
+  {
+    "id": "77546",
+    "label": "covering pendrive with green coloured cup",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pendrive",
+      "green coloured cup"
+    ]
+  },
+  {
+    "id": "70851",
+    "label": "covering clothespin with a tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "clothespin",
+      "a tissue"
+    ]
+  },
+  {
+    "id": "40962",
+    "label": "covering a pen with a book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a book"
+    ]
+  },
+  {
+    "id": "39589",
+    "label": "covering a mouse with a sheet of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mouse",
+      "a sheet of paper"
+    ]
+  },
+  {
+    "id": "102275",
+    "label": "covering a box with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a box",
+      "a napkin"
+    ]
+  },
+  {
+    "id": "15603",
+    "label": "covering a spoon with an envelope",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a spoon",
+      "an envelope"
+    ]
+  },
+  {
+    "id": "125802",
+    "label": "covering hair band with black pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "hair band",
+      "black pouch"
+    ]
+  },
+  {
+    "id": "5875",
+    "label": "covering mug with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mug",
+      "cloth"
+    ]
+  },
+  {
+    "id": "219234",
+    "label": "covering shoe with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "shoe",
+      "towel"
+    ]
+  },
+  {
+    "id": "35183",
+    "label": "covering tv remote with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tv remote",
+      "towel"
+    ]
+  },
+  {
+    "id": "34047",
+    "label": "covering toothbrush with notebook",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toothbrush",
+      "notebook"
+    ]
+  },
+  {
+    "id": "213168",
+    "label": "covering remote control with hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote control",
+      "hand"
+    ]
+  },
+  {
+    "id": "155511",
+    "label": "covering an electric fan with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "an electric fan",
+      "a towel"
+    ]
+  },
+  {
+    "id": "193863",
+    "label": "covering a can with a basket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a can",
+      "a basket"
+    ]
+  },
+  {
+    "id": "131342",
+    "label": "covering bottle with teatowel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "teatowel"
+    ]
+  },
+  {
+    "id": "183163",
+    "label": "covering cork with hat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cork",
+      "hat"
+    ]
+  },
+  {
+    "id": "173043",
+    "label": "covering toy with bowl",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toy",
+      "bowl"
+    ]
+  },
+  {
+    "id": "19106",
+    "label": "covering a mug with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mug",
+      "a napkin"
+    ]
+  },
+  {
+    "id": "219046",
+    "label": "covering a book with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a book",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "66519",
+    "label": "covering pen with a bag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "a bag"
+    ]
+  },
+  {
+    "id": "38318",
+    "label": "covering a smartphone with a hoodie",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a smartphone",
+      "a hoodie"
+    ]
+  },
+  {
+    "id": "156966",
+    "label": "covering a smartphone with a tissu",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a smartphone",
+      "a tissu"
+    ]
+  },
+  {
+    "id": "180630",
+    "label": "covering box with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "napkin"
+    ]
+  },
+  {
+    "id": "73207",
+    "label": "covering vicks vapourb with bedsheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "vicks vapourb",
+      "bedsheet"
+    ]
+  },
+  {
+    "id": "17914",
+    "label": "covering a cooking pot with its cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cooking pot",
+      "its cover"
+    ]
+  },
+  {
+    "id": "92682",
+    "label": "covering a container with a lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a container",
+      "a lid"
+    ]
+  },
+  {
+    "id": "184282",
+    "label": "covering gear wheel with red pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "gear wheel",
+      "red pouch"
+    ]
+  },
+  {
+    "id": "131064",
+    "label": "covering books with bag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "books",
+      "bag"
+    ]
+  },
+  {
+    "id": "116945",
+    "label": "covering cow with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cow",
+      "pillow"
+    ]
+  },
+  {
+    "id": "195051",
+    "label": "covering pillow with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "blanket"
+    ]
+  },
+  {
+    "id": "215032",
+    "label": "covering the ball with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "the ball",
+      "a towel"
+    ]
+  },
+  {
+    "id": "213594",
+    "label": "covering headphones with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "headphones",
+      "a towel"
+    ]
+  },
+  {
+    "id": "204548",
+    "label": "covering stapler with red pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stapler",
+      "red pouch"
+    ]
+  },
+  {
+    "id": "210365",
+    "label": "covering a shoe with a hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a shoe",
+      "a hand"
+    ]
+  },
+  {
+    "id": "181564",
+    "label": "covering a teddy with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a teddy",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "87855",
+    "label": "covering key with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "key",
+      "paper"
+    ]
+  },
+  {
+    "id": "160945",
+    "label": "covering popcorn with lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "popcorn",
+      "lid"
+    ]
+  },
+  {
+    "id": "2970",
+    "label": "covering tablet with handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "handkerchief"
+    ]
+  },
+  {
+    "id": "167671",
+    "label": "covering teething ring with bib",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "teething ring",
+      "bib"
+    ]
+  },
+  {
+    "id": "133411",
+    "label": "covering luggage tag with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "luggage tag",
+      "paper"
+    ]
+  },
+  {
+    "id": "13057",
+    "label": "covering coaster with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coaster",
+      "pillow"
+    ]
+  },
+  {
+    "id": "92119",
+    "label": "covering plastic knife with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "plastic knife",
+      "towel"
+    ]
+  },
+  {
+    "id": "126004",
+    "label": "covering a coin with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a coin",
+      "paper"
+    ]
+  },
+  {
+    "id": "145150",
+    "label": "covering case with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "case",
+      "towel"
+    ]
+  },
+  {
+    "id": "55927",
+    "label": "covering remote with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "cloth"
+    ]
+  },
+  {
+    "id": "151631",
+    "label": "covering box with fabric",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "fabric"
+    ]
+  },
+  {
+    "id": "81282",
+    "label": "covering a green container with a yellow saucer",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a green container",
+      "a yellow saucer"
+    ]
+  },
+  {
+    "id": "189851",
+    "label": "covering book with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "book",
+      "cloth"
+    ]
+  },
+  {
+    "id": "93635",
+    "label": "covering plush doll with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "plush doll",
+      "paper"
+    ]
+  },
+  {
+    "id": "11436",
+    "label": "covering an apple with a bowl",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "an apple",
+      "a bowl"
+    ]
+  },
+  {
+    "id": "132594",
+    "label": "covering apple with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "apple",
+      "towel"
+    ]
+  },
+  {
+    "id": "203224",
+    "label": "covering phone cover with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone cover",
+      "cloth"
+    ]
+  },
+  {
+    "id": "71501",
+    "label": "covering board clip with cookie box lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "board clip",
+      "cookie box lid"
+    ]
+  },
+  {
+    "id": "218804",
+    "label": "covering screwdriver with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "screwdriver",
+      "shirt"
+    ]
+  },
+  {
+    "id": "130688",
+    "label": "covering phone with hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "hand"
+    ]
+  },
+  {
+    "id": "45293",
+    "label": "covering a nickle with a coaster",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a nickle",
+      "a coaster"
+    ]
+  },
+  {
+    "id": "163019",
+    "label": "covering table with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "table",
+      "blanket"
+    ]
+  },
+  {
+    "id": "111038",
+    "label": "covering the tulips with a magazine",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "the tulips",
+      "a magazine"
+    ]
+  },
+  {
+    "id": "78475",
+    "label": "covering bed with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bed",
+      "blanket"
+    ]
+  },
+  {
+    "id": "217737",
+    "label": "covering a cup with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cup",
+      "a towel"
+    ]
+  },
+  {
+    "id": "66523",
+    "label": "covering bottle cap with black cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle cap",
+      "black cloth"
+    ]
+  },
+  {
+    "id": "181765",
+    "label": "covering toy with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toy",
+      "cloth"
+    ]
+  },
+  {
+    "id": "215254",
+    "label": "covering soap with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "soap",
+      "cloth"
+    ]
+  },
+  {
+    "id": "18632",
+    "label": "covering sunglasses with cushion",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "sunglasses",
+      "cushion"
+    ]
+  },
+  {
+    "id": "213040",
+    "label": "covering coin with sock",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coin",
+      "sock"
+    ]
+  },
+  {
+    "id": "133384",
+    "label": "covering small bottle with box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "small bottle",
+      "box"
+    ]
+  },
+  {
+    "id": "144403",
+    "label": "covering canister with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "canister",
+      "towel"
+    ]
+  },
+  {
+    "id": "96620",
+    "label": "covering paper clip with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paper clip",
+      "paper"
+    ]
+  },
+  {
+    "id": "135517",
+    "label": "covering pot with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pot",
+      "paper"
+    ]
+  },
+  {
+    "id": "20726",
+    "label": "covering a phone with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a phone",
+      "paper"
+    ]
+  },
+  {
+    "id": "175876",
+    "label": "covering a pen with sheets of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "sheets of paper"
+    ]
+  },
+  {
+    "id": "50679",
+    "label": "covering pencil with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pencil",
+      "shirt"
+    ]
+  },
+  {
+    "id": "18492",
+    "label": "covering paper with phone case",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paper",
+      "phone case"
+    ]
+  },
+  {
+    "id": "6570",
+    "label": "covering wallet with bag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "wallet",
+      "bag"
+    ]
+  },
+  {
+    "id": "32475",
+    "label": "covering lighter with cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lighter",
+      "cover"
+    ]
+  },
+  {
+    "id": "45673",
+    "label": "covering pillow with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "blanket"
+    ]
+  },
+  {
+    "id": "43875",
+    "label": "covering calculator with a piece or paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "calculator",
+      "a piece or paper"
+    ]
+  },
+  {
+    "id": "19981",
+    "label": "covering a watch with a hat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a watch",
+      "a hat"
+    ]
+  },
+  {
+    "id": "1105",
+    "label": "covering mug with big pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mug",
+      "big pouch"
+    ]
+  },
+  {
+    "id": "83801",
+    "label": "covering key with cup",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "key",
+      "cup"
+    ]
+  },
+  {
+    "id": "2819",
+    "label": "covering goggles with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "goggles",
+      "towel"
+    ]
+  },
+  {
+    "id": "117774",
+    "label": "covering a pear with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pear",
+      "newspaper"
+    ]
+  },
+  {
+    "id": "4548",
+    "label": "covering vitamin with hand towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "vitamin",
+      "hand towel"
+    ]
+  },
+  {
+    "id": "37093",
+    "label": "covering rice jar with lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "rice jar",
+      "lid"
+    ]
+  },
+  {
+    "id": "113525",
+    "label": "covering a pen with a shoe",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a shoe"
+    ]
+  },
+  {
+    "id": "152010",
+    "label": "covering screwdriver with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "screwdriver",
+      "napkin"
+    ]
+  },
+  {
+    "id": "23791",
+    "label": "covering quarter with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "quarter",
+      "paper"
+    ]
+  },
+  {
+    "id": "72143",
+    "label": "covering a remote control with a paper sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a remote control",
+      "a paper sheet"
+    ]
+  },
+  {
+    "id": "94994",
+    "label": "covering earphones with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "earphones",
+      "cloth"
+    ]
+  },
+  {
+    "id": "54792",
+    "label": "covering a sock with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a sock",
+      "a cloth"
+    ]
+  },
+  {
+    "id": "114635",
+    "label": "covering a pencil with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pencil",
+      "a paper"
+    ]
+  },
+  {
+    "id": "173407",
+    "label": "covering stapler with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stapler",
+      "cloth"
+    ]
+  },
+  {
+    "id": "80714",
+    "label": "covering a head with a hat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a head",
+      "a hat"
+    ]
+  },
+  {
+    "id": "106801",
+    "label": "covering purse with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "purse",
+      "towel"
+    ]
+  },
+  {
+    "id": "173782",
+    "label": "covering pillow with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "blanket"
+    ]
+  },
+  {
+    "id": "214380",
+    "label": "covering a vessel with a thermocol box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a vessel",
+      "a thermocol box"
+    ]
+  },
+  {
+    "id": "167055",
+    "label": "covering watch with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "watch",
+      "tissue"
+    ]
+  },
+  {
+    "id": "82528",
+    "label": "covering briefcase with shall",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "briefcase",
+      "shall"
+    ]
+  },
+  {
+    "id": "140798",
+    "label": "covering baby boy with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "baby boy",
+      "blanket"
+    ]
+  },
+  {
+    "id": "151345",
+    "label": "covering phone with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "cloth"
+    ]
+  },
+  {
+    "id": "104101",
+    "label": "covering pillow with bed cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "bed cover"
+    ]
+  },
+  {
+    "id": "207607",
+    "label": "covering my face with a pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "my face",
+      "a pillow"
+    ]
+  },
+  {
+    "id": "36892",
+    "label": "covering eraser with hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "eraser",
+      "hand"
+    ]
+  },
+  {
+    "id": "90367",
+    "label": "covering calculator with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "calculator",
+      "newspaper"
+    ]
+  },
+  {
+    "id": "94197",
+    "label": "covering something with something",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "something",
+      "something"
+    ]
+  },
+  {
+    "id": "19374",
+    "label": "covering scissors with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "scissors",
+      "paper"
+    ]
+  },
+  {
+    "id": "70601",
+    "label": "covering spoon with paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "spoon",
+      "paper towel"
+    ]
+  },
+  {
+    "id": "56676",
+    "label": "covering garlic with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "garlic",
+      "cloth"
+    ]
+  },
+  {
+    "id": "162638",
+    "label": "covering a paperclip with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a paperclip",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "92000",
+    "label": "covering an apple with a handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "an apple",
+      "a handkerchief"
+    ]
+  },
+  {
+    "id": "18781",
+    "label": "covering dvd disk with dvd cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "dvd disk",
+      "dvd cover"
+    ]
+  },
+  {
+    "id": "190214",
+    "label": "covering cans with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cans",
+      "a napkin"
+    ]
+  },
+  {
+    "id": "206935",
+    "label": "covering bag with sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bag",
+      "sheet"
+    ]
+  },
+  {
+    "id": "113337",
+    "label": "covering phone with wallet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "wallet"
+    ]
+  },
+  {
+    "id": "82433",
+    "label": "covering toy with tin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "toy",
+      "tin"
+    ]
+  },
+  {
+    "id": "68969",
+    "label": "covering a robot with cardboard",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a robot",
+      "cardboard"
+    ]
+  },
+  {
+    "id": "195318",
+    "label": "covering cap with hand towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cap",
+      "hand towel"
+    ]
+  },
+  {
+    "id": "84546",
+    "label": "covering orange colour bottle cap with white sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "orange colour bottle cap",
+      "white sheet"
+    ]
+  },
+  {
+    "id": "204588",
+    "label": "covering cell phone with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cell phone",
+      "pillow"
+    ]
+  },
+  {
+    "id": "182381",
+    "label": "covering lollipop with card",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lollipop",
+      "card"
+    ]
+  },
+  {
+    "id": "142963",
+    "label": "covering a candle with a cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a candle",
+      "a cover"
+    ]
+  },
+  {
+    "id": "17062",
+    "label": "covering a saucepan with a lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a saucepan",
+      "a lid"
+    ]
+  },
+  {
+    "id": "24299",
+    "label": "covering a lighter with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a lighter",
+      "a piece of paper"
+    ]
+  },
+  {
+    "id": "136722",
+    "label": "covering a plate with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a plate",
+      "a towel"
+    ]
+  },
+  {
+    "id": "201017",
+    "label": "covering a cleansing pad with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cleansing pad",
+      "a paper"
+    ]
+  },
+  {
+    "id": "104492",
+    "label": "covering clock with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "clock",
+      "cloth"
+    ]
+  },
+  {
+    "id": "169770",
+    "label": "covering flashlight with paper bowl",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "flashlight",
+      "paper bowl"
+    ]
+  },
+  {
+    "id": "88019",
+    "label": "covering pancile with sheed of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pancile",
+      "sheed of paper"
+    ]
+  },
+  {
+    "id": "162318",
+    "label": "covering jar with lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "jar",
+      "lid"
+    ]
+  },
+  {
+    "id": "128952",
+    "label": "covering a can with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a can",
+      "a napkin"
+    ]
+  },
+  {
+    "id": "136745",
+    "label": "covering cell phone with notebook",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cell phone",
+      "notebook"
+    ]
+  },
+  {
+    "id": "192155",
+    "label": "covering water bottle with cap",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "water bottle",
+      "cap"
+    ]
+  },
+  {
+    "id": "213513",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "id": "55368",
+    "label": "covering can with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "can",
+      "cloth"
+    ]
+  },
+  {
+    "id": "11508",
+    "label": "covering bottle with plastic bag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "plastic bag"
+    ]
+  },
+  {
+    "id": "25491",
+    "label": "covering torch lighter with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "torch lighter",
+      "towel"
+    ]
+  },
+  {
+    "id": "75490",
+    "label": "covering cd with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cd",
+      "paper"
+    ]
+  },
+  {
+    "id": "15524",
+    "label": "covering a vase with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a vase",
+      "a blanket"
+    ]
+  },
+  {
+    "id": "123713",
+    "label": "covering keys with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "napkin"
+    ]
+  },
+  {
+    "id": "17176",
+    "label": "covering something with something",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "something",
+      "something"
+    ]
+  },
+  {
+    "id": "68862",
+    "label": "covering a wrist band with a hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a wrist band",
+      "a hand"
+    ]
+  },
+  {
+    "id": "9407",
+    "label": "covering a pen with a tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a tissue"
+    ]
+  },
+  {
+    "id": "196675",
+    "label": "covering snail shell with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "snail shell",
+      "paper"
+    ]
+  },
+  {
+    "id": "1014",
+    "label": "covering fossil with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "fossil",
+      "pillow"
+    ]
+  },
+  {
+    "id": "39518",
+    "label": "covering white colour board clip with duster",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "white colour board clip",
+      "duster"
+    ]
+  },
+  {
+    "id": "209027",
+    "label": "covering box with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "blanket"
+    ]
+  },
+  {
+    "id": "161643",
+    "label": "covering a pen with tissue paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "tissue paper"
+    ]
+  },
+  {
+    "id": "113233",
+    "label": "covering a watch with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a watch",
+      "a cloth"
+    ]
+  }
+]
