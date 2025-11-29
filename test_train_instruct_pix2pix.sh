@@ -8,12 +8,19 @@ set -e  # Exit on error
 export HF_ENDPOINT=https://hf-mirror.com
 export CUDA_VISIBLE_DEVICES=0  # Use only GPU 0
 
+# Set HuggingFace cache to project directory (save system disk space)
+# This ensures test script uses the same cache as the main training script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export HF_HOME="${SCRIPT_DIR}/.cache/huggingface"
+export TRANSFORMERS_CACHE="${HF_HOME}/hub"
+export HF_DATASETS_CACHE="${HF_HOME}/datasets"
+
 echo "=========================================="
 echo "Testing InstructPix2Pix Training Pipeline (Single GPU)"
 echo "=========================================="
 
 # Configuration
-OUTPUT_DIR="./test_output/instruct_pix2pix_single"
+OUTPUT_DIR="./test_output/instruct_pix2pix_96"
 DATA_DIR="./data/sthv2"
 RESOLUTION=96  # Use smaller resolution for faster testing
 MAX_SAMPLES=10  # Only use 10 samples for testing
@@ -24,10 +31,9 @@ GRADIENT_ACCUM=2
 # Pretrained model (using InstructPix2Pix base model)
 PRETRAINED_MODEL="timbrooks/instruct-pix2pix"
 
-# Validation setup (now supports local paths)
-VALIDATION_IMAGE="${DATA_DIR}/frames_96x96/150479_frame_00020.png"
-VALIDATION_PROMPT="pushing color pencils from right to left"
+# Validation setup
 VALIDATION_EPOCHS=1  # Validate every epoch
+NUM_VALIDATION_IMAGES=2  # Number of samples from val_filtered.json to use for validation
 
 # Clean previous test output
 if [ -d "$OUTPUT_DIR" ]; then
@@ -46,13 +52,6 @@ echo "  - Gradient accumulation: ${GRADIENT_ACCUM}"
 echo "  - Effective batch size: $((BATCH_SIZE * GRADIENT_ACCUM))"
 echo "  - Output directory: ${OUTPUT_DIR}"
 echo ""
-
-# Check if validation image exists
-if [ ! -f "$VALIDATION_IMAGE" ]; then
-    echo "Warning: Validation image not found at $VALIDATION_IMAGE"
-    echo "Validation will be skipped. Run 'python -m data.video_loader --test' to extract frames."
-    VALIDATION_IMAGE=""
-fi
 
 # Launch training with accelerate (single GPU)
 accelerate launch \
@@ -74,10 +73,11 @@ accelerate launch \
     --seed=42 \
     --report_to="tensorboard" \
     --dataloader_num_workers=2 \
-    ${VALIDATION_IMAGE:+--val_image_url="$VALIDATION_IMAGE"} \
-    ${VALIDATION_IMAGE:+--validation_prompt="$VALIDATION_PROMPT"} \
-    ${VALIDATION_IMAGE:+--validation_epochs=$VALIDATION_EPOCHS} \
-    ${VALIDATION_IMAGE:+--num_validation_images=1}
+    --input_frame_idx=20 \
+    --target_frame_idx=21 \
+    --add_progress \
+    --validation_epochs=$VALIDATION_EPOCHS \
+    --num_validation_images=$NUM_VALIDATION_IMAGES
 
 echo ""
 echo "=========================================="

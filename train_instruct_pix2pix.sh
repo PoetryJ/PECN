@@ -7,7 +7,6 @@ set -e
 
 # Use HF-Mirror and specify GPU 0
 export HF_ENDPOINT=https://hf-mirror.com
-export HF_HUB_OFFLINE=1 # bug: online mode will cause the training to fail
 export CUDA_VISIBLE_DEVICES=0
 
 # Set HuggingFace cache to project directory (save system disk space)
@@ -17,7 +16,7 @@ export TRANSFORMERS_CACHE="${HF_HOME}/hub"
 export HF_DATASETS_CACHE="${HF_HOME}/datasets"
 
 # Configuration
-OUTPUT_DIR="./outputs/instruct_pix2pix_128"
+OUTPUT_DIR="./outputs/instruct_pix2pix_128_progress"
 DATA_DIR="./data/sthv2"
 RESOLUTION=128
 BATCH_SIZE=8           # Adjust based on GPU memory (8-16 for RTX 5090)
@@ -25,12 +24,20 @@ GRADIENT_ACCUM=2       # Effective batch size = 8 * 2 = 16
 EPOCHS=20
 LEARNING_RATE=5e-6     # Lower LR for InstructPix2Pix (fine-tuning)
 CHECKPOINTING_STEPS=500
+PROGRESS=True
+INPUT_FRAME_IDX=20
+TARGET_FRAME_IDX=21
 
 # Validation setup
-VALIDATION_IMAGE="${DATA_DIR}/frames_128x128/100000_frame_00020.png"
-VALIDATION_PROMPT="pushing color pencils from right to left"
 VALIDATION_EPOCHS=5    # Validate every 5 epoch
-NUM_VALIDATION_IMAGES=4
+NUM_VALIDATION_IMAGES=4  # Number of samples from val_filtered.json to use for validation
+
+# Set progress flag based on PROGRESS value
+if [ "${PROGRESS}" = "True" ] || [ "${PROGRESS}" = "true" ]; then
+    PROGRESS_FLAG="--add_progress"
+else
+    PROGRESS_FLAG=""
+fi
 
 echo "=========================================="
 echo "InstructPix2Pix Full Training (GPU 0)"
@@ -44,16 +51,16 @@ echo "  Effective batch size: $((BATCH_SIZE * GRADIENT_ACCUM))"
 echo "  Epochs: ${EPOCHS}"
 echo "  Learning rate: ${LEARNING_RATE}"
 echo "  Validation: Every ${VALIDATION_EPOCHS} epoch(s)"
+if [ -n "$PROGRESS_FLAG" ]; then
+    echo "  Progress enhancement: Enabled"
+else
+    echo "  Progress enhancement: Disabled"
+fi
+echo "  Input frame index: ${INPUT_FRAME_IDX}"
+echo "  Target frame index: ${TARGET_FRAME_IDX}"
 echo "  Output: ${OUTPUT_DIR}"
 echo "=========================================="
 echo ""
-
-# Check if validation image exists
-if [ ! -f "$VALIDATION_IMAGE" ]; then
-    echo "Warning: Validation image not found at $VALIDATION_IMAGE"
-    echo "Training will proceed without validation."
-    VALIDATION_IMAGE=""
-fi
 
 # Create output directory
 mkdir -p "$OUTPUT_DIR"
@@ -72,6 +79,9 @@ Epochs: ${EPOCHS}
 Learning rate: ${LEARNING_RATE}
 Mixed precision: FP16
 Checkpointing every: ${CHECKPOINTING_STEPS} steps
+Progress: ${PROGRESS}
+Input frame index: ${INPUT_FRAME_IDX}
+Target frame index: ${TARGET_FRAME_IDX}
 EOF
 
 # Launch training
@@ -97,10 +107,11 @@ accelerate launch \
     --seed=42 \
     --report_to="tensorboard" \
     --dataloader_num_workers=0 \
-    ${VALIDATION_IMAGE:+--val_image_url="$VALIDATION_IMAGE"} \
-    ${VALIDATION_IMAGE:+--validation_prompt="$VALIDATION_PROMPT"} \
-    ${VALIDATION_IMAGE:+--validation_epochs=$VALIDATION_EPOCHS} \
-    ${VALIDATION_IMAGE:+--num_validation_images=$NUM_VALIDATION_IMAGES} \
+    --validation_epochs=$VALIDATION_EPOCHS \
+    --num_validation_images=$NUM_VALIDATION_IMAGES \
+    $PROGRESS_FLAG \
+    ${INPUT_FRAME_IDX:+--input_frame_idx=$INPUT_FRAME_IDX} \
+    ${TARGET_FRAME_IDX:+--target_frame_idx=$TARGET_FRAME_IDX} \
     2>&1 | tee "$OUTPUT_DIR/train.log"
 
 echo ""

@@ -242,7 +242,11 @@ if __name__ == "__main__":
     # Extract frames for both resolutions
     resolutions = [(96, 96), (128, 128)]
     
-    for width, height in resolutions:
+    # We'll update annotations with num_frames after first resolution
+    updated_train_annotations = None
+    updated_val_annotations = None
+    
+    for idx, (width, height) in enumerate(resolutions):
         print(f"\n{'='*60}")
         print(f"Extracting frames at {width}x{height} resolution...")
         print(f"{'='*60}")
@@ -265,6 +269,10 @@ if __name__ == "__main__":
                 num_workers=num_workers
             )
             print(f"Successfully processed {len(valid_train)}/{len(test_samples)} training videos")
+            
+            # Save updated annotations with num_frames after first resolution
+            if idx == 0 and not is_test_mode:
+                updated_train_annotations = valid_train
         
         # Extract validation frames
         if val_annotations:
@@ -280,6 +288,24 @@ if __name__ == "__main__":
                 num_workers=num_workers
             )
             print(f"Successfully processed {len(valid_val)}/{len(test_samples)} validation videos")
+            
+            # Save updated annotations with num_frames after first resolution
+            if idx == 0 and not is_test_mode:
+                updated_val_annotations = valid_val
+    
+    # Save updated annotations with num_frames back to JSON files
+    if not is_test_mode:
+        if updated_train_annotations:
+            print(f"\nSaving updated training annotations with num_frames to {filtered_train_path}...")
+            with open(filtered_train_path, 'w', encoding='utf-8') as f:
+                json.dump(updated_train_annotations, f, indent=2, ensure_ascii=False)
+            print(f"Saved {len(updated_train_annotations)} training annotations")
+        
+        if updated_val_annotations:
+            print(f"Saving updated validation annotations with num_frames to {filtered_val_path}...")
+            with open(filtered_val_path, 'w', encoding='utf-8') as f:
+                json.dump(updated_val_annotations, f, indent=2, ensure_ascii=False)
+            print(f"Saved {len(updated_val_annotations)} validation annotations")
     
     print(f"\n{'='*60}")
     print("Frame extraction completed!")

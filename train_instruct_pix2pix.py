@@ -22,6 +22,7 @@ import math
 import os
 import shutil
 from contextlib import nullcontext
+from datetime import datetime
 from pathlib import Path
 
 import accelerate
@@ -74,40 +75,139 @@ def log_validation(
     args,
     accelerator,
     generator,
+    epoch=None,
+    global_step=None,
 ):
+    if args.num_validation_images is None or args.num_validation_images <= 0:
+        logger.warning(f"num_validation_images is {args.num_validation_images}. Skipping validation.")
+        return
+
+    # Load validation samples from val_filtered.json
+    from pathlib import Path as PathLib
+    train_data_path = PathLib(args.train_data_dir)
+    val_annotations_path = train_data_path / "annotations" / "val_filtered.json"
+    
+    if not val_annotations_path.exists():
+        logger.warning(f"Validation annotations not found at {val_annotations_path}. Skipping validation.")
+        return
+    
+    # Load validation annotations
+    import json
+    with open(val_annotations_path, 'r', encoding='utf-8') as f:
+        val_annotations = json.load(f)
+    
+    if len(val_annotations) == 0:
+        logger.warning("Validation annotations is empty. Skipping validation.")
+        return
+    
+    # Determine frames directory based on resolution
+    resolution = args.resolution
+    if resolution == 96:
+        frames_dir = train_data_path / "frames_96x96"
+    elif resolution == 128:
+        frames_dir = train_data_path / "frames_128x128"
+    else:
+        frames_dir = train_data_path / "frames_96x96"
+        logger.warning(f"Resolution {resolution} not found, defaulting to frames_96x96")
+    
+    # Select validation samples (use first num_validation_images samples that have valid frames)
+    validation_samples = []
+    for ann in val_annotations:
+        if len(validation_samples) >= args.num_validation_images:
+            break
+        
+        video_id = ann['id']
+        input_frame_path = frames_dir / f"{video_id}_frame_{args.input_frame_idx:05d}.png"
+        
+        if input_frame_path.exists():
+            # Generate prompt based on add_progress setting
+            text = ann.get('label', ann.get('template', ''))
+            prompt = f"Generate a future frame of this action: {text}"
+            
+            # Add progress information if requested (same logic as in dataset creation)
+            if args.add_progress and 'num_frames' in ann:
+                num_frames = ann['num_frames']
+                if num_frames > 0:
+                    progress = int((args.input_frame_idx / num_frames) * 10) * 10
+                    prompt += f" And {progress}% of the action has been completed."
+            
+            validation_samples.append({
+                'video_id': video_id,
+                'input_frame_path': input_frame_path,
+                'prompt': prompt,
+                'label': text
+            })
+    
+    if len(validation_samples) == 0:
+        logger.warning("No valid validation samples found. Skipping validation.")
+        return
+    
     logger.info(
-        f"Running validation... \n Generating {args.num_validation_images} images with prompt:"
-        f" {args.validation_prompt}."
+        f"Running validation on {len(validation_samples)} samples from validation set..."
     )
     pipeline = pipeline.to(accelerator.device)
     pipeline.set_progress_bar_config(disable=True)
 
-    # run inference
-    original_image = download_image(args.val_image_url)
-    edited_images = []
     if torch.backends.mps.is_available():
         autocast_ctx = nullcontext()
     else:
         autocast_ctx = torch.autocast(accelerator.device.type)
 
+    # Save validation images to file system
+    validation_dir = os.path.join(args.output_dir, "validation")
+    os.makedirs(validation_dir, exist_ok=True)
+    
+    # Create filename prefix with epoch and step info
+    if epoch is not None and global_step is not None:
+        prefix = f"epoch_{epoch:03d}_step_{global_step:05d}"
+    elif epoch is not None:
+        prefix = f"epoch_{epoch:03d}"
+    elif global_step is not None:
+        prefix = f"step_{global_step:05d}"
+    else:
+        prefix = f"validation_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    
+    # Generate images for each validation sample
+    all_original_images = []
+    all_edited_images = []
+    all_prompts = []
+    
     with autocast_ctx:
-        for _ in range(args.num_validation_images):
-            edited_images.append(
-                pipeline(
-                    args.validation_prompt,
-                    image=original_image,
-                    num_inference_steps=20,
-                    image_guidance_scale=1.5,
-                    guidance_scale=7,
-                    generator=generator,
-                ).images[0]
-            )
+        for sample_idx, sample in enumerate(validation_samples):
+            # Load original image
+            original_image = download_image(str(sample['input_frame_path']))
+            all_original_images.append(original_image)
+            all_prompts.append(sample['prompt'])
+            
+            # Generate edited image
+            edited_image = pipeline(
+                sample['prompt'],
+                image=original_image,
+                num_inference_steps=20,
+                image_guidance_scale=1.5,
+                guidance_scale=7,
+                generator=generator,
+            ).images[0]
+            all_edited_images.append(edited_image)
+            
+            # Create comparison grid: [Original | Generated]
+            w, h = original_image.size
+            grid = PIL.Image.new('RGB', (w * 2, h))
+            grid.paste(original_image, (0, 0))
+            grid.paste(edited_image, (w, 0))
+            
+            # Save only comparison image
+            sample_prefix = f"{prefix}_sample_{sample_idx+1:02d}_{sample['video_id']}"
+            grid_path = os.path.join(validation_dir, f"{sample_prefix}_comparison.png")
+            grid.save(grid_path)
+            logger.info(f"Saved validation sample {sample_idx+1}/{len(validation_samples)}: {sample['video_id']} - {sample['label']}")
 
+    # Log to trackers (wandb, tensorboard, etc.)
     for tracker in accelerator.trackers:
         if tracker.name == "wandb":
             wandb_table = wandb.Table(columns=WANDB_TABLE_COL_NAMES)
-            for edited_image in edited_images:
-                wandb_table.add_data(wandb.Image(original_image), wandb.Image(edited_image), args.validation_prompt)
+            for original_image, edited_image, prompt in zip(all_original_images, all_edited_images, all_prompts):
+                wandb_table.add_data(wandb.Image(original_image), wandb.Image(edited_image), prompt)
             tracker.log({"validation": wandb_table})
 
 
@@ -178,27 +278,18 @@ def parse_args():
         help="The column of the dataset containing the edit instruction.",
     )
     parser.add_argument(
-        "--val_image_url",
-        type=str,
-        default=None,
-        help="URL or local path to the original image that you would like to edit (used during validation).",
-    )
-    parser.add_argument(
-        "--validation_prompt", type=str, default=None, help="A prompt that is sampled during training for inference."
-    )
-    parser.add_argument(
         "--num_validation_images",
         type=int,
         default=4,
-        help="Number of images that should be generated during validation with `validation_prompt`.",
+        help="Number of validation samples to generate from val_filtered.json during validation.",
     )
     parser.add_argument(
         "--validation_epochs",
         type=int,
         default=1,
         help=(
-            "Run fine-tuning validation every X epochs. The validation process consists of running the prompt"
-            " `args.validation_prompt` multiple times: `args.num_validation_images`."
+            "Run fine-tuning validation every X epochs. The validation process automatically selects samples"
+            " from val_filtered.json and generates predictions for them."
         ),
     )
     parser.add_argument(
@@ -396,6 +487,23 @@ def parse_args():
     )
     parser.add_argument(
         "--enable_xformers_memory_efficient_attention", action="store_true", help="Whether or not to use xformers."
+    )
+    parser.add_argument(
+        "--add_progress",
+        action="store_true",
+        help="Whether to add progress percentage to the edit prompt (e.g., 'And 60%% of the action has been completed.').",
+    )
+    parser.add_argument(
+        "--input_frame_idx",
+        type=int,
+        default=20,
+        help="Frame index for the input/conditioning image (default: 20).",
+    )
+    parser.add_argument(
+        "--target_frame_idx",
+        type=int,
+        default=21,
+        help="Frame index for the target/output image (default: 21).",
     )
 
     args = parser.parse_args()
@@ -666,21 +774,23 @@ def main():
                 train_dataset_obj = create_sthv2_instruct_pix2pix_dataset(
                     annotations_path=train_data_path / "annotations" / "train_filtered.json",
                     frames_dir=frames_dir,
-                    input_frame_idx=20,
-                    target_frame_idx=21,
-                    split="train"
+                    input_frame_idx=args.input_frame_idx,
+                    target_frame_idx=args.target_frame_idx,
+                    split="train",
+                    add_progress=args.add_progress
                 )
                 dataset = {"train": train_dataset_obj}
             else:
+                # Use standard imagefolder format
                 data_files = {}
-            data_files["train"] = os.path.join(args.train_data_dir, "**")
-        dataset = load_dataset(
-            "imagefolder",
-            data_files=data_files,
-            cache_dir=args.cache_dir,
-        )
-        # See more about loading custom images at
-        # https://huggingface.co/docs/datasets/main/en/image_load#imagefolder
+                data_files["train"] = os.path.join(args.train_data_dir, "**")
+                dataset = load_dataset(
+                    "imagefolder",
+                    data_files=data_files,
+                    cache_dir=args.cache_dir,
+                )
+                # See more about loading custom images at
+                # https://huggingface.co/docs/datasets/main/en/image_load#imagefolder
 
     # Preprocessing the datasets.
     # We need to tokenize inputs and targets.
@@ -1014,8 +1124,7 @@ def main():
 
         if accelerator.is_main_process:
             if (
-                (args.val_image_url is not None)
-                and (args.validation_prompt is not None)
+                (args.num_validation_images is not None and args.num_validation_images > 0)
                 and (epoch % args.validation_epochs == 0)
             ):
                 if args.use_ema:
@@ -1024,14 +1133,14 @@ def main():
                     ema_unet.copy_to(unet.parameters())
                 # The models need unwrapping because for compatibility in distributed training mode.
                 try:
-                    pipeline = StableDiffusionInstructPix2PixPipeline.from_pretrained(
-                        args.pretrained_model_name_or_path,
-                        unet=unwrap_model(unet),
-                        text_encoder=unwrap_model(text_encoder),
+                    pipeline = StableDiffusionInstructPix2PixPipeline(
                         vae=unwrap_model(vae),
-                        revision=args.revision,
-                        variant=args.variant,
-                        torch_dtype=weight_dtype,
+                        text_encoder=unwrap_model(text_encoder),
+                        tokenizer=tokenizer,
+                        unet=unwrap_model(unet),
+                        scheduler=noise_scheduler,
+                        safety_checker=None,
+                        feature_extractor=None,
                     )
 
                     log_validation(
@@ -1039,6 +1148,8 @@ def main():
                         args,
                         accelerator,
                         generator,
+                        epoch=epoch,
+                        global_step=global_step,
                     )
                     del pipeline
                 except Exception as e:
@@ -1057,16 +1168,17 @@ def main():
             ema_unet.copy_to(unet.parameters())
 
         try:
-            pipeline = StableDiffusionInstructPix2PixPipeline.from_pretrained(
-                args.pretrained_model_name_or_path,
-                text_encoder=unwrap_model(text_encoder),
+            pipeline = StableDiffusionInstructPix2PixPipeline(
                 vae=unwrap_model(vae),
+                text_encoder=unwrap_model(text_encoder),
+                tokenizer=tokenizer,
                 unet=unwrap_model(unet),
-                revision=args.revision,
-                variant=args.variant,
-                    local_files_only=True,
+                scheduler=noise_scheduler,
+                safety_checker=None,
+                feature_extractor=None,
             )
             pipeline.save_pretrained(args.output_dir)
+            logger.info(f"Saved full pipeline to {args.output_dir}")
         except Exception as e:
             logger.warning(f"Failed to save full pipeline: {e}. Saving UNet only.")
             unwrap_model(unet).save_pretrained(os.path.join(args.output_dir, "unet"))
@@ -1079,12 +1191,15 @@ def main():
                 ignore_patterns=["step_*", "epoch_*"],
             )
 
-        if (args.val_image_url is not None) and (args.validation_prompt is not None):
+        if args.num_validation_images is not None and args.num_validation_images > 0:
+            # Final validation after training completes
             log_validation(
                 pipeline,
                 args,
                 accelerator,
                 generator,
+                epoch=epoch,
+                global_step=global_step,
             )
     accelerator.end_training()
 

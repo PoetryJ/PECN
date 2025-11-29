@@ -21,7 +21,9 @@ ENV/
 *.cursorignore
 
 # Data
-data/sthv2/
+data/sthv2/videos/
+data/sthv2/frames_96x96/
+data/sthv2/frames_128x128/
 *.zip
 *.tar.gz
 *.tar
