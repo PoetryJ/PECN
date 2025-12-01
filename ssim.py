@@ -43,8 +43,8 @@ def calculate_ssim_psnr(target_img, output_img):
 def batch_test_ssim_psnr(data_dir):
     results = []
 
-    target_dir = os.path.join(data_dir, 'target')
-    output_dir = os.path.join(data_dir, 'output')
+    target_dir = data_dir / 'target'
+    output_dir = data_dir / 'output'
 
     # 获取图像文件列表
     target_imgs = sorted([f for f in os.listdir(target_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg'))])
@@ -55,11 +55,11 @@ def batch_test_ssim_psnr(data_dir):
 
     for target_img in target_imgs:
         if target_img in output_imgs:
-            target_path = os.path.join(target_dir, target_img)
-            output_path = os.path.join(output_dir, target_img)
+            target_path = target_dir / target_img
+            output_path = output_dir / target_img
 
             try:
-                ssim_val, psnr_val = calculate_ssim_psnr(target_path, output_path)
+                ssim_val, psnr_val = calculate_ssim_psnr(str(target_path), str(output_path))
                 results.append({
                     'filename': target_img,
                     'ssim': ssim_val,

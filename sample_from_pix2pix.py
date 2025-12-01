@@ -128,9 +128,27 @@ def main():
     with open(val_annotations, 'r') as f:
         val_data = json.load(f)
     
-    # 随机采样
-    samples = random.sample(val_data, args.num_samples)
-    print(f"\nSelected {args.num_samples} samples:")
+    # 过滤出有效的样本（input image 存在的）
+    valid_samples = []
+    for ann in val_data:
+        video_id = ann['id']
+        input_path = frames_dir / f"{video_id}_frame_{args.input_frame_idx:05d}.png"
+        if input_path.exists():
+            valid_samples.append(ann)
+    
+    if len(valid_samples) == 0:
+        raise FileNotFoundError(f"No valid samples found in {val_annotations}. Please check if frames are extracted correctly.")
+    
+    if len(valid_samples) < args.num_samples:
+        print(f"Warning: Only {len(valid_samples)} valid samples found, but {args.num_samples} requested.")
+        print(f"Will sample {len(valid_samples)} samples instead.")
+        num_samples_to_use = len(valid_samples)
+    else:
+        num_samples_to_use = args.num_samples
+    
+    # 从有效样本中随机采样
+    samples = random.sample(valid_samples, num_samples_to_use)
+    print(f"\nSelected {num_samples_to_use} samples:")
     for s in samples:
         print(f"  - {s['id']}: {s['label']}")
 
@@ -194,8 +212,10 @@ def main():
         input_path = frames_dir / f"{video_id}_frame_{args.input_frame_idx:05d}.png"
         target_path = frames_dir / f"{video_id}_frame_{args.target_frame_idx:05d}.png"
         
+        # 理论上不应该发生，但保留检查作为防御性编程
         if not input_path.exists():
-            print(f"  Warning: Input image not found: {input_path}")
+            print(f"  Error: Input image not found: {input_path}")
+            print(f"  This should not happen as samples were pre-filtered. Skipping...")
             continue
             
         input_image = load_image(input_path)
@@ -221,17 +241,20 @@ def main():
             grid.paste(target_image, (w, 0))
             grid.paste(output, (w * 2, 0))
             
-            save_path = output_dir / f"{video_id}_comparison.png"
+            (output_dir / 'target').mkdir(parents=True, exist_ok=True)
+            (output_dir / 'output').mkdir(parents=True, exist_ok=True)
+            (output_dir / 'comparison').mkdir(parents=True, exist_ok=True)
             target_image.save(output_dir / 'target' / f"{video_id}.png")
             output.save(output_dir / 'output' / f"{video_id}.png")
+            save_path = output_dir / 'comparison' / f"{video_id}_comparison.png"
             grid.save(save_path)
-            print(f"  [{i}/{args.num_samples}] Saved comparison to {save_path}")
+            print(f"  [{i}/{len(samples)}] Saved comparison to {save_path}")
         else:
             save_path = output_dir / f"{video_id}_output.png"
             output.save(save_path)
-            print(f"  [{i}/{args.num_samples}] Saved output to {save_path}")
+            print(f"  [{i}/{len(samples)}] Saved output to {save_path}")
 
-    print(f"\nDone! Results saved in {output_dir}")
+    print(f"\nDone! Generated {len(samples)} samples. Results saved in {output_dir}")
 
 if __name__ == "__main__":
     main()

@@ -26,12 +26,13 @@ PECN/
 │       ├── videos/                     # Video files (not in git)
 │       ├── frames_96x96/               # Extracted frames 96x96 (not in git)
 │       └── frames_128x128/             # Extracted frames 128x128 (not in git)
-├── test_result/                        # output of `sample_from_pix2pix.sh`
+├── test_result/                        # output of `evaluate.sh`
 ├── train_instruct_pix2pix.py           # InstructPix2Pix training script
 ├── train_instruct_pix2pix.sh           # InstructPix2Pix full training
 ├── test_train_instruct_pix2pix.sh      # InstructPix2Pix quick test
 ├── sample_from_pix2pix.py              # Sampling script for InstructPix2Pix
-├── sample_from_pix2pix.sh              # Sampling script wrapper
+├── evaluate.sh                         # Evaluation script (sampling + SSIM/PSNR)
+├── ssim.py                             # SSIM and PSNR calculation script
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # This file
 └── .gitignore                          # Git ignore rules
@@ -112,42 +113,56 @@ bash train_instruct_pix2pix.sh
 ```
 
 
-### 5. Testing and Sampling
+### 5. Testing and Evaluation
 
-Use the provided sampling scripts to generate predictions with your trained models.
+Use the evaluation script to generate predictions and calculate SSIM/PSNR metrics.
 
-**InstructPix2Pix Sampling:**
+**Evaluation (Sampling + Metrics):**
 ```bash
-bash sample_from_pix2pix.sh
+bash evaluate.sh
 ```
+
+The script will:
+1. Generate predictions using the trained model
+2. Automatically calculate SSIM and PSNR metrics
+3. Save results to `{OUTPUT_DIR}/results.json`
 
 Or with custom parameters:
 ```bash
-# Sample with custom inference parameters
+# Evaluate with custom inference parameters
 MODEL_DIR=outputs/instruct_pix2pix_128 \
-NUM_SAMPLES=10 \
-NUM_INFERENCE_STEPS=50 \
-IMAGE_GUIDANCE_SCALE=1.2 \
-OUTPUT_DIR=results_custom \
-bash sample_from_pix2pix.sh
+NUM_SAMPLES=100 \
+NUM_INFERENCE_STEPS=25 \
+IMAGE_GUIDANCE_SCALE=1.5 \
+OUTPUT_DIR=test_result/instruct_pix2pix_128 \
+bash evaluate.sh
 ```
 
-**Available environment variables for sampling:**
+**Available environment variables:**
 
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `MODEL_DIR` | `outputs/instruct_pix2pix_128` | Path to trained model |
 | `FRAMES_DIR` | `data/sthv2/frames_128x128` | Directory with extracted frames |
 | `VAL_ANNOTATIONS` | `data/sthv2/annotations/val_filtered.json` | Validation annotations |
-| `OUTPUT_DIR` | `test_result/baseline` | Where to save results |
+| `OUTPUT_DIR` | `test_result/instruct_pix2pix_128` | Where to save results |
 | `INPUT_FRAME_IDX` | `20` | Input frame index |
 | `TARGET_FRAME_IDX` | `21` | Target/GT frame index |
-| `NUM_SAMPLES` | `3` | Number of samples to generate |
+| `NUM_SAMPLES` | `100` | Number of samples to generate |
 | `SEED` | `42` | Random seed for reproducibility |
-| `NUM_INFERENCE_STEPS` | `20` | Diffusion steps |
+| `NUM_INFERENCE_STEPS` | `25` | Diffusion steps |
 | `IMAGE_GUIDANCE_SCALE` | `1.5` | Image guidance strength |
 
-**Note:** The sampling script uses a fixed random seed (42) by default to ensure reproducible results.
+**Output Structure:**
+```
+{OUTPUT_DIR}/
+├── target/              # Ground truth images
+├── output/              # Generated images
+├── comparison/          # Comparison grids (Input | GT | Output)
+└── results.json         # SSIM and PSNR metrics
+```
+
+**Note:** The evaluation script uses a fixed random seed (42) by default to ensure reproducible results.
 
 
 ## Advanced Training Options

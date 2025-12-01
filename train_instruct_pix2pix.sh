@@ -16,7 +16,7 @@ export TRANSFORMERS_CACHE="${HF_HOME}/hub"
 export HF_DATASETS_CACHE="${HF_HOME}/datasets"
 
 # Configuration
-OUTPUT_DIR="./outputs/instruct_pix2pix_128_progress"
+OUTPUT_DIR="./outputs/instruct_pix2pix_128"
 DATA_DIR="./data/sthv2"
 RESOLUTION=128
 BATCH_SIZE=8           # Adjust based on GPU memory (8-16 for RTX 5090)
@@ -24,7 +24,7 @@ GRADIENT_ACCUM=2       # Effective batch size = 8 * 2 = 16
 EPOCHS=20
 LEARNING_RATE=5e-6     # Lower LR for InstructPix2Pix (fine-tuning)
 CHECKPOINTING_STEPS=500
-PROGRESS=True
+PROGRESS=False
 INPUT_FRAME_IDX=20
 TARGET_FRAME_IDX=21
 

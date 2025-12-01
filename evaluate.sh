@@ -8,20 +8,20 @@ set -e
 # ==================== Configuration ====================
 
 # Model and data paths
-MODEL_DIR="${MODEL_DIR:-outputs/instruct_pix2pix_128_progress}"
+MODEL_DIR="${MODEL_DIR:-outputs/instruct_pix2pix_128}"
 PRETRAINED_MODEL="${PRETRAINED_MODEL:-timbrooks/instruct-pix2pix}"
 FRAMES_DIR="${FRAMES_DIR:-data/sthv2/frames_128x128}"
 VAL_ANNOTATIONS="${VAL_ANNOTATIONS:-data/sthv2/annotations/val_filtered.json}"
-OUTPUT_DIR="${OUTPUT_DIR:-test_result/instruct_pix2pix_128_progress}"
+OUTPUT_DIR="${OUTPUT_DIR:-test_result/instruct_pix2pix_128}"
 
 # Frame indices
 INPUT_FRAME_IDX="${INPUT_FRAME_IDX:-20}"
 TARGET_FRAME_IDX="${TARGET_FRAME_IDX:-21}"
 
 # Sampling parameters
-NUM_SAMPLES="${NUM_SAMPLES:-3}"
+NUM_SAMPLES="${NUM_SAMPLES:-100}"
 SEED="${SEED:-42}"
-NUM_INFERENCE_STEPS="${NUM_INFERENCE_STEPS:-20}"
+NUM_INFERENCE_STEPS="${NUM_INFERENCE_STEPS:-25}"
 IMAGE_GUIDANCE_SCALE="${IMAGE_GUIDANCE_SCALE:-1.5}"
 
 # ==================== Validation ====================
@@ -86,5 +86,21 @@ python sample_from_pix2pix.py \
 echo ""
 echo "========================================="
 echo "Sampling complete! Results saved to $OUTPUT_DIR"
+echo "========================================="
+echo ""
+
+# ==================== Calculate SSIM and PSNR ====================
+
+echo "========================================="
+echo "Calculating SSIM and PSNR metrics"
+echo "========================================="
+echo "Data directory: $OUTPUT_DIR"
+echo ""
+
+python ssim.py --data_dir="$OUTPUT_DIR"
+
+echo ""
+echo "========================================="
+echo "Evaluation complete! Metrics saved to $OUTPUT_DIR/results.json"
 echo "========================================="
 
