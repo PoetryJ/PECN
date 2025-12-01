@@ -222,6 +222,8 @@ def main():
             grid.paste(output, (w * 2, 0))
             
             save_path = output_dir / f"{video_id}_comparison.png"
+            target_image.save(output_dir / 'target' / f"{video_id}.png")
+            output.save(output_dir / 'output' / f"{video_id}.png")
             grid.save(save_path)
             print(f"  [{i}/{args.num_samples}] Saved comparison to {save_path}")
         else:
