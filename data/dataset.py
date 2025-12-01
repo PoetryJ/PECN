@@ -12,36 +12,40 @@ import random
 
 # Task definitions based on template patterns
 MOVE_OBJECT_TEMPLATES = [
-    "Moving something from left to right",
-    "Moving something from right to left",
-    "Pushing something from left to right",
-    "Pushing something from right to left",
-    "Pulling something from left to right",
-    "Pulling something from right to left",
     "Moving something up",
     "Moving something down",
-    "Moving something across a surface",
+    "Moving something across a surface without it falling down",
     "Moving something towards the camera",
     "Moving something away from the camera",
+    "Pulling something from right to left",
+    "Pulling something from left to right",
+    "Pushing something from right to left",
+    "Pushing something from left to right",
 ]
 
 DROP_OBJECT_TEMPLATES = [
     "Dropping something onto something",
-    "Letting something fall down",
     "Dropping something in front of something",
     "Dropping something behind something",
     "Dropping something into something",
-    "Lifting something up completely, then letting it drop down",
-    "Lifting up one end of something, then letting it drop down",
-    "Throwing something in the air and letting it fall",
+    "Dropping something next to something",
 ]
 
 COVER_OBJECT_TEMPLATES = [
     "Covering something with something",
-    "Putting something on top of something",
-    "Putting something onto something",
-    "Putting something onto a slanted surface",
 ]
+
+# BACK_AND_FORTH_TEMPLATES = [
+#     "Lifting something up completely, then letting it drop down",
+#     "Lifting up one end of something, then letting it drop down",
+#     "Plugging something into something but pulling it right out as you remove your hand",
+#     "Letting something roll up a slanted surface, so it rolls back down",
+#     "Throwing something in the air and catching it",
+#     "Throwing something in the air and letting it fall",
+#     "Moving something and something so they pass each other",
+# ]
+
+
 
 
 def load_annotations(annotations_path: Path) -> List[Dict]:
@@ -84,6 +88,8 @@ def filter_by_task(annotations: List[Dict], task: str) -> List[Dict]:
         templates = DROP_OBJECT_TEMPLATES
     elif task == 'cover_object':
         templates = COVER_OBJECT_TEMPLATES
+    # elif task == 'back_and_forth':
+    #     templates = BACK_AND_FORTH_TEMPLATES
     else:
         raise ValueError(f"Unknown task: {task}. Must be one of: move_object, drop_object, cover_object")
     
