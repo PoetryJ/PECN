@@ -66,7 +66,7 @@ def create_sthv2_instruct_pix2pix_dataset(
             if add_progress and 'num_frames' in ann:
                 num_frames = ann['num_frames']
                 if num_frames > 0:
-                    progress = int((input_frame_idx / num_frames) * 10) * 10
+                    progress = int((input_frame_idx / num_frames) * 100)
                     prompt += f" And {progress}% of the action has been completed."
             
             data['edit_prompt'].append(prompt)

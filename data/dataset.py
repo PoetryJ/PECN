@@ -29,21 +29,23 @@ DROP_OBJECT_TEMPLATES = [
     "Dropping something behind something",
     "Dropping something into something",
     "Dropping something next to something",
+     "Something falling like a rock",
+     "Something falling like a feather or paper",
 ]
 
 COVER_OBJECT_TEMPLATES = [
     "Covering something with something",
+    "Putting something on a surface",
+    "Putting something onto something",
+    "Putting something on a flat surface without letting it roll",
+    "Putting something on the edge of something so it is not supported and falls down"
 ]
 
-# BACK_AND_FORTH_TEMPLATES = [
-#     "Lifting something up completely, then letting it drop down",
-#     "Lifting up one end of something, then letting it drop down",
-#     "Plugging something into something but pulling it right out as you remove your hand",
-#     "Letting something roll up a slanted surface, so it rolls back down",
-#     "Throwing something in the air and catching it",
-#     "Throwing something in the air and letting it fall",
-#     "Moving something and something so they pass each other",
-# ]
+BACK_AND_FORTH_TEMPLATES = [
+    "Letting something roll up a slanted surface, so it rolls back down",
+    "Plugging something into something but pulling it right out as you remove your hand",
+    "Throwing something in the air and catching it",
+]
 
 
 
@@ -88,8 +90,8 @@ def filter_by_task(annotations: List[Dict], task: str) -> List[Dict]:
         templates = DROP_OBJECT_TEMPLATES
     elif task == 'cover_object':
         templates = COVER_OBJECT_TEMPLATES
-    # elif task == 'back_and_forth':
-    #     templates = BACK_AND_FORTH_TEMPLATES
+    elif task == 'back_and_forth':
+        templates = BACK_AND_FORTH_TEMPLATES
     else:
         raise ValueError(f"Unknown task: {task}. Must be one of: move_object, drop_object, cover_object")
     
@@ -177,9 +179,13 @@ def filter_dataset(
     print(f"  Val: {len(filtered_val)}")
     
     # Save filtered annotations
-    filtered_train_path = output_dir / 'train_filtered.json'
-    filtered_val_path = output_dir / 'val_filtered.json'
-    
+    if tasks[0] == "back_and_forth":
+        filtered_train_path = output_dir / 'train_filtered_backforth.json'
+        filtered_val_path = output_dir / 'val_filtered_backforth.json'
+    else:
+        filtered_train_path = output_dir / 'train_filtered.json'
+        filtered_val_path = output_dir / 'val_filtered.json'
+        
     with open(filtered_train_path, 'w', encoding='utf-8') as f:
         json.dump(filtered_train, f, indent=2, ensure_ascii=False)
     print(f"\nSaved filtered training annotations to {filtered_train_path}")
@@ -200,11 +206,22 @@ if __name__ == "__main__":
     val_json = base_dir / "annotations" / "validation.json"
     output_dir = base_dir / "annotations"
     
+    # filter basic movements (move drop cover)
     filter_dataset(
         train_json, 
         val_json, 
         output_dir,
         train_samples_per_task=1000,
         val_samples_per_task=100
+    )
+
+    # filter back and forth movements
+    filter_dataset(
+        train_json,
+        val_json,
+        output_dir,
+        tasks=['back_and_forth'],
+        train_samples_per_task=3000,
+        val_samples_per_task=300
     )
 

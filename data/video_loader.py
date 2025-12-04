@@ -215,27 +215,24 @@ if __name__ == "__main__":
     base_dir = Path(__file__).parent.parent / "data" / "sthv2"
     filtered_train_path = base_dir / "annotations" / "train_filtered.json"
     filtered_val_path = base_dir / "annotations" / "val_filtered.json"
+    filtered_train_backforth_path = base_dir / "annotations" / "train_filtered_backforth.json"
+    filtered_val_backforth_path = base_dir / "annotations" / "val_filtered_backforth.json"
     videos_dir = base_dir / "videos"
-    
-    if not filtered_train_path.exists():
-        print(f"Filtered annotations not found at {filtered_train_path}")
-        print("Please run data/dataset.py first to filter the dataset.")
-        sys.exit(1)
     
     # Load train and val annotations
     train_annotations = load_annotations(filtered_train_path)
-    val_annotations = load_annotations(filtered_val_path) if filtered_val_path.exists() else []
-    
+    val_annotations = load_annotations(filtered_val_path)
+    train_backforth_annotations = load_annotations(filtered_train_backforth_path)
+    val_backforth_annotations = load_annotations(filtered_val_backforth_path)
     print(f"Loaded {len(train_annotations)} training annotations")
     print(f"Loaded {len(val_annotations)} validation annotations")
+    print(f"Loaded {len(train_backforth_annotations)} training backforth annotations")
+    print(f"Loaded {len(val_backforth_annotations)} validation backforth annotations")
     
-    # Parse command line arguments
-    is_test_mode = len(sys.argv) > 1 and sys.argv[1] == "--test"
     num_workers = int(os.environ.get('NUM_WORKERS', '8'))  # Default: 8 threads
     
     print(f"\n{'='*60}")
     print(f"Configuration:")
-    print(f"  Test mode: {is_test_mode}")
     print(f"  Parallel workers: {num_workers}")
     print(f"{'='*60}")
     
@@ -256,57 +253,100 @@ if __name__ == "__main__":
         # Extract training frames
         if train_annotations:
             print(f"\nProcessing training set ({len(train_annotations)} videos)...")
-            test_samples = train_annotations[:10] if is_test_mode else train_annotations
-            if is_test_mode:
-                print("Testing with first 10 samples...")
             
             valid_train = extract_frames_for_annotations(
-                test_samples,
+                train_annotations,
                 videos_dir,
                 output_dir,
                 target_size=(width, height),
                 cache_frames=True,
                 num_workers=num_workers
             )
-            print(f"Successfully processed {len(valid_train)}/{len(test_samples)} training videos")
+            print(f"Successfully processed {len(valid_train)}/{len(train_annotations)} training videos")
             
             # Save updated annotations with num_frames after first resolution
-            if idx == 0 and not is_test_mode:
+            if idx == 0:
                 updated_train_annotations = valid_train
         
         # Extract validation frames
         if val_annotations:
             print(f"\nProcessing validation set ({len(val_annotations)} videos)...")
-            test_samples = val_annotations[:10] if is_test_mode else val_annotations
             
             valid_val = extract_frames_for_annotations(
-                test_samples,
+                val_annotations,
                 videos_dir,
                 output_dir,
                 target_size=(width, height),
                 cache_frames=True,
                 num_workers=num_workers
             )
-            print(f"Successfully processed {len(valid_val)}/{len(test_samples)} validation videos")
+            print(f"Successfully processed {len(valid_val)}/{len(val_annotations)} validation videos")
             
             # Save updated annotations with num_frames after first resolution
-            if idx == 0 and not is_test_mode:
+            if idx == 0:
                 updated_val_annotations = valid_val
+
+        # Extract training backforth frames
+        if train_backforth_annotations:
+            print(f"\nProcessing training backforth set ({len(train_backforth_annotations)} videos)...")
+            
+            valid_train_backforth = extract_frames_for_annotations(
+                train_backforth_annotations,
+                videos_dir,
+                output_dir,
+                target_size=(width, height),
+                cache_frames=True,
+                num_workers=num_workers
+            )
+            print(f"Successfully processed {len(valid_train_backforth)}/{len(train_backforth_annotations)} training backforth videos")
+            
+            # Save updated annotations with num_frames after first resolution
+            if idx == 0:
+                updated_train_backforth_annotations = valid_train_backforth
+
+        # Extract validation backforth frames
+        if val_backforth_annotations:
+            print(f"\nProcessing validation backforth set ({len(val_backforth_annotations)} videos)...")
+            
+            valid_val_backforth = extract_frames_for_annotations(
+                val_backforth_annotations,
+                videos_dir,
+                output_dir,
+                target_size=(width, height),
+                cache_frames=True,
+                num_workers=num_workers
+            )
+            print(f"Successfully processed {len(valid_val_backforth)}/{len(val_backforth_annotations)} validation backforth videos")
+            
+            # Save updated annotations with num_frames after first resolution
+            if idx == 0:
+                updated_val_backforth_annotations = valid_val_backforth
     
     # Save updated annotations with num_frames back to JSON files
-    if not is_test_mode:
-        if updated_train_annotations:
-            print(f"\nSaving updated training annotations with num_frames to {filtered_train_path}...")
-            with open(filtered_train_path, 'w', encoding='utf-8') as f:
-                json.dump(updated_train_annotations, f, indent=2, ensure_ascii=False)
-            print(f"Saved {len(updated_train_annotations)} training annotations")
-        
-        if updated_val_annotations:
-            print(f"Saving updated validation annotations with num_frames to {filtered_val_path}...")
-            with open(filtered_val_path, 'w', encoding='utf-8') as f:
-                json.dump(updated_val_annotations, f, indent=2, ensure_ascii=False)
-            print(f"Saved {len(updated_val_annotations)} validation annotations")
+    if updated_train_annotations:
+        print(f"\nSaving updated training annotations with num_frames to {filtered_train_path}...")
+        with open(filtered_train_path, 'w', encoding='utf-8') as f:
+            json.dump(updated_train_annotations, f, indent=2, ensure_ascii=False)
+        print(f"Saved {len(updated_train_annotations)} training annotations")
     
+    if updated_val_annotations:
+        print(f"Saving updated validation annotations with num_frames to {filtered_val_path}...")
+        with open(filtered_val_path, 'w', encoding='utf-8') as f:
+            json.dump(updated_val_annotations, f, indent=2, ensure_ascii=False)
+        print(f"Saved {len(updated_val_annotations)} validation annotations")
+
+    if updated_train_backforth_annotations:
+        print(f"Saving updated training backforth annotations with num_frames to {filtered_train_backforth_path}...")
+        with open(filtered_train_backforth_path, 'w', encoding='utf-8') as f:
+            json.dump(updated_train_backforth_annotations, f, indent=2, ensure_ascii=False)
+        print(f"Saved {len(updated_train_backforth_annotations)} training backforth annotations")
+
+    if updated_val_backforth_annotations:
+        print(f"Saving updated validation backforth annotations with num_frames to {filtered_val_backforth_path}...")
+        with open(filtered_val_backforth_path, 'w', encoding='utf-8') as f:
+            json.dump(updated_val_backforth_annotations, f, indent=2, ensure_ascii=False)
+        print(f"Saved {len(updated_val_backforth_annotations)} validation backforth annotations")
+
     print(f"\n{'='*60}")
     print("Frame extraction completed!")
     print(f"{'='*60}")

@@ -82,10 +82,15 @@ def log_validation(
         logger.warning(f"num_validation_images is {args.num_validation_images}. Skipping validation.")
         return
 
-    # Load validation samples from val_filtered.json
+    # Load validation samples from val_filtered.json or val_filtered_backforth.json
     from pathlib import Path as PathLib
     train_data_path = PathLib(args.train_data_dir)
-    val_annotations_path = train_data_path / "annotations" / "val_filtered.json"
+    
+    # Select validation annotations based on task type
+    if args.task == "backforth":
+        val_annotations_path = train_data_path / "annotations" / "val_filtered_backforth.json"
+    else:  # default to "basic"
+        val_annotations_path = train_data_path / "annotations" / "val_filtered.json"
     
     if not val_annotations_path.exists():
         logger.warning(f"Validation annotations not found at {val_annotations_path}. Skipping validation.")
@@ -128,7 +133,7 @@ def log_validation(
             if args.add_progress and 'num_frames' in ann:
                 num_frames = ann['num_frames']
                 if num_frames > 0:
-                    progress = int((args.input_frame_idx / num_frames) * 10) * 10
+                    progress = int((args.input_frame_idx / num_frames) * 100)
                     prompt += f" And {progress}% of the action has been completed."
             
             validation_samples.append({
@@ -505,6 +510,13 @@ def parse_args():
         default=21,
         help="Frame index for the target/output image (default: 21).",
     )
+    parser.add_argument(
+        "--task",
+        type=str,
+        default="basic",
+        choices=["basic", "backforth"],
+        help="Task type: 'basic' uses train/val_filtered.json, 'backforth' uses train/val_filtered_backforth.json (default: basic).",
+    )
 
     args = parser.parse_args()
     env_local_rank = int(os.environ.get("LOCAL_RANK", -1))
@@ -753,7 +765,16 @@ def main():
             # Check if using STHV2 dataset format
             from pathlib import Path as PathLib
             train_data_path = PathLib(args.train_data_dir)
-            if (train_data_path / "annotations" / "train_filtered.json").exists():
+            
+            # Select annotations file based on task type
+            if args.task == "backforth":
+                train_annotations_file = "train_filtered_backforth.json"
+            else:  # default to "basic"
+                train_annotations_file = "train_filtered.json"
+            
+            train_annotations_path = train_data_path / "annotations" / train_annotations_file
+            
+            if train_annotations_path.exists():
                 # Use STHV2 dataset
                 import sys
                 sys.path.insert(0, str(PathLib(__file__).parent))
@@ -770,9 +791,10 @@ def main():
                     frames_dir = train_data_path / "frames_96x96"
                     logger.warning(f"Resolution {resolution} not found, defaulting to frames_96x96")
                 
-                logger.info(f"Loading STHV2 dataset for InstructPix2Pix from {frames_dir}...")
+                logger.info(f"Loading STHV2 dataset for InstructPix2Pix (task: {args.task}) from {frames_dir}...")
+                logger.info(f"Using annotations: {train_annotations_path}")
                 train_dataset_obj = create_sthv2_instruct_pix2pix_dataset(
-                    annotations_path=train_data_path / "annotations" / "train_filtered.json",
+                    annotations_path=train_annotations_path,
                     frames_dir=frames_dir,
                     input_frame_idx=args.input_frame_idx,
                     target_frame_idx=args.target_frame_idx,
