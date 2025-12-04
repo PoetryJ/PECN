@@ -1,0 +1,4624 @@
+[
+  {
+    "id": "8842",
+    "label": "moving charger up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "charger"
+    ],
+    "task": "move_object",
+    "num_frames": 23,
+    "video_path": "data/video/20bn-something-something-v2/8842.webm"
+  },
+  {
+    "id": "132952",
+    "label": "moving calendar away from the camera",
+    "template": "Moving [something] away from the camera",
+    "placeholders": [
+      "calendar"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/132952.webm"
+  },
+  {
+    "id": "213060",
+    "label": "moving mouse down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "mouse"
+    ],
+    "task": "move_object",
+    "num_frames": 34,
+    "video_path": "data/video/20bn-something-something-v2/213060.webm"
+  },
+  {
+    "id": "74226",
+    "label": "pulling purse from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "purse"
+    ],
+    "task": "move_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/74226.webm"
+  },
+  {
+    "id": "143947",
+    "label": "pushing brown bracelet from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "brown bracelet"
+    ],
+    "task": "move_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/143947.webm"
+  },
+  {
+    "id": "11569",
+    "label": "moving glass down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "glass"
+    ],
+    "task": "move_object",
+    "num_frames": 32,
+    "video_path": "data/video/20bn-something-something-v2/11569.webm"
+  },
+  {
+    "id": "72618",
+    "label": "pulling spoon from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "spoon"
+    ],
+    "task": "move_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/72618.webm"
+  },
+  {
+    "id": "162748",
+    "label": "moving screw up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "screw"
+    ],
+    "task": "move_object",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/162748.webm"
+  },
+  {
+    "id": "95047",
+    "label": "moving a bolt down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "a bolt"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/95047.webm"
+  },
+  {
+    "id": "185525",
+    "label": "moving note book down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "note book"
+    ],
+    "task": "move_object",
+    "num_frames": 29,
+    "video_path": "data/video/20bn-something-something-v2/185525.webm"
+  },
+  {
+    "id": "188682",
+    "label": "moving shoe down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "shoe"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/188682.webm"
+  },
+  {
+    "id": "92150",
+    "label": "moving calculator down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "calculator"
+    ],
+    "task": "move_object",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/92150.webm"
+  },
+  {
+    "id": "10405",
+    "label": "moving bucket towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "bucket"
+    ],
+    "task": "move_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/10405.webm"
+  },
+  {
+    "id": "93493",
+    "label": "moving blocks across a surface without it falling down",
+    "template": "Moving [something] across a surface without it falling down",
+    "placeholders": [
+      "blocks"
+    ],
+    "task": "move_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/93493.webm"
+  },
+  {
+    "id": "188112",
+    "label": "pushing a toy truck from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "a toy truck"
+    ],
+    "task": "move_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/188112.webm"
+  },
+  {
+    "id": "101217",
+    "label": "moving mobile up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "mobile"
+    ],
+    "task": "move_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/101217.webm"
+  },
+  {
+    "id": "84967",
+    "label": "pulling mobile phone from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "mobile phone"
+    ],
+    "task": "move_object",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/84967.webm"
+  },
+  {
+    "id": "9153",
+    "label": "pushing bike light from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "bike light"
+    ],
+    "task": "move_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/9153.webm"
+  },
+  {
+    "id": "207257",
+    "label": "pulling soft elmo from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "soft elmo"
+    ],
+    "task": "move_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/207257.webm"
+  },
+  {
+    "id": "134888",
+    "label": "pushing pen from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "pen"
+    ],
+    "task": "move_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/134888.webm"
+  },
+  {
+    "id": "22881",
+    "label": "moving tie across a surface without it falling down",
+    "template": "Moving [something] across a surface without it falling down",
+    "placeholders": [
+      "tie"
+    ],
+    "task": "move_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/22881.webm"
+  },
+  {
+    "id": "175186",
+    "label": "pulling one tealight candle from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "one tealight candle"
+    ],
+    "task": "move_object",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/175186.webm"
+  },
+  {
+    "id": "118589",
+    "label": "moving remote down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "remote"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/118589.webm"
+  },
+  {
+    "id": "123068",
+    "label": "moving glasses down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "glasses"
+    ],
+    "task": "move_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/123068.webm"
+  },
+  {
+    "id": "144820",
+    "label": "moving spanner down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "spanner"
+    ],
+    "task": "move_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/144820.webm"
+  },
+  {
+    "id": "26649",
+    "label": "moving book up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "book"
+    ],
+    "task": "move_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/26649.webm"
+  },
+  {
+    "id": "33924",
+    "label": "moving yellow colour pen up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "yellow colour pen"
+    ],
+    "task": "move_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/33924.webm"
+  },
+  {
+    "id": "217520",
+    "label": "moving magazine up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "magazine"
+    ],
+    "task": "move_object",
+    "num_frames": 16,
+    "video_path": "data/video/20bn-something-something-v2/217520.webm"
+  },
+  {
+    "id": "138069",
+    "label": "pulling white deodorant from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "white deodorant"
+    ],
+    "task": "move_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/138069.webm"
+  },
+  {
+    "id": "109889",
+    "label": "moving cup up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "cup"
+    ],
+    "task": "move_object",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/109889.webm"
+  },
+  {
+    "id": "74414",
+    "label": "pulling small sharpener from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "small sharpener"
+    ],
+    "task": "move_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/74414.webm"
+  },
+  {
+    "id": "85790",
+    "label": "moving mug up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "mug"
+    ],
+    "task": "move_object",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/85790.webm"
+  },
+  {
+    "id": "72766",
+    "label": "pulling magnifying glass from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "magnifying glass"
+    ],
+    "task": "move_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/72766.webm"
+  },
+  {
+    "id": "219850",
+    "label": "pulling a comb from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "a comb"
+    ],
+    "task": "move_object",
+    "num_frames": 67,
+    "video_path": "data/video/20bn-something-something-v2/219850.webm"
+  },
+  {
+    "id": "102659",
+    "label": "moving pink toothbrush case down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "pink toothbrush case"
+    ],
+    "task": "move_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/102659.webm"
+  },
+  {
+    "id": "197580",
+    "label": "moving watch towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "watch"
+    ],
+    "task": "move_object",
+    "num_frames": 34,
+    "video_path": "data/video/20bn-something-something-v2/197580.webm"
+  },
+  {
+    "id": "159317",
+    "label": "moving a keyset towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "a keyset"
+    ],
+    "task": "move_object",
+    "num_frames": 28,
+    "video_path": "data/video/20bn-something-something-v2/159317.webm"
+  },
+  {
+    "id": "209001",
+    "label": "pushing package from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "package"
+    ],
+    "task": "move_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/209001.webm"
+  },
+  {
+    "id": "35775",
+    "label": "moving biscuit pack away from the camera",
+    "template": "Moving [something] away from the camera",
+    "placeholders": [
+      "biscuit pack"
+    ],
+    "task": "move_object",
+    "num_frames": 29,
+    "video_path": "data/video/20bn-something-something-v2/35775.webm"
+  },
+  {
+    "id": "179226",
+    "label": "moving phone down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "phone"
+    ],
+    "task": "move_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/179226.webm"
+  },
+  {
+    "id": "142969",
+    "label": "moving nail polish away from the camera",
+    "template": "Moving [something] away from the camera",
+    "placeholders": [
+      "nail polish"
+    ],
+    "task": "move_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/142969.webm"
+  },
+  {
+    "id": "91382",
+    "label": "moving chocolate towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "chocolate"
+    ],
+    "task": "move_object",
+    "num_frames": 67,
+    "video_path": "data/video/20bn-something-something-v2/91382.webm"
+  },
+  {
+    "id": "188022",
+    "label": "pushing granola bar from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "granola bar"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/188022.webm"
+  },
+  {
+    "id": "4316",
+    "label": "pulling cassette pie from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "cassette pie"
+    ],
+    "task": "move_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/4316.webm"
+  },
+  {
+    "id": "162876",
+    "label": "moving a paint brush up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "a paint brush"
+    ],
+    "task": "move_object",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/162876.webm"
+  },
+  {
+    "id": "61121",
+    "label": "moving charger up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "charger"
+    ],
+    "task": "move_object",
+    "num_frames": 25,
+    "video_path": "data/video/20bn-something-something-v2/61121.webm"
+  },
+  {
+    "id": "156369",
+    "label": "moving banana towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "banana"
+    ],
+    "task": "move_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/156369.webm"
+  },
+  {
+    "id": "121844",
+    "label": "pulling box from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "box"
+    ],
+    "task": "move_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/121844.webm"
+  },
+  {
+    "id": "94139",
+    "label": "moving cup away from the camera",
+    "template": "Moving [something] away from the camera",
+    "placeholders": [
+      "cup"
+    ],
+    "task": "move_object",
+    "num_frames": 28,
+    "video_path": "data/video/20bn-something-something-v2/94139.webm"
+  },
+  {
+    "id": "164398",
+    "label": "pushing book from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "book"
+    ],
+    "task": "move_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/164398.webm"
+  },
+  {
+    "id": "475",
+    "label": "moving bag up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "bag"
+    ],
+    "task": "move_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/475.webm"
+  },
+  {
+    "id": "210472",
+    "label": "pushing double-sided adhesive tape from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "double-sided adhesive tape"
+    ],
+    "task": "move_object",
+    "num_frames": 70,
+    "video_path": "data/video/20bn-something-something-v2/210472.webm"
+  },
+  {
+    "id": "2098",
+    "label": "moving pincer down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "pincer"
+    ],
+    "task": "move_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/2098.webm"
+  },
+  {
+    "id": "197923",
+    "label": "moving charger up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "charger"
+    ],
+    "task": "move_object",
+    "num_frames": 21,
+    "video_path": "data/video/20bn-something-something-v2/197923.webm"
+  },
+  {
+    "id": "87247",
+    "label": "pushing shoe from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "shoe"
+    ],
+    "task": "move_object",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/87247.webm"
+  },
+  {
+    "id": "90357",
+    "label": "pulling mobile phone from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "mobile phone"
+    ],
+    "task": "move_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/90357.webm"
+  },
+  {
+    "id": "7632",
+    "label": "moving envelopes across a surface without it falling down",
+    "template": "Moving [something] across a surface without it falling down",
+    "placeholders": [
+      "envelopes"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/7632.webm"
+  },
+  {
+    "id": "92833",
+    "label": "pushing telephone from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "telephone"
+    ],
+    "task": "move_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/92833.webm"
+  },
+  {
+    "id": "190956",
+    "label": "moving controller up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "controller"
+    ],
+    "task": "move_object",
+    "num_frames": 22,
+    "video_path": "data/video/20bn-something-something-v2/190956.webm"
+  },
+  {
+    "id": "127009",
+    "label": "pushing stapler from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "stapler"
+    ],
+    "task": "move_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/127009.webm"
+  },
+  {
+    "id": "27283",
+    "label": "moving lighter down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "lighter"
+    ],
+    "task": "move_object",
+    "num_frames": 67,
+    "video_path": "data/video/20bn-something-something-v2/27283.webm"
+  },
+  {
+    "id": "217399",
+    "label": "moving bottle up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "bottle"
+    ],
+    "task": "move_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/217399.webm"
+  },
+  {
+    "id": "64623",
+    "label": "moving ball up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "move_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/64623.webm"
+  },
+  {
+    "id": "55781",
+    "label": "pulling white book marker from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "white book marker"
+    ],
+    "task": "move_object",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/55781.webm"
+  },
+  {
+    "id": "102267",
+    "label": "moving power bank down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "power bank"
+    ],
+    "task": "move_object",
+    "num_frames": 15,
+    "video_path": "data/video/20bn-something-something-v2/102267.webm"
+  },
+  {
+    "id": "6551",
+    "label": "pulling ipod from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "ipod"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/6551.webm"
+  },
+  {
+    "id": "35565",
+    "label": "moving the pencil case up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "the pencil case"
+    ],
+    "task": "move_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/35565.webm"
+  },
+  {
+    "id": "126799",
+    "label": "moving purple microfiber down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "purple microfiber"
+    ],
+    "task": "move_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/126799.webm"
+  },
+  {
+    "id": "184905",
+    "label": "moving something towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "something"
+    ],
+    "task": "move_object",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/184905.webm"
+  },
+  {
+    "id": "144562",
+    "label": "pulling red spoon from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "red spoon"
+    ],
+    "task": "move_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/144562.webm"
+  },
+  {
+    "id": "128275",
+    "label": "pushing toy train from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "toy train"
+    ],
+    "task": "move_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/128275.webm"
+  },
+  {
+    "id": "78013",
+    "label": "moving ring up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "ring"
+    ],
+    "task": "move_object",
+    "num_frames": 19,
+    "video_path": "data/video/20bn-something-something-v2/78013.webm"
+  },
+  {
+    "id": "35939",
+    "label": "pushing a glass from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "a glass"
+    ],
+    "task": "move_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/35939.webm"
+  },
+  {
+    "id": "154968",
+    "label": "moving flower towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "flower"
+    ],
+    "task": "move_object",
+    "num_frames": 32,
+    "video_path": "data/video/20bn-something-something-v2/154968.webm"
+  },
+  {
+    "id": "46778",
+    "label": "pushing marker pen from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "marker pen"
+    ],
+    "task": "move_object",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/46778.webm"
+  },
+  {
+    "id": "84104",
+    "label": "pulling lipstick from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "lipstick"
+    ],
+    "task": "move_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/84104.webm"
+  },
+  {
+    "id": "139284",
+    "label": "moving screwdriver across a surface without it falling down",
+    "template": "Moving [something] across a surface without it falling down",
+    "placeholders": [
+      "screwdriver"
+    ],
+    "task": "move_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/139284.webm"
+  },
+  {
+    "id": "213964",
+    "label": "moving glass up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "glass"
+    ],
+    "task": "move_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/213964.webm"
+  },
+  {
+    "id": "178023",
+    "label": "moving mouse down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "mouse"
+    ],
+    "task": "move_object",
+    "num_frames": 17,
+    "video_path": "data/video/20bn-something-something-v2/178023.webm"
+  },
+  {
+    "id": "70828",
+    "label": "moving compass up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "compass"
+    ],
+    "task": "move_object",
+    "num_frames": 66,
+    "video_path": "data/video/20bn-something-something-v2/70828.webm"
+  },
+  {
+    "id": "139884",
+    "label": "moving hair comb down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "hair comb"
+    ],
+    "task": "move_object",
+    "num_frames": 31,
+    "video_path": "data/video/20bn-something-something-v2/139884.webm"
+  },
+  {
+    "id": "181899",
+    "label": "pulling bottle from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "bottle"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/181899.webm"
+  },
+  {
+    "id": "130128",
+    "label": "moving pen up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "pen"
+    ],
+    "task": "move_object",
+    "num_frames": 46,
+    "video_path": "data/video/20bn-something-something-v2/130128.webm"
+  },
+  {
+    "id": "126554",
+    "label": "moving post-it up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "post-it"
+    ],
+    "task": "move_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/126554.webm"
+  },
+  {
+    "id": "36460",
+    "label": "pulling the purse from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "the purse"
+    ],
+    "task": "move_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/36460.webm"
+  },
+  {
+    "id": "68610",
+    "label": "pulling a mouse from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "a mouse"
+    ],
+    "task": "move_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/68610.webm"
+  },
+  {
+    "id": "37066",
+    "label": "pushing black remote from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "black remote"
+    ],
+    "task": "move_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/37066.webm"
+  },
+  {
+    "id": "166678",
+    "label": "moving power bank up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "power bank"
+    ],
+    "task": "move_object",
+    "num_frames": 25,
+    "video_path": "data/video/20bn-something-something-v2/166678.webm"
+  },
+  {
+    "id": "33186",
+    "label": "pulling towel from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "towel"
+    ],
+    "task": "move_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/33186.webm"
+  },
+  {
+    "id": "174768",
+    "label": "pulling small book from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "small book"
+    ],
+    "task": "move_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/174768.webm"
+  },
+  {
+    "id": "119183",
+    "label": "moving tree branch up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "tree branch"
+    ],
+    "task": "move_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/119183.webm"
+  },
+  {
+    "id": "196021",
+    "label": "pushing pen from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "pen"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/196021.webm"
+  },
+  {
+    "id": "119824",
+    "label": "moving a stapler up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "a stapler"
+    ],
+    "task": "move_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/119824.webm"
+  },
+  {
+    "id": "63756",
+    "label": "moving cable down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "cable"
+    ],
+    "task": "move_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/63756.webm"
+  },
+  {
+    "id": "105273",
+    "label": "moving keyboard up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "keyboard"
+    ],
+    "task": "move_object",
+    "num_frames": 28,
+    "video_path": "data/video/20bn-something-something-v2/105273.webm"
+  },
+  {
+    "id": "130207",
+    "label": "moving striker coin down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "striker coin"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/130207.webm"
+  },
+  {
+    "id": "116582",
+    "label": "moving something up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "something"
+    ],
+    "task": "move_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/116582.webm"
+  },
+  {
+    "id": "176994",
+    "label": "pushing pebble from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "pebble"
+    ],
+    "task": "move_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/176994.webm"
+  },
+  {
+    "id": "6565",
+    "label": "moving a plastic bottle down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "a plastic bottle"
+    ],
+    "task": "move_object",
+    "num_frames": 46,
+    "video_path": "data/video/20bn-something-something-v2/6565.webm"
+  },
+  {
+    "id": "85418",
+    "label": "dropping keys in front of bag",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "keys",
+      "bag"
+    ],
+    "task": "drop_object",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/85418.webm"
+  },
+  {
+    "id": "74478",
+    "label": "dropping dough onto mat",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "dough",
+      "mat"
+    ],
+    "task": "drop_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/74478.webm"
+  },
+  {
+    "id": "199745",
+    "label": "moving mobile up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "mobile"
+    ],
+    "task": "move_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/199745.webm"
+  },
+  {
+    "id": "35812",
+    "label": "dropping box in front of trash can",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "box",
+      "trash can"
+    ],
+    "task": "drop_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/35812.webm"
+  },
+  {
+    "id": "191903",
+    "label": "dropping red hair band in front of spectacle box",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "red hair band",
+      "spectacle box"
+    ],
+    "task": "drop_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/191903.webm"
+  },
+  {
+    "id": "93526",
+    "label": "dropping a pen onto an envelope",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a pen",
+      "an envelope"
+    ],
+    "task": "drop_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/93526.webm"
+  },
+  {
+    "id": "40758",
+    "label": "dropping paper onto table",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "paper",
+      "table"
+    ],
+    "task": "drop_object",
+    "num_frames": 46,
+    "video_path": "data/video/20bn-something-something-v2/40758.webm"
+  },
+  {
+    "id": "171502",
+    "label": "dropping a badminton bat next to a pair of shoes",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a badminton bat",
+      "a pair of shoes"
+    ],
+    "task": "drop_object",
+    "num_frames": 22,
+    "video_path": "data/video/20bn-something-something-v2/171502.webm"
+  },
+  {
+    "id": "144039",
+    "label": "dropping a coin onto a box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a coin",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/144039.webm"
+  },
+  {
+    "id": "40949",
+    "label": "dropping a peg behind a cup",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a peg",
+      "a cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/40949.webm"
+  },
+  {
+    "id": "83875",
+    "label": "dropping a card next to a plate",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a card",
+      "a plate"
+    ],
+    "task": "drop_object",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/83875.webm"
+  },
+  {
+    "id": "32984",
+    "label": "dropping a bottletop onto a wallet",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a bottletop",
+      "a wallet"
+    ],
+    "task": "drop_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/32984.webm"
+  },
+  {
+    "id": "145492",
+    "label": "dropping a glue stick behind a box",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a glue stick",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/145492.webm"
+  },
+  {
+    "id": "15567",
+    "label": "dropping lighter behind box",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "lighter",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/15567.webm"
+  },
+  {
+    "id": "204703",
+    "label": "dropping cat in front of cube",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "cat",
+      "cube"
+    ],
+    "task": "drop_object",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/204703.webm"
+  },
+  {
+    "id": "167435",
+    "label": "dropping toy car into spectacle box",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "toy car",
+      "spectacle box"
+    ],
+    "task": "drop_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/167435.webm"
+  },
+  {
+    "id": "136876",
+    "label": "dropping orange colour sharpner in front of duster",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "orange colour sharpner",
+      "duster"
+    ],
+    "task": "drop_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/136876.webm"
+  },
+  {
+    "id": "22635",
+    "label": "dropping a matchbox in front of a cup",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "a matchbox",
+      "a cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/22635.webm"
+  },
+  {
+    "id": "61220",
+    "label": "dropping charger behind watch",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "charger",
+      "watch"
+    ],
+    "task": "drop_object",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/61220.webm"
+  },
+  {
+    "id": "216970",
+    "label": "dropping a comb into a box",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "a comb",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/216970.webm"
+  },
+  {
+    "id": "170403",
+    "label": "dropping a cup onto text books",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a cup",
+      "text books"
+    ],
+    "task": "drop_object",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/170403.webm"
+  },
+  {
+    "id": "171194",
+    "label": "dropping a loonie into a cup",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "a loonie",
+      "a cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/171194.webm"
+  },
+  {
+    "id": "100503",
+    "label": "dropping remote onto chair",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "remote",
+      "chair"
+    ],
+    "task": "drop_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/100503.webm"
+  },
+  {
+    "id": "204986",
+    "label": "dropping headphones onto pillow",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "headphones",
+      "pillow"
+    ],
+    "task": "drop_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/204986.webm"
+  },
+  {
+    "id": "56447",
+    "label": "dropping phone in front of pillow",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "phone",
+      "pillow"
+    ],
+    "task": "drop_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/56447.webm"
+  },
+  {
+    "id": "75025",
+    "label": "dropping keyboard in front of backpack",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "keyboard",
+      "backpack"
+    ],
+    "task": "drop_object",
+    "num_frames": 17,
+    "video_path": "data/video/20bn-something-something-v2/75025.webm"
+  },
+  {
+    "id": "2342",
+    "label": "dropping cat onto cube",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "cat",
+      "cube"
+    ],
+    "task": "drop_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/2342.webm"
+  },
+  {
+    "id": "184423",
+    "label": "dropping a comb next to a peg",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a comb",
+      "a peg"
+    ],
+    "task": "drop_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/184423.webm"
+  },
+  {
+    "id": "56299",
+    "label": "dropping battery in front of glass",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "battery",
+      "glass"
+    ],
+    "task": "drop_object",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/56299.webm"
+  },
+  {
+    "id": "201576",
+    "label": "dropping a matchbox next to a ball",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a matchbox",
+      "a ball"
+    ],
+    "task": "drop_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/201576.webm"
+  },
+  {
+    "id": "210051",
+    "label": "dropping pen next to glass",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "pen",
+      "glass"
+    ],
+    "task": "drop_object",
+    "num_frames": 68,
+    "video_path": "data/video/20bn-something-something-v2/210051.webm"
+  },
+  {
+    "id": "129298",
+    "label": "dropping paper in front of cup",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "paper",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/129298.webm"
+  },
+  {
+    "id": "76274",
+    "label": "dropping cup onto cup",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "cup",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/76274.webm"
+  },
+  {
+    "id": "87608",
+    "label": "dropping lid next to box",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "lid",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 28,
+    "video_path": "data/video/20bn-something-something-v2/87608.webm"
+  },
+  {
+    "id": "57815",
+    "label": "dropping pen into cup",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "pen",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/57815.webm"
+  },
+  {
+    "id": "54563",
+    "label": "dropping box next to trash can",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "box",
+      "trash can"
+    ],
+    "task": "drop_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/54563.webm"
+  },
+  {
+    "id": "49683",
+    "label": "dropping rubix cube behind a pillow",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "rubix cube",
+      "a pillow"
+    ],
+    "task": "drop_object",
+    "num_frames": 30,
+    "video_path": "data/video/20bn-something-something-v2/49683.webm"
+  },
+  {
+    "id": "28209",
+    "label": "dropping something onto something",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "something",
+      "something"
+    ],
+    "task": "drop_object",
+    "num_frames": 13,
+    "video_path": "data/video/20bn-something-something-v2/28209.webm"
+  },
+  {
+    "id": "200099",
+    "label": "dropping lid behind box",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "lid",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/200099.webm"
+  },
+  {
+    "id": "66323",
+    "label": "dropping yellow hairband into orange cup",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "yellow hairband",
+      "orange cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/66323.webm"
+  },
+  {
+    "id": "54132",
+    "label": "dropping toothbrush behind container",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "toothbrush",
+      "container"
+    ],
+    "task": "drop_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/54132.webm"
+  },
+  {
+    "id": "209979",
+    "label": "dropping a figutine into a mug",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "a figutine",
+      "a mug"
+    ],
+    "task": "drop_object",
+    "num_frames": 22,
+    "video_path": "data/video/20bn-something-something-v2/209979.webm"
+  },
+  {
+    "id": "91216",
+    "label": "dropping a toothpick behind a belt",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a toothpick",
+      "a belt"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/91216.webm"
+  },
+  {
+    "id": "30223",
+    "label": "dropping coins into coffee can",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "coins",
+      "coffee can"
+    ],
+    "task": "drop_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/30223.webm"
+  },
+  {
+    "id": "214951",
+    "label": "dropping pepper in front of a belt",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "pepper",
+      "a belt"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/214951.webm"
+  },
+  {
+    "id": "168612",
+    "label": "dropping scoop into canister",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "scoop",
+      "canister"
+    ],
+    "task": "drop_object",
+    "num_frames": 28,
+    "video_path": "data/video/20bn-something-something-v2/168612.webm"
+  },
+  {
+    "id": "135014",
+    "label": "dropping a handkerchief in front of a ruler",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "a handkerchief",
+      "a ruler"
+    ],
+    "task": "drop_object",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/135014.webm"
+  },
+  {
+    "id": "195322",
+    "label": "dropping fork onto floor",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "fork",
+      "floor"
+    ],
+    "task": "drop_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/195322.webm"
+  },
+  {
+    "id": "48561",
+    "label": "dropping a pen into a glass",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "a pen",
+      "a glass"
+    ],
+    "task": "drop_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/48561.webm"
+  },
+  {
+    "id": "183390",
+    "label": "dropping a sieve next to a belt",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a sieve",
+      "a belt"
+    ],
+    "task": "drop_object",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/183390.webm"
+  },
+  {
+    "id": "55632",
+    "label": "dropping box next to cup",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "box",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/55632.webm"
+  },
+  {
+    "id": "9633",
+    "label": "dropping eraser in front of cup",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "eraser",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 23,
+    "video_path": "data/video/20bn-something-something-v2/9633.webm"
+  },
+  {
+    "id": "115541",
+    "label": "dropping rubix cube into orange bowl",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "rubix cube",
+      "orange bowl"
+    ],
+    "task": "drop_object",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/115541.webm"
+  },
+  {
+    "id": "11267",
+    "label": "dropping remote behind pillow",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "remote",
+      "pillow"
+    ],
+    "task": "drop_object",
+    "num_frames": 20,
+    "video_path": "data/video/20bn-something-something-v2/11267.webm"
+  },
+  {
+    "id": "95587",
+    "label": "dropping heart next to bowl",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "heart",
+      "bowl"
+    ],
+    "task": "drop_object",
+    "num_frames": 71,
+    "video_path": "data/video/20bn-something-something-v2/95587.webm"
+  },
+  {
+    "id": "1077",
+    "label": "dropping a matchstick into a bowl",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "a matchstick",
+      "a bowl"
+    ],
+    "task": "drop_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/1077.webm"
+  },
+  {
+    "id": "100906",
+    "label": "dropping medicine bottle onto a medicine bottle",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "medicine bottle",
+      "a medicine bottle"
+    ],
+    "task": "drop_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/100906.webm"
+  },
+  {
+    "id": "100536",
+    "label": "dropping case onto phone",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "case",
+      "phone"
+    ],
+    "task": "drop_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/100536.webm"
+  },
+  {
+    "id": "198964",
+    "label": "dropping a matchbox in front of a book",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "a matchbox",
+      "a book"
+    ],
+    "task": "drop_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/198964.webm"
+  },
+  {
+    "id": "151431",
+    "label": "dropping cleaning cloth onto floor",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "cleaning cloth",
+      "floor"
+    ],
+    "task": "drop_object",
+    "num_frames": 72,
+    "video_path": "data/video/20bn-something-something-v2/151431.webm"
+  },
+  {
+    "id": "220130",
+    "label": "dropping a pen next to sunglasses",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a pen",
+      "sunglasses"
+    ],
+    "task": "drop_object",
+    "num_frames": 23,
+    "video_path": "data/video/20bn-something-something-v2/220130.webm"
+  },
+  {
+    "id": "173269",
+    "label": "dropping a coin onto a table",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a coin",
+      "a table"
+    ],
+    "task": "drop_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/173269.webm"
+  },
+  {
+    "id": "192432",
+    "label": "dropping a paper ball into the trash can",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "a paper ball",
+      "the trash can"
+    ],
+    "task": "drop_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/192432.webm"
+  },
+  {
+    "id": "153174",
+    "label": "dropping a feeding bottle in front of camera",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "a feeding bottle",
+      "camera"
+    ],
+    "task": "drop_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/153174.webm"
+  },
+  {
+    "id": "14330",
+    "label": "dropping a peg onto a box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a peg",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 66,
+    "video_path": "data/video/20bn-something-something-v2/14330.webm"
+  },
+  {
+    "id": "219477",
+    "label": "dropping a coin behind a container",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a coin",
+      "a container"
+    ],
+    "task": "drop_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/219477.webm"
+  },
+  {
+    "id": "45515",
+    "label": "dropping envelopes next to candle",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "envelopes",
+      "candle"
+    ],
+    "task": "drop_object",
+    "num_frames": 29,
+    "video_path": "data/video/20bn-something-something-v2/45515.webm"
+  },
+  {
+    "id": "62119",
+    "label": "dropping towel onto floor",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "towel",
+      "floor"
+    ],
+    "task": "drop_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/62119.webm"
+  },
+  {
+    "id": "202896",
+    "label": "dropping pen onto tea towel",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "pen",
+      "tea towel"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/202896.webm"
+  },
+  {
+    "id": "60417",
+    "label": "dropping box into trash can",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "box",
+      "trash can"
+    ],
+    "task": "drop_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/60417.webm"
+  },
+  {
+    "id": "20424",
+    "label": "dropping toy tiger in front of toy elephant",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "toy tiger",
+      "toy elephant"
+    ],
+    "task": "drop_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/20424.webm"
+  },
+  {
+    "id": "159361",
+    "label": "dropping a balloon onto a box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a balloon",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 72,
+    "video_path": "data/video/20bn-something-something-v2/159361.webm"
+  },
+  {
+    "id": "181782",
+    "label": "dropping spoon into cup",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "spoon",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 16,
+    "video_path": "data/video/20bn-something-something-v2/181782.webm"
+  },
+  {
+    "id": "83504",
+    "label": "dropping a pin onto a container",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a pin",
+      "a container"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/83504.webm"
+  },
+  {
+    "id": "128353",
+    "label": "dropping a cube onto a hairclip",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a cube",
+      "a hairclip"
+    ],
+    "task": "drop_object",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/128353.webm"
+  },
+  {
+    "id": "152632",
+    "label": "dropping water bottle onto desk",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "water bottle",
+      "desk"
+    ],
+    "task": "drop_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/152632.webm"
+  },
+  {
+    "id": "80909",
+    "label": "dropping hammer behind couch",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "hammer",
+      "couch"
+    ],
+    "task": "drop_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/80909.webm"
+  },
+  {
+    "id": "121756",
+    "label": "dropping a cigarette pack behind a lighter",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a cigarette pack",
+      "a lighter"
+    ],
+    "task": "drop_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/121756.webm"
+  },
+  {
+    "id": "63915",
+    "label": "dropping a comb in front of a pen",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "a comb",
+      "a pen"
+    ],
+    "task": "drop_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/63915.webm"
+  },
+  {
+    "id": "132274",
+    "label": "dropping purse onto floor",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "purse",
+      "floor"
+    ],
+    "task": "drop_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/132274.webm"
+  },
+  {
+    "id": "118118",
+    "label": "dropping a shoe brush onto a box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a shoe brush",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/118118.webm"
+  },
+  {
+    "id": "46965",
+    "label": "dropping a card next to a shoe brush",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a card",
+      "a shoe brush"
+    ],
+    "task": "drop_object",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/46965.webm"
+  },
+  {
+    "id": "84869",
+    "label": "dropping duster onto cookie box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "duster",
+      "cookie box"
+    ],
+    "task": "drop_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/84869.webm"
+  },
+  {
+    "id": "216225",
+    "label": "dropping pillow onto floor",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "pillow",
+      "floor"
+    ],
+    "task": "drop_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/216225.webm"
+  },
+  {
+    "id": "13504",
+    "label": "dropping a glasses box onto a desk",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a glasses box",
+      "a desk"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/13504.webm"
+  },
+  {
+    "id": "177123",
+    "label": "dropping paper onto box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "paper",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/177123.webm"
+  },
+  {
+    "id": "67222",
+    "label": "dropping paper next to person",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "paper",
+      "person"
+    ],
+    "task": "drop_object",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/67222.webm"
+  },
+  {
+    "id": "116458",
+    "label": "dropping mouse behind keyboard",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "mouse",
+      "keyboard"
+    ],
+    "task": "drop_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/116458.webm"
+  },
+  {
+    "id": "151488",
+    "label": "dropping onion onto book",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "onion",
+      "book"
+    ],
+    "task": "drop_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/151488.webm"
+  },
+  {
+    "id": "190241",
+    "label": "dropping a bottletop behind a padlock",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a bottletop",
+      "a padlock"
+    ],
+    "task": "drop_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/190241.webm"
+  },
+  {
+    "id": "81215",
+    "label": "dropping coin onto blanket",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "coin",
+      "blanket"
+    ],
+    "task": "drop_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/81215.webm"
+  },
+  {
+    "id": "41732",
+    "label": "dropping a pillow onto a bed",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a pillow",
+      "a bed"
+    ],
+    "task": "drop_object",
+    "num_frames": 30,
+    "video_path": "data/video/20bn-something-something-v2/41732.webm"
+  },
+  {
+    "id": "209912",
+    "label": "dropping a box next to a spoon",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a box",
+      "a spoon"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/209912.webm"
+  },
+  {
+    "id": "24327",
+    "label": "dropping torch in front of shoe",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "torch",
+      "shoe"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/24327.webm"
+  },
+  {
+    "id": "22283",
+    "label": "dropping towel onto toilet",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "towel",
+      "toilet"
+    ],
+    "task": "drop_object",
+    "num_frames": 24,
+    "video_path": "data/video/20bn-something-something-v2/22283.webm"
+  },
+  {
+    "id": "132896",
+    "label": "dropping small empty bottle into a mug",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "small empty bottle",
+      "a mug"
+    ],
+    "task": "drop_object",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/132896.webm"
+  },
+  {
+    "id": "119177",
+    "label": "dropping coins into a jar",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "coins",
+      "a jar"
+    ],
+    "task": "drop_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/119177.webm"
+  },
+  {
+    "id": "55141",
+    "label": "dropping eraser into blue glass bowl",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "eraser",
+      "blue glass bowl"
+    ],
+    "task": "drop_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/55141.webm"
+  },
+  {
+    "id": "160836",
+    "label": "dropping folded napkin into cup",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "folded napkin",
+      "cup"
+    ],
+    "task": "drop_object",
+    "num_frames": 29,
+    "video_path": "data/video/20bn-something-something-v2/160836.webm"
+  },
+  {
+    "id": "212046",
+    "label": "dropping a card next to a plate",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a card",
+      "a plate"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/212046.webm"
+  },
+  {
+    "id": "94667",
+    "label": "dropping paper into box",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "paper",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/94667.webm"
+  },
+  {
+    "id": "93635",
+    "label": "covering plush doll with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "plush doll",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/93635.webm"
+  },
+  {
+    "id": "51559",
+    "label": "covering humidifier with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "humidifier",
+      "towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/51559.webm"
+  },
+  {
+    "id": "131082",
+    "label": "covering paper clip with paper napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paper clip",
+      "paper napkin"
+    ],
+    "task": "cover_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/131082.webm"
+  },
+  {
+    "id": "113707",
+    "label": "covering goggles with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "goggles",
+      "cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/113707.webm"
+  },
+  {
+    "id": "139064",
+    "label": "covering wood piece with a basket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "wood piece",
+      "a basket"
+    ],
+    "task": "cover_object",
+    "num_frames": 30,
+    "video_path": "data/video/20bn-something-something-v2/139064.webm"
+  },
+  {
+    "id": "199182",
+    "label": "covering a baby doll with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a baby doll",
+      "a blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 46,
+    "video_path": "data/video/20bn-something-something-v2/199182.webm"
+  },
+  {
+    "id": "135517",
+    "label": "covering pot with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pot",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/135517.webm"
+  },
+  {
+    "id": "775",
+    "label": "covering baby with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "baby",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/775.webm"
+  },
+  {
+    "id": "201017",
+    "label": "covering a cleansing pad with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cleansing pad",
+      "a paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/201017.webm"
+  },
+  {
+    "id": "204548",
+    "label": "covering stapler with red pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stapler",
+      "red pouch"
+    ],
+    "task": "cover_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/204548.webm"
+  },
+  {
+    "id": "74405",
+    "label": "covering tablet with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "newspaper"
+    ],
+    "task": "cover_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/74405.webm"
+  },
+  {
+    "id": "158255",
+    "label": "covering a toy with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a toy",
+      "a blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/158255.webm"
+  },
+  {
+    "id": "184393",
+    "label": "covering keys with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "a towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 26,
+    "video_path": "data/video/20bn-something-something-v2/184393.webm"
+  },
+  {
+    "id": "170105",
+    "label": "covering a calculator with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a calculator",
+      "a cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/170105.webm"
+  },
+  {
+    "id": "53345",
+    "label": "covering waterbottle with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "waterbottle",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/53345.webm"
+  },
+  {
+    "id": "103842",
+    "label": "covering remote control with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote control",
+      "pillow"
+    ],
+    "task": "cover_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/103842.webm"
+  },
+  {
+    "id": "80714",
+    "label": "covering a head with a hat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a head",
+      "a hat"
+    ],
+    "task": "cover_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/80714.webm"
+  },
+  {
+    "id": "107791",
+    "label": "covering tv remote with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tv remote",
+      "pillow"
+    ],
+    "task": "cover_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/107791.webm"
+  },
+  {
+    "id": "150774",
+    "label": "covering a candle with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a candle",
+      "a towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/150774.webm"
+  },
+  {
+    "id": "195051",
+    "label": "covering pillow with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/195051.webm"
+  },
+  {
+    "id": "134649",
+    "label": "covering lotion tube with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lotion tube",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/134649.webm"
+  },
+  {
+    "id": "23791",
+    "label": "covering quarter with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "quarter",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 34,
+    "video_path": "data/video/20bn-something-something-v2/23791.webm"
+  },
+  {
+    "id": "30654",
+    "label": "covering teacup with saucer",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "teacup",
+      "saucer"
+    ],
+    "task": "cover_object",
+    "num_frames": 46,
+    "video_path": "data/video/20bn-something-something-v2/30654.webm"
+  },
+  {
+    "id": "55368",
+    "label": "covering can with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "can",
+      "cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 68,
+    "video_path": "data/video/20bn-something-something-v2/55368.webm"
+  },
+  {
+    "id": "104101",
+    "label": "covering pillow with bed cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillow",
+      "bed cover"
+    ],
+    "task": "cover_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/104101.webm"
+  },
+  {
+    "id": "205981",
+    "label": "covering red spoon with cookie box lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "red spoon",
+      "cookie box lid"
+    ],
+    "task": "cover_object",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/205981.webm"
+  },
+  {
+    "id": "80980",
+    "label": "covering sunglasses with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "sunglasses",
+      "a paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/80980.webm"
+  },
+  {
+    "id": "35330",
+    "label": "covering a ball with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a ball",
+      "a cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/35330.webm"
+  },
+  {
+    "id": "167440",
+    "label": "covering remote with a magazine",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "a magazine"
+    ],
+    "task": "cover_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/167440.webm"
+  },
+  {
+    "id": "218804",
+    "label": "covering screwdriver with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "screwdriver",
+      "shirt"
+    ],
+    "task": "cover_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/218804.webm"
+  },
+  {
+    "id": "143962",
+    "label": "covering headphone with hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "headphone",
+      "hand"
+    ],
+    "task": "cover_object",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/143962.webm"
+  },
+  {
+    "id": "39589",
+    "label": "covering a mouse with a sheet of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mouse",
+      "a sheet of paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 20,
+    "video_path": "data/video/20bn-something-something-v2/39589.webm"
+  },
+  {
+    "id": "209027",
+    "label": "covering box with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/209027.webm"
+  },
+  {
+    "id": "213040",
+    "label": "covering coin with sock",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coin",
+      "sock"
+    ],
+    "task": "cover_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/213040.webm"
+  },
+  {
+    "id": "11508",
+    "label": "covering bottle with plastic bag",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "plastic bag"
+    ],
+    "task": "cover_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/11508.webm"
+  },
+  {
+    "id": "54792",
+    "label": "covering a sock with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a sock",
+      "a cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/54792.webm"
+  },
+  {
+    "id": "2970",
+    "label": "covering tablet with handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "handkerchief"
+    ],
+    "task": "cover_object",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/2970.webm"
+  },
+  {
+    "id": "32475",
+    "label": "covering lighter with cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "lighter",
+      "cover"
+    ],
+    "task": "cover_object",
+    "num_frames": 32,
+    "video_path": "data/video/20bn-something-something-v2/32475.webm"
+  },
+  {
+    "id": "25491",
+    "label": "covering torch lighter with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "torch lighter",
+      "towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/25491.webm"
+  },
+  {
+    "id": "152597",
+    "label": "covering a shor with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a shor",
+      "a blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/152597.webm"
+  },
+  {
+    "id": "212276",
+    "label": "covering tablet with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/212276.webm"
+  },
+  {
+    "id": "204588",
+    "label": "covering cell phone with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cell phone",
+      "pillow"
+    ],
+    "task": "cover_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/204588.webm"
+  },
+  {
+    "id": "94613",
+    "label": "covering pillows with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pillows",
+      "a blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/94613.webm"
+  },
+  {
+    "id": "87900",
+    "label": "covering shirt with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "shirt",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/87900.webm"
+  },
+  {
+    "id": "158429",
+    "label": "covering a tomato with a washcloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a tomato",
+      "a washcloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/158429.webm"
+  },
+  {
+    "id": "99441",
+    "label": "covering pencil with sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pencil",
+      "sheet"
+    ],
+    "task": "cover_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/99441.webm"
+  },
+  {
+    "id": "209309",
+    "label": "covering remote with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/209309.webm"
+  },
+  {
+    "id": "100109",
+    "label": "covering screw with aluminium foil",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "screw",
+      "aluminium foil"
+    ],
+    "task": "cover_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/100109.webm"
+  },
+  {
+    "id": "18814",
+    "label": "covering coin with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "coin",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/18814.webm"
+  },
+  {
+    "id": "190668",
+    "label": "covering a mug with a piece of paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a mug",
+      "a piece of paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 26,
+    "video_path": "data/video/20bn-something-something-v2/190668.webm"
+  },
+  {
+    "id": "24498",
+    "label": "covering cat with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cat",
+      "towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 34,
+    "video_path": "data/video/20bn-something-something-v2/24498.webm"
+  },
+  {
+    "id": "40962",
+    "label": "covering a pen with a book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pen",
+      "a book"
+    ],
+    "task": "cover_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/40962.webm"
+  },
+  {
+    "id": "46853",
+    "label": "covering bangles with leaf",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bangles",
+      "leaf"
+    ],
+    "task": "cover_object",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/46853.webm"
+  },
+  {
+    "id": "151631",
+    "label": "covering box with fabric",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "fabric"
+    ],
+    "task": "cover_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/151631.webm"
+  },
+  {
+    "id": "216460",
+    "label": "covering paste with box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "paste",
+      "box"
+    ],
+    "task": "cover_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/216460.webm"
+  },
+  {
+    "id": "111038",
+    "label": "covering the tulips with a magazine",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "the tulips",
+      "a magazine"
+    ],
+    "task": "cover_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/111038.webm"
+  },
+  {
+    "id": "175539",
+    "label": "covering a smartphone with my hand",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a smartphone",
+      "my hand"
+    ],
+    "task": "cover_object",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/175539.webm"
+  },
+  {
+    "id": "33232",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/33232.webm"
+  },
+  {
+    "id": "16665",
+    "label": "covering a penny with a tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a penny",
+      "a tissue"
+    ],
+    "task": "cover_object",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/16665.webm"
+  },
+  {
+    "id": "27612",
+    "label": "covering a spoon with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a spoon",
+      "a napkin"
+    ],
+    "task": "cover_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/27612.webm"
+  },
+  {
+    "id": "9398",
+    "label": "covering rc with cushion",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "rc",
+      "cushion"
+    ],
+    "task": "cover_object",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/9398.webm"
+  },
+  {
+    "id": "213513",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/213513.webm"
+  },
+  {
+    "id": "207771",
+    "label": "covering die with paper towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "die",
+      "paper towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/207771.webm"
+  },
+  {
+    "id": "72143",
+    "label": "covering a remote control with a paper sheet",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a remote control",
+      "a paper sheet"
+    ],
+    "task": "cover_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/72143.webm"
+  },
+  {
+    "id": "39249",
+    "label": "covering a coaster with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a coaster",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/39249.webm"
+  },
+  {
+    "id": "200621",
+    "label": "covering a teddy bear with a bandanna",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a teddy bear",
+      "a bandanna"
+    ],
+    "task": "cover_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/200621.webm"
+  },
+  {
+    "id": "135948",
+    "label": "covering a key with a note book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a key",
+      "a note book"
+    ],
+    "task": "cover_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/135948.webm"
+  },
+  {
+    "id": "77546",
+    "label": "covering pendrive with green coloured cup",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pendrive",
+      "green coloured cup"
+    ],
+    "task": "cover_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/77546.webm"
+  },
+  {
+    "id": "175715",
+    "label": "covering a phone with a book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a phone",
+      "a book"
+    ],
+    "task": "cover_object",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/175715.webm"
+  },
+  {
+    "id": "4548",
+    "label": "covering vitamin with hand towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "vitamin",
+      "hand towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 22,
+    "video_path": "data/video/20bn-something-something-v2/4548.webm"
+  },
+  {
+    "id": "117272",
+    "label": "covering a clip with a lid",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a clip",
+      "a lid"
+    ],
+    "task": "cover_object",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/117272.webm"
+  },
+  {
+    "id": "214380",
+    "label": "covering a vessel with a thermocol box",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a vessel",
+      "a thermocol box"
+    ],
+    "task": "cover_object",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/214380.webm"
+  },
+  {
+    "id": "186406",
+    "label": "covering a container with a blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a container",
+      "a blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 66,
+    "video_path": "data/video/20bn-something-something-v2/186406.webm"
+  },
+  {
+    "id": "15754",
+    "label": "covering pen with book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "book"
+    ],
+    "task": "cover_object",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/15754.webm"
+  },
+  {
+    "id": "76243",
+    "label": "covering phone with book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "phone",
+      "book"
+    ],
+    "task": "cover_object",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/76243.webm"
+  },
+  {
+    "id": "70556",
+    "label": "covering key with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "key",
+      "tissue"
+    ],
+    "task": "cover_object",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/70556.webm"
+  },
+  {
+    "id": "19374",
+    "label": "covering scissors with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "scissors",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 25,
+    "video_path": "data/video/20bn-something-something-v2/19374.webm"
+  },
+  {
+    "id": "29234",
+    "label": "covering doll with blanket",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "doll",
+      "blanket"
+    ],
+    "task": "cover_object",
+    "num_frames": 73,
+    "video_path": "data/video/20bn-something-something-v2/29234.webm"
+  },
+  {
+    "id": "183163",
+    "label": "covering cork with hat",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cork",
+      "hat"
+    ],
+    "task": "cover_object",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/183163.webm"
+  },
+  {
+    "id": "17914",
+    "label": "covering a cooking pot with its cover",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a cooking pot",
+      "its cover"
+    ],
+    "task": "cover_object",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/17914.webm"
+  },
+  {
+    "id": "218395",
+    "label": "covering shaker with napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "shaker",
+      "napkin"
+    ],
+    "task": "cover_object",
+    "num_frames": 49,
+    "video_path": "data/video/20bn-something-something-v2/218395.webm"
+  },
+  {
+    "id": "55968",
+    "label": "covering doll with doily",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "doll",
+      "doily"
+    ],
+    "task": "cover_object",
+    "num_frames": 47,
+    "video_path": "data/video/20bn-something-something-v2/55968.webm"
+  },
+  {
+    "id": "84466",
+    "label": "covering football with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "football",
+      "towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/84466.webm"
+  },
+  {
+    "id": "190214",
+    "label": "covering cans with a napkin",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cans",
+      "a napkin"
+    ],
+    "task": "cover_object",
+    "num_frames": 39,
+    "video_path": "data/video/20bn-something-something-v2/190214.webm"
+  },
+  {
+    "id": "45293",
+    "label": "covering a nickle with a coaster",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a nickle",
+      "a coaster"
+    ],
+    "task": "cover_object",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/45293.webm"
+  },
+  {
+    "id": "70851",
+    "label": "covering clothespin with a tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "clothespin",
+      "a tissue"
+    ],
+    "task": "cover_object",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/70851.webm"
+  },
+  {
+    "id": "81282",
+    "label": "covering a green container with a yellow saucer",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a green container",
+      "a yellow saucer"
+    ],
+    "task": "cover_object",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/81282.webm"
+  },
+  {
+    "id": "92000",
+    "label": "covering an apple with a handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "an apple",
+      "a handkerchief"
+    ],
+    "task": "cover_object",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/92000.webm"
+  },
+  {
+    "id": "202564",
+    "label": "covering salt shaker with a towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "salt shaker",
+      "a towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/202564.webm"
+  },
+  {
+    "id": "92119",
+    "label": "covering plastic knife with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "plastic knife",
+      "towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/92119.webm"
+  },
+  {
+    "id": "211788",
+    "label": "covering a spoon with a cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a spoon",
+      "a cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/211788.webm"
+  },
+  {
+    "id": "215058",
+    "label": "covering marker with tissue",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "marker",
+      "tissue"
+    ],
+    "task": "cover_object",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/215058.webm"
+  },
+  {
+    "id": "203107",
+    "label": "covering controller with pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "controller",
+      "pillow"
+    ],
+    "task": "cover_object",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/203107.webm"
+  },
+  {
+    "id": "26489",
+    "label": "covering smartphone with recipe book",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "smartphone",
+      "recipe book"
+    ],
+    "task": "cover_object",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/26489.webm"
+  },
+  {
+    "id": "93475",
+    "label": "covering eraser with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "eraser",
+      "cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/93475.webm"
+  },
+  {
+    "id": "55927",
+    "label": "covering remote with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "remote",
+      "cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/55927.webm"
+  },
+  {
+    "id": "89190",
+    "label": "covering a stuffed animal with a pillow",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a stuffed animal",
+      "a pillow"
+    ],
+    "task": "cover_object",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/89190.webm"
+  },
+  {
+    "id": "13187",
+    "label": "covering cup with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "cup",
+      "cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/13187.webm"
+  },
+  {
+    "id": "48590",
+    "label": "pulling two ends of rubber string so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "rubber string"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/48590.webm"
+  },
+  {
+    "id": "16083",
+    "label": "covering box with towel",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "box",
+      "towel"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/16083.webm"
+  },
+  {
+    "id": "193550",
+    "label": "opening jar",
+    "template": "Opening [something]",
+    "placeholders": [
+      "jar"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/193550.webm"
+  },
+  {
+    "id": "62115",
+    "label": "covering mug with shirt",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "mug",
+      "shirt"
+    ],
+    "task": "cover_object",
+    "num_frames": 69,
+    "video_path": "data/video/20bn-something-something-v2/62115.webm"
+  },
+  {
+    "id": "166637",
+    "label": "opening sandwichera",
+    "template": "Opening [something]",
+    "placeholders": [
+      "sandwichera"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/166637.webm"
+  },
+  {
+    "id": "141069",
+    "label": "opening car bonnet",
+    "template": "Opening [something]",
+    "placeholders": [
+      "car bonnet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/141069.webm"
+  },
+  {
+    "id": "63371",
+    "label": "closing filing cabinet",
+    "template": "Closing [something]",
+    "placeholders": [
+      "filing cabinet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/63371.webm"
+  },
+  {
+    "id": "87220",
+    "label": "opening face cream pack",
+    "template": "Opening [something]",
+    "placeholders": [
+      "face cream pack"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/87220.webm"
+  },
+  {
+    "id": "185482",
+    "label": "opening a box",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a box"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/185482.webm"
+  },
+  {
+    "id": "114815",
+    "label": "closing jar",
+    "template": "Closing [something]",
+    "placeholders": [
+      "jar"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 34,
+    "video_path": "data/video/20bn-something-something-v2/114815.webm"
+  },
+  {
+    "id": "105526",
+    "label": "opening a drawer",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a drawer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/105526.webm"
+  },
+  {
+    "id": "99490",
+    "label": "opening a ukulele case",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a ukulele case"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 51,
+    "video_path": "data/video/20bn-something-something-v2/99490.webm"
+  },
+  {
+    "id": "117901",
+    "label": "pulling two ends of stick but nothing happens",
+    "template": "Pulling two ends of [something] but nothing happens",
+    "placeholders": [
+      "stick"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/117901.webm"
+  },
+  {
+    "id": "98332",
+    "label": "plugging lead into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "lead",
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/98332.webm"
+  },
+  {
+    "id": "29554",
+    "label": "opening door",
+    "template": "Opening [something]",
+    "placeholders": [
+      "door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/29554.webm"
+  },
+  {
+    "id": "160424",
+    "label": "plugging charger into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/160424.webm"
+  },
+  {
+    "id": "206019",
+    "label": "lifting a surface with a sweet on it but not enough for it to slide down",
+    "template": "Lifting a surface with [something] on it but not enough for it to slide down",
+    "placeholders": [
+      "a sweet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/206019.webm"
+  },
+  {
+    "id": "106",
+    "label": "opening waste basket",
+    "template": "Opening [something]",
+    "placeholders": [
+      "waste basket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/106.webm"
+  },
+  {
+    "id": "53883",
+    "label": "opening calculator",
+    "template": "Opening [something]",
+    "placeholders": [
+      "calculator"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "data/video/20bn-something-something-v2/53883.webm"
+  },
+  {
+    "id": "158297",
+    "label": "throwing an eraser in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "an eraser"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/158297.webm"
+  },
+  {
+    "id": "124542",
+    "label": "opening bottel",
+    "template": "Opening [something]",
+    "placeholders": [
+      "bottel"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "data/video/20bn-something-something-v2/124542.webm"
+  },
+  {
+    "id": "106909",
+    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 69,
+    "video_path": "data/video/20bn-something-something-v2/106909.webm"
+  },
+  {
+    "id": "41780",
+    "label": "closing laptop",
+    "template": "Closing [something]",
+    "placeholders": [
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/41780.webm"
+  },
+  {
+    "id": "12301",
+    "label": "opening bottle",
+    "template": "Opening [something]",
+    "placeholders": [
+      "bottle"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 33,
+    "video_path": "data/video/20bn-something-something-v2/12301.webm"
+  },
+  {
+    "id": "38411",
+    "label": "opening a container",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a container"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/38411.webm"
+  },
+  {
+    "id": "68352",
+    "label": "plugging headphones into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "headphones",
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 70,
+    "video_path": "data/video/20bn-something-something-v2/68352.webm"
+  },
+  {
+    "id": "119916",
+    "label": "closing wallet",
+    "template": "Closing [something]",
+    "placeholders": [
+      "wallet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "data/video/20bn-something-something-v2/119916.webm"
+  },
+  {
+    "id": "199158",
+    "label": "opening clothes dryer",
+    "template": "Opening [something]",
+    "placeholders": [
+      "clothes dryer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/199158.webm"
+  },
+  {
+    "id": "158100",
+    "label": "opening a bottle cap",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a bottle cap"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 36,
+    "video_path": "data/video/20bn-something-something-v2/158100.webm"
+  },
+  {
+    "id": "69566",
+    "label": "plugging cable into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cable",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 72,
+    "video_path": "data/video/20bn-something-something-v2/69566.webm"
+  },
+  {
+    "id": "21630",
+    "label": "opening window",
+    "template": "Opening [something]",
+    "placeholders": [
+      "window"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "data/video/20bn-something-something-v2/21630.webm"
+  },
+  {
+    "id": "118950",
+    "label": "lifting a surface with a nail-brush on it until it starts sliding down",
+    "template": "Lifting a surface with [something] on it until it starts sliding down",
+    "placeholders": [
+      "a nail-brush"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/118950.webm"
+  },
+  {
+    "id": "82636",
+    "label": "closing car door",
+    "template": "Closing [something]",
+    "placeholders": [
+      "car door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "data/video/20bn-something-something-v2/82636.webm"
+  },
+  {
+    "id": "197582",
+    "label": "closing window",
+    "template": "Closing [something]",
+    "placeholders": [
+      "window"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 58,
+    "video_path": "data/video/20bn-something-something-v2/197582.webm"
+  },
+  {
+    "id": "161313",
+    "label": "opening table drawer",
+    "template": "Opening [something]",
+    "placeholders": [
+      "table drawer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/161313.webm"
+  },
+  {
+    "id": "37244",
+    "label": "pulling two ends of scrunchie so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "scrunchie"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "data/video/20bn-something-something-v2/37244.webm"
+  },
+  {
+    "id": "212841",
+    "label": "pulling two ends of elastic band so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "elastic band"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/212841.webm"
+  },
+  {
+    "id": "49832",
+    "label": "throwing a tennis ball in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a tennis ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 44,
+    "video_path": "data/video/20bn-something-something-v2/49832.webm"
+  },
+  {
+    "id": "140157",
+    "label": "lifting a surface with a mug on it until it starts sliding down",
+    "template": "Lifting a surface with [something] on it until it starts sliding down",
+    "placeholders": [
+      "a mug"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/140157.webm"
+  },
+  {
+    "id": "82772",
+    "label": "opening a chinese food box",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a chinese food box"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 72,
+    "video_path": "data/video/20bn-something-something-v2/82772.webm"
+  },
+  {
+    "id": "183926",
+    "label": "plugging memory into usb but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "memory",
+      "usb"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/183926.webm"
+  },
+  {
+    "id": "35267",
+    "label": "pulling two ends of rubber band so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "rubber band"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/35267.webm"
+  },
+  {
+    "id": "213228",
+    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 62,
+    "video_path": "data/video/20bn-something-something-v2/213228.webm"
+  },
+  {
+    "id": "14293",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/14293.webm"
+  },
+  {
+    "id": "61314",
+    "label": "throwing a ball in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 16,
+    "video_path": "data/video/20bn-something-something-v2/61314.webm"
+  },
+  {
+    "id": "164510",
+    "label": "pulling two ends of flashlight but nothing happens",
+    "template": "Pulling two ends of [something] but nothing happens",
+    "placeholders": [
+      "flashlight"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 52,
+    "video_path": "data/video/20bn-something-something-v2/164510.webm"
+  },
+  {
+    "id": "19777",
+    "label": "opening a sunglasses case",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a sunglasses case"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 66,
+    "video_path": "data/video/20bn-something-something-v2/19777.webm"
+  },
+  {
+    "id": "12636",
+    "label": "plugging a building block into another building block but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a building block",
+      "another building block"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 70,
+    "video_path": "data/video/20bn-something-something-v2/12636.webm"
+  },
+  {
+    "id": "101590",
+    "label": "letting can roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "can"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/101590.webm"
+  },
+  {
+    "id": "137099",
+    "label": "pulling two ends of a cloth but nothing happens",
+    "template": "Pulling two ends of [something] but nothing happens",
+    "placeholders": [
+      "a cloth"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/137099.webm"
+  },
+  {
+    "id": "194380",
+    "label": "closing car door",
+    "template": "Closing [something]",
+    "placeholders": [
+      "car door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 56,
+    "video_path": "data/video/20bn-something-something-v2/194380.webm"
+  },
+  {
+    "id": "203240",
+    "label": "closing a door",
+    "template": "Closing [something]",
+    "placeholders": [
+      "a door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/203240.webm"
+  },
+  {
+    "id": "72154",
+    "label": "plugging key into lock but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "key",
+      "lock"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/72154.webm"
+  },
+  {
+    "id": "32619",
+    "label": "pulling two ends of a rubber strip so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "a rubber strip"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "data/video/20bn-something-something-v2/32619.webm"
+  },
+  {
+    "id": "52242",
+    "label": "plugging usb into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 71,
+    "video_path": "data/video/20bn-something-something-v2/52242.webm"
+  },
+  {
+    "id": "53422",
+    "label": "throwing mobile in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "mobile"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "data/video/20bn-something-something-v2/53422.webm"
+  },
+  {
+    "id": "152269",
+    "label": "plugging box into wall but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "box",
+      "wall"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 50,
+    "video_path": "data/video/20bn-something-something-v2/152269.webm"
+  },
+  {
+    "id": "89328",
+    "label": "opening piano",
+    "template": "Opening [something]",
+    "placeholders": [
+      "piano"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/89328.webm"
+  },
+  {
+    "id": "126058",
+    "label": "lifting a surface with a die on it until it starts sliding down",
+    "template": "Lifting a surface with [something] on it until it starts sliding down",
+    "placeholders": [
+      "a die"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 46,
+    "video_path": "data/video/20bn-something-something-v2/126058.webm"
+  },
+  {
+    "id": "204280",
+    "label": "lifting a surface with a pen on it until it starts sliding down",
+    "template": "Lifting a surface with [something] on it until it starts sliding down",
+    "placeholders": [
+      "a pen"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/204280.webm"
+  },
+  {
+    "id": "216535",
+    "label": "plugging charger into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/216535.webm"
+  },
+  {
+    "id": "100771",
+    "label": "pulling two ends of remote but nothing happens",
+    "template": "Pulling two ends of [something] but nothing happens",
+    "placeholders": [
+      "remote"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 43,
+    "video_path": "data/video/20bn-something-something-v2/100771.webm"
+  },
+  {
+    "id": "8053",
+    "label": "opening box of cards",
+    "template": "Opening [something]",
+    "placeholders": [
+      "box of cards"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/8053.webm"
+  },
+  {
+    "id": "174854",
+    "label": "opening the cover of a paperback book",
+    "template": "Opening [something]",
+    "placeholders": [
+      "the cover of a paperback book"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/174854.webm"
+  },
+  {
+    "id": "214178",
+    "label": "throwing bottle cap in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "bottle cap"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "data/video/20bn-something-something-v2/214178.webm"
+  },
+  {
+    "id": "158786",
+    "label": "opening a box",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a box"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 70,
+    "video_path": "data/video/20bn-something-something-v2/158786.webm"
+  },
+  {
+    "id": "164342",
+    "label": "opening hand bag",
+    "template": "Opening [something]",
+    "placeholders": [
+      "hand bag"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/164342.webm"
+  },
+  {
+    "id": "218385",
+    "label": "letting a small iron rod roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a small iron rod"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 18,
+    "video_path": "data/video/20bn-something-something-v2/218385.webm"
+  },
+  {
+    "id": "180327",
+    "label": "opening a drawer",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a drawer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "data/video/20bn-something-something-v2/180327.webm"
+  },
+  {
+    "id": "210479",
+    "label": "plugging otg into mobile but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "otg",
+      "mobile"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 66,
+    "video_path": "data/video/20bn-something-something-v2/210479.webm"
+  },
+  {
+    "id": "186553",
+    "label": "throwing pillow in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pillow"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "data/video/20bn-something-something-v2/186553.webm"
+  },
+  {
+    "id": "62930",
+    "label": "plugging an electric plug into an outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "an electric plug",
+      "an outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/62930.webm"
+  },
+  {
+    "id": "127980",
+    "label": "plugging ac charger into wall socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "ac charger",
+      "wall socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 27,
+    "video_path": "data/video/20bn-something-something-v2/127980.webm"
+  },
+  {
+    "id": "1705",
+    "label": "closing waste bin",
+    "template": "Closing [something]",
+    "placeholders": [
+      "waste bin"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/1705.webm"
+  },
+  {
+    "id": "122281",
+    "label": "opening bag's chain",
+    "template": "Opening [something]",
+    "placeholders": [
+      "bag's chain"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/122281.webm"
+  },
+  {
+    "id": "182007",
+    "label": "plugging power adapter into a wall outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "power adapter",
+      "a wall outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/182007.webm"
+  },
+  {
+    "id": "107951",
+    "label": "plugging plug into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plug",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 53,
+    "video_path": "data/video/20bn-something-something-v2/107951.webm"
+  },
+  {
+    "id": "14784",
+    "label": "closing jar",
+    "template": "Closing [something]",
+    "placeholders": [
+      "jar"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/14784.webm"
+  },
+  {
+    "id": "149101",
+    "label": "closing piller",
+    "template": "Closing [something]",
+    "placeholders": [
+      "piller"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/149101.webm"
+  },
+  {
+    "id": "174516",
+    "label": "plugging a charging cable into a cell phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a charging cable",
+      "a cell phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/174516.webm"
+  },
+  {
+    "id": "206488",
+    "label": "plugging plug into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plug",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 37,
+    "video_path": "data/video/20bn-something-something-v2/206488.webm"
+  },
+  {
+    "id": "42618",
+    "label": "opening a jar",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a jar"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 32,
+    "video_path": "data/video/20bn-something-something-v2/42618.webm"
+  },
+  {
+    "id": "20048",
+    "label": "throwing ball in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 35,
+    "video_path": "data/video/20bn-something-something-v2/20048.webm"
+  },
+  {
+    "id": "33375",
+    "label": "lifting a surface with candy on it but not enough for it to slide down",
+    "template": "Lifting a surface with [something] on it but not enough for it to slide down",
+    "placeholders": [
+      "candy"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "data/video/20bn-something-something-v2/33375.webm"
+  },
+  {
+    "id": "73350",
+    "label": "throwing car keys in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "car keys"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "data/video/20bn-something-something-v2/73350.webm"
+  },
+  {
+    "id": "71001",
+    "label": "closing a wallet",
+    "template": "Closing [something]",
+    "placeholders": [
+      "a wallet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 38,
+    "video_path": "data/video/20bn-something-something-v2/71001.webm"
+  },
+  {
+    "id": "197905",
+    "label": "throwing plastic container in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "plastic container"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "data/video/20bn-something-something-v2/197905.webm"
+  },
+  {
+    "id": "6490",
+    "label": "pulling two ends of plastic cover so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "plastic cover"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/6490.webm"
+  },
+  {
+    "id": "208801",
+    "label": "plugging headphones into a smartphone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "headphones",
+      "a smartphone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "data/video/20bn-something-something-v2/208801.webm"
+  },
+  {
+    "id": "97509",
+    "label": "opening filing cabinet",
+    "template": "Opening [something]",
+    "placeholders": [
+      "filing cabinet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "data/video/20bn-something-something-v2/97509.webm"
+  },
+  {
+    "id": "96935",
+    "label": "opening car door",
+    "template": "Opening [something]",
+    "placeholders": [
+      "car door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 40,
+    "video_path": "data/video/20bn-something-something-v2/96935.webm"
+  },
+  {
+    "id": "113492",
+    "label": "pulling two ends of cloth so that it gets stretched",
+    "template": "Pulling two ends of [something] so that it gets stretched",
+    "placeholders": [
+      "cloth"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/113492.webm"
+  },
+  {
+    "id": "49280",
+    "label": "plugging machine into wall but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "machine",
+      "wall"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 48,
+    "video_path": "data/video/20bn-something-something-v2/49280.webm"
+  },
+  {
+    "id": "46143",
+    "label": "throwing matchbox in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "matchbox"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "data/video/20bn-something-something-v2/46143.webm"
+  },
+  {
+    "id": "30666",
+    "label": "throwing keys in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "keys"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "data/video/20bn-something-something-v2/30666.webm"
+  },
+  {
+    "id": "21438",
+    "label": "opening small freshmints",
+    "template": "Opening [something]",
+    "placeholders": [
+      "small freshmints"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 61,
+    "video_path": "data/video/20bn-something-something-v2/21438.webm"
+  },
+  {
+    "id": "218666",
+    "label": "plugging usb into port but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "port"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "data/video/20bn-something-something-v2/218666.webm"
+  },
+  {
+    "id": "201589",
+    "label": "closing black plastic box",
+    "template": "Closing [something]",
+    "placeholders": [
+      "black plastic box"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 63,
+    "video_path": "data/video/20bn-something-something-v2/201589.webm"
+  },
+  {
+    "id": "177502",
+    "label": "opening a door",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 42,
+    "video_path": "data/video/20bn-something-something-v2/177502.webm"
+  },
+  {
+    "id": "104030",
+    "label": "pulling two ends of sunglasses but nothing happens",
+    "template": "Pulling two ends of [something] but nothing happens",
+    "placeholders": [
+      "sunglasses"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 65,
+    "video_path": "data/video/20bn-something-something-v2/104030.webm"
+  },
+  {
+    "id": "129432",
+    "label": "closing door",
+    "template": "Closing [something]",
+    "placeholders": [
+      "door"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "data/video/20bn-something-something-v2/129432.webm"
+  },
+  {
+    "id": "181357",
+    "label": "opening a fish can",
+    "template": "Opening [something]",
+    "placeholders": [
+      "a fish can"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 71,
+    "video_path": "data/video/20bn-something-something-v2/181357.webm"
+  }
+]

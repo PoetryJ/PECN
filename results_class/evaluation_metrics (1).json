@@ -1,0 +1,21 @@
+{
+  "overall_metrics": {
+    "num_videos": 391,
+    "mae_mean": 12.924208345149736,
+    "very_accurate_percentage": 5.626598465473146,
+    "nearly_accurate_percentage": 31.202046035805626,
+    "reasonably_accurate_percentage": 62.40409207161125,
+    "accuracy_distribution": {
+      "very_accurate_count": 22,
+      "nearly_accurate_count": 122,
+      "reasonably_accurate_count": 244,
+      "total_count": 391
+    }
+  },
+  "accuracy_distribution": {
+    "very_accurate_count": 22,
+    "nearly_accurate_count": 122,
+    "reasonably_accurate_count": 244,
+    "total_count": 391
+  }
+}

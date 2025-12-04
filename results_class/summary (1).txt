@@ -1,0 +1,14 @@
+============================================================
+SSv2 Evaluation Summary Report
+============================================================
+
+Task: Predict progress at frame 20 using first 20 frames
+Model: checkpoints_class/checkpoint_ep10.pth
+Test data: val_filtered_1202.json
+Valid videos: 391
+
+Performance Metrics:
+  MAE: 12.92%
+  Very Accurate (≤2% error): 5.63%
+  Nearly Accurate (≤8% error): 31.20%
+  Reasonably Accurate (≤15% error): 62.40%
