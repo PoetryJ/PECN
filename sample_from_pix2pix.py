@@ -91,6 +91,31 @@ def parse_args():
         help="Image guidance scale for InstructPix2Pix",
     )
     
+    # Progress estimator parameters
+    parser.add_argument(
+        "--use_progress_estimator",
+        action="store_true",
+        help="Use progress estimator to predict progress and add to prompt",
+    )
+    parser.add_argument(
+        "--progress_model_path",
+        type=str,
+        default=None,
+        help="Path to progress estimator model checkpoint",
+    )
+    parser.add_argument(
+        "--progress_num_frames",
+        type=int,
+        default=20,
+        help="Number of frames to use for progress estimation (default: 20)",
+    )
+    parser.add_argument(
+        "--progress_hidden_dim",
+        type=int,
+        default=512,
+        help="Hidden dimension for progress estimator (default: 512)",
+    )
+    
     return parser.parse_args()
 
 def setup_seed(seed):
@@ -118,6 +143,7 @@ def main():
     print(f"Input frame index: {args.input_frame_idx}")
     print(f"Target frame index: {args.target_frame_idx}")
     print(f"Number of samples: {args.num_samples}")
+    print(f"Use progress estimator: {args.use_progress_estimator}")
     
     setup_seed(args.seed)
 
@@ -128,12 +154,13 @@ def main():
     with open(val_annotations, 'r') as f:
         val_data = json.load(f)
     
-    # 过滤出有效的样本（input image 存在的）
+    # 过滤出有效的样本（input image 和 target image 存在的）
     valid_samples = []
     for ann in val_data:
         video_id = ann['id']
         input_path = frames_dir / f"{video_id}_frame_{args.input_frame_idx:05d}.png"
-        if input_path.exists():
+        target_path = frames_dir / f"{video_id}_frame_{args.target_frame_idx:05d}.png"
+        if input_path.exists() and target_path.exists():
             valid_samples.append(ann)
     
     if len(valid_samples) == 0:
@@ -149,8 +176,6 @@ def main():
     # 从有效样本中随机采样
     samples = random.sample(valid_samples, num_samples_to_use)
     print(f"\nSelected {num_samples_to_use} samples:")
-    for s in samples:
-        print(f"  - {s['id']}: {s['label']}")
 
     # 3. 加载模型
     print(f"\nLoading InstructPix2Pix Pipeline...")
@@ -201,9 +226,48 @@ def main():
         print("Please check your path or network connection.")
         return
 
+    # 3.5. 加载进度估计器（如果启用）
+    progress_estimator = None
+    if args.use_progress_estimator:
+        if args.progress_model_path is None:
+            raise ValueError("--progress_model_path must be provided when --use_progress_estimator is enabled")
+        
+        print(f"\nLoading Progress Estimator...")
+        try:
+            # 导入进度估计器模块
+            import sys
+            import importlib.util
+            
+            progress_evaluator_path = Path(__file__).parent / "progress_evaluator"
+            if not progress_evaluator_path.exists():
+                raise ImportError(f"Progress evaluator directory not found at {progress_evaluator_path}")
+            
+            # 将 progress_evaluator 目录添加到 Python 路径，以便相对导入能正常工作
+            sys.path.insert(0, str(progress_evaluator_path))
+            
+            # 导入模块（动态导入，linter 可能无法识别）
+            from predict import CorrectSSv2Evaluator  # type: ignore
+            
+            progress_estimator = CorrectSSv2Evaluator(
+                model_path=args.progress_model_path,
+                num_frames=args.progress_num_frames,
+                hidden_dim=args.progress_hidden_dim
+            )
+            print("  Progress estimator loaded successfully.")
+        except Exception as e:
+            import traceback
+            print(f"Error loading progress estimator: {e}")
+            print(traceback.format_exc())
+            print("Please check your progress model path and dependencies.")
+            return
+
     # 4. 生成
     print("\nStarting generation...")
     output_dir.mkdir(exist_ok=True, parents=True)
+    # 创建子目录
+    (output_dir / 'target').mkdir(parents=True, exist_ok=True)
+    (output_dir / 'output').mkdir(parents=True, exist_ok=True)
+    (output_dir / 'comparison').mkdir(parents=True, exist_ok=True)
 
     for i, sample in enumerate(samples, 1):
         video_id = sample['id']
@@ -211,14 +275,40 @@ def main():
         
         input_path = frames_dir / f"{video_id}_frame_{args.input_frame_idx:05d}.png"
         target_path = frames_dir / f"{video_id}_frame_{args.target_frame_idx:05d}.png"
-        
-        # 理论上不应该发生，但保留检查作为防御性编程
-        if not input_path.exists():
-            print(f"  Error: Input image not found: {input_path}")
-            print(f"  This should not happen as samples were pre-filtered. Skipping...")
-            continue
             
         input_image = load_image(input_path)
+        
+        # 如果启用进度估计，预测进度并添加到 prompt
+        if args.use_progress_estimator and progress_estimator is not None:
+            try:
+                # 获取视频路径和总帧数
+                video_path = sample.get('video_path')
+                total_frames = sample.get('num_frames')
+                
+                if video_path and total_frames:
+                    # 确保视频路径是绝对路径
+                    if not Path(video_path).is_absolute():
+                        video_path = Path(__file__).parent / video_path
+                    else:
+                        video_path = Path(video_path)
+                    
+                    # 预测进度
+                    result = progress_estimator.evaluate_single_video(
+                        video_path=str(video_path),
+                        label=sample['label'],
+                        total_frames=total_frames
+                    )
+                    
+                    if result and 'pred_percentage' in result:
+                        progress = result['pred_percentage']
+                        prompt += f" And {progress}% of the action has been completed."
+                        print(f"  [{i}/{len(samples)}] Video {video_id}: Predicted progress = {progress}%")
+                    else:
+                        print(f"  [{i}/{len(samples)}] Warning: Failed to predict progress for video {video_id}, using prompt without progress")
+                else:
+                    print(f"  [{i}/{len(samples)}] Warning: Missing video_path or num_frames for video {video_id}, using prompt without progress")
+            except Exception as e:
+                print(f"  [{i}/{len(samples)}] Warning: Progress estimation failed for video {video_id}: {e}, using prompt without progress")
         
         generator = torch.Generator(device=device).manual_seed(args.seed)
         

@@ -237,7 +237,7 @@ if __name__ == "__main__":
     print(f"{'='*60}")
     
     # Extract frames for both resolutions
-    resolutions = [(96, 96), (128, 128)]
+    resolutions = [(224, 224)]
     
     # We'll update annotations with num_frames after first resolution
     updated_train_annotations = None

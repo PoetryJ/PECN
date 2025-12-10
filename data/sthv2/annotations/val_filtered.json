@@ -33,17 +33,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/136046.webm"
   },
   {
-    "id": "139070",
-    "label": "pushing scissors from left to right",
-    "template": "Pushing [something] from left to right",
-    "placeholders": [
-      "scissors"
-    ],
-    "task": "move_object",
-    "num_frames": 51,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/139070.webm"
-  },
-  {
     "id": "29910",
     "label": "moving wallet down",
     "template": "Moving [something] down",
@@ -55,15 +44,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29910.webm"
   },
   {
-    "id": "199953",
-    "label": "pushing black hair tie from left to right",
+    "id": "139070",
+    "label": "pushing scissors from left to right",
     "template": "Pushing [something] from left to right",
     "placeholders": [
-      "black hair tie"
+      "scissors"
     ],
     "task": "move_object",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199953.webm"
+    "num_frames": 51,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/139070.webm"
   },
   {
     "id": "128034",
@@ -77,6 +66,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/128034.webm"
   },
   {
+    "id": "199953",
+    "label": "pushing black hair tie from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "black hair tie"
+    ],
+    "task": "move_object",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199953.webm"
+  },
+  {
     "id": "134989",
     "label": "pushing a book from left to right",
     "template": "Pushing [something] from left to right",
@@ -86,28 +86,6 @@
     "task": "move_object",
     "num_frames": 64,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134989.webm"
-  },
-  {
-    "id": "115579",
-    "label": "moving ball across a surface without it falling down",
-    "template": "Moving [something] across a surface without it falling down",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "move_object",
-    "num_frames": 65,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/115579.webm"
-  },
-  {
-    "id": "31757",
-    "label": "moving stick down",
-    "template": "Moving [something] down",
-    "placeholders": [
-      "stick"
-    ],
-    "task": "move_object",
-    "num_frames": 44,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/31757.webm"
   },
   {
     "id": "53049",
@@ -132,6 +110,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/188239.webm"
   },
   {
+    "id": "31757",
+    "label": "moving stick down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "stick"
+    ],
+    "task": "move_object",
+    "num_frames": 44,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/31757.webm"
+  },
+  {
+    "id": "115579",
+    "label": "moving ball across a surface without it falling down",
+    "template": "Moving [something] across a surface without it falling down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "move_object",
+    "num_frames": 65,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/115579.webm"
+  },
+  {
     "id": "81318",
     "label": "moving a wallet down",
     "template": "Moving [something] down",
@@ -141,17 +141,6 @@
     "task": "move_object",
     "num_frames": 36,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/81318.webm"
-  },
-  {
-    "id": "130097",
-    "label": "pushing box from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "box"
-    ],
-    "task": "move_object",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130097.webm"
   },
   {
     "id": "117638",
@@ -165,6 +154,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/117638.webm"
   },
   {
+    "id": "138429",
+    "label": "moving book up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "book"
+    ],
+    "task": "move_object",
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/138429.webm"
+  },
+  {
     "id": "92034",
     "label": "moving bottle down",
     "template": "Moving [something] down",
@@ -176,15 +176,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92034.webm"
   },
   {
-    "id": "138429",
-    "label": "moving book up",
-    "template": "Moving [something] up",
+    "id": "130097",
+    "label": "pushing box from right to left",
+    "template": "Pushing [something] from right to left",
     "placeholders": [
-      "book"
+      "box"
     ],
     "task": "move_object",
-    "num_frames": 42,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/138429.webm"
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130097.webm"
   },
   {
     "id": "122241",
@@ -198,15 +198,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/122241.webm"
   },
   {
-    "id": "100764",
-    "label": "pushing a paper from right to left",
-    "template": "Pushing [something] from right to left",
+    "id": "112932",
+    "label": "moving match box up",
+    "template": "Moving [something] up",
     "placeholders": [
-      "a paper"
+      "match box"
     ],
     "task": "move_object",
-    "num_frames": 34,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/100764.webm"
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/112932.webm"
+  },
+  {
+    "id": "162511",
+    "label": "pulling jar from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "jar"
+    ],
+    "task": "move_object",
+    "num_frames": 28,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/162511.webm"
   },
   {
     "id": "125656",
@@ -220,15 +231,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125656.webm"
   },
   {
-    "id": "112932",
-    "label": "moving match box up",
-    "template": "Moving [something] up",
+    "id": "100764",
+    "label": "pushing a paper from right to left",
+    "template": "Pushing [something] from right to left",
     "placeholders": [
-      "match box"
+      "a paper"
     ],
     "task": "move_object",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/112932.webm"
+    "num_frames": 34,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/100764.webm"
   },
   {
     "id": "91511",
@@ -242,15 +253,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91511.webm"
   },
   {
-    "id": "162511",
-    "label": "pulling jar from left to right",
-    "template": "Pulling [something] from left to right",
+    "id": "6482",
+    "label": "pushing phone from right to left",
+    "template": "Pushing [something] from right to left",
     "placeholders": [
-      "jar"
+      "phone"
     ],
     "task": "move_object",
-    "num_frames": 28,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/162511.webm"
+    "num_frames": 40,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6482.webm"
+  },
+  {
+    "id": "30936",
+    "label": "moving keys down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "keys"
+    ],
+    "task": "move_object",
+    "num_frames": 17,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30936.webm"
   },
   {
     "id": "126237",
@@ -275,26 +297,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106485.webm"
   },
   {
-    "id": "30936",
-    "label": "moving keys down",
-    "template": "Moving [something] down",
+    "id": "54495",
+    "label": "pulling mobile phone from left to right",
+    "template": "Pulling [something] from left to right",
     "placeholders": [
-      "keys"
+      "mobile phone"
     ],
     "task": "move_object",
-    "num_frames": 17,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30936.webm"
-  },
-  {
-    "id": "6482",
-    "label": "pushing phone from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "phone"
-    ],
-    "task": "move_object",
-    "num_frames": 40,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6482.webm"
+    "num_frames": 36,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/54495.webm"
   },
   {
     "id": "30230",
@@ -308,17 +319,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30230.webm"
   },
   {
-    "id": "54495",
-    "label": "pulling mobile phone from left to right",
-    "template": "Pulling [something] from left to right",
-    "placeholders": [
-      "mobile phone"
-    ],
-    "task": "move_object",
-    "num_frames": 36,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/54495.webm"
-  },
-  {
     "id": "22881",
     "label": "moving tie across a surface without it falling down",
     "template": "Moving [something] across a surface without it falling down",
@@ -328,39 +328,6 @@
     "task": "move_object",
     "num_frames": 45,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/22881.webm"
-  },
-  {
-    "id": "127806",
-    "label": "moving cycle away from the camera",
-    "template": "Moving [something] away from the camera",
-    "placeholders": [
-      "cycle"
-    ],
-    "task": "move_object",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127806.webm"
-  },
-  {
-    "id": "55781",
-    "label": "pulling white book marker from left to right",
-    "template": "Pulling [something] from left to right",
-    "placeholders": [
-      "white book marker"
-    ],
-    "task": "move_object",
-    "num_frames": 60,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55781.webm"
-  },
-  {
-    "id": "189936",
-    "label": "pushing cup from left to right",
-    "template": "Pushing [something] from left to right",
-    "placeholders": [
-      "cup"
-    ],
-    "task": "move_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189936.webm"
   },
   {
     "id": "91544",
@@ -374,6 +341,39 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91544.webm"
   },
   {
+    "id": "127806",
+    "label": "moving cycle away from the camera",
+    "template": "Moving [something] away from the camera",
+    "placeholders": [
+      "cycle"
+    ],
+    "task": "move_object",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127806.webm"
+  },
+  {
+    "id": "189936",
+    "label": "pushing cup from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "cup"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189936.webm"
+  },
+  {
+    "id": "55781",
+    "label": "pulling white book marker from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "white book marker"
+    ],
+    "task": "move_object",
+    "num_frames": 60,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55781.webm"
+  },
+  {
     "id": "143947",
     "label": "pushing brown bracelet from left to right",
     "template": "Pushing [something] from left to right",
@@ -383,28 +383,6 @@
     "task": "move_object",
     "num_frames": 50,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/143947.webm"
-  },
-  {
-    "id": "178054",
-    "label": "pulling jacket from right to left",
-    "template": "Pulling [something] from right to left",
-    "placeholders": [
-      "jacket"
-    ],
-    "task": "move_object",
-    "num_frames": 53,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/178054.webm"
-  },
-  {
-    "id": "182546",
-    "label": "moving bag up",
-    "template": "Moving [something] up",
-    "placeholders": [
-      "bag"
-    ],
-    "task": "move_object",
-    "num_frames": 17,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182546.webm"
   },
   {
     "id": "90320",
@@ -418,6 +396,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/90320.webm"
   },
   {
+    "id": "182546",
+    "label": "moving bag up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "bag"
+    ],
+    "task": "move_object",
+    "num_frames": 17,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182546.webm"
+  },
+  {
     "id": "139284",
     "label": "moving screwdriver across a surface without it falling down",
     "template": "Moving [something] across a surface without it falling down",
@@ -427,6 +416,17 @@
     "task": "move_object",
     "num_frames": 53,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/139284.webm"
+  },
+  {
+    "id": "178054",
+    "label": "pulling jacket from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "jacket"
+    ],
+    "task": "move_object",
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/178054.webm"
   },
   {
     "id": "180793",
@@ -440,17 +440,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/180793.webm"
   },
   {
-    "id": "186098",
-    "label": "moving glasses up",
-    "template": "Moving [something] up",
-    "placeholders": [
-      "glasses"
-    ],
-    "task": "move_object",
-    "num_frames": 28,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/186098.webm"
-  },
-  {
     "id": "175186",
     "label": "pulling one tealight candle from right to left",
     "template": "Pulling [something] from right to left",
@@ -462,37 +451,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/175186.webm"
   },
   {
-    "id": "6934",
-    "label": "pushing bottle from right to left",
-    "template": "Pushing [something] from right to left",
+    "id": "186098",
+    "label": "moving glasses up",
+    "template": "Moving [something] up",
     "placeholders": [
-      "bottle"
+      "glasses"
     ],
     "task": "move_object",
-    "num_frames": 50,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6934.webm"
-  },
-  {
-    "id": "127009",
-    "label": "pushing stapler from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "stapler"
-    ],
-    "task": "move_object",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127009.webm"
-  },
-  {
-    "id": "102782",
-    "label": "pulling purple balloon pump from right to left",
-    "template": "Pulling [something] from right to left",
-    "placeholders": [
-      "purple balloon pump"
-    ],
-    "task": "move_object",
-    "num_frames": 46,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102782.webm"
+    "num_frames": 28,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/186098.webm"
   },
   {
     "id": "1282",
@@ -506,6 +473,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/1282.webm"
   },
   {
+    "id": "6934",
+    "label": "pushing bottle from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "bottle"
+    ],
+    "task": "move_object",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6934.webm"
+  },
+  {
     "id": "195230",
     "label": "moving glass across a surface without it falling down",
     "template": "Moving [something] across a surface without it falling down",
@@ -515,6 +493,28 @@
     "task": "move_object",
     "num_frames": 61,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/195230.webm"
+  },
+  {
+    "id": "102782",
+    "label": "pulling purple balloon pump from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "purple balloon pump"
+    ],
+    "task": "move_object",
+    "num_frames": 46,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102782.webm"
+  },
+  {
+    "id": "127009",
+    "label": "pushing stapler from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "stapler"
+    ],
+    "task": "move_object",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127009.webm"
   },
   {
     "id": "84008",
@@ -550,17 +550,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/144417.webm"
   },
   {
-    "id": "45726",
-    "label": "moving pendrive down",
-    "template": "Moving [something] down",
-    "placeholders": [
-      "pendrive"
-    ],
-    "task": "move_object",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/45726.webm"
-  },
-  {
     "id": "153856",
     "label": "moving coconut away from the camera",
     "template": "Moving [something] away from the camera",
@@ -581,6 +570,17 @@
     "task": "move_object",
     "num_frames": 34,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/219134.webm"
+  },
+  {
+    "id": "45726",
+    "label": "moving pendrive down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "pendrive"
+    ],
+    "task": "move_object",
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/45726.webm"
   },
   {
     "id": "185108",
@@ -605,15 +605,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/217520.webm"
   },
   {
-    "id": "104609",
-    "label": "moving door stopper down",
+    "id": "110058",
+    "label": "moving seal pad down",
     "template": "Moving [something] down",
     "placeholders": [
-      "door stopper"
+      "seal pad"
     ],
     "task": "move_object",
-    "num_frames": 37,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/104609.webm"
+    "num_frames": 51,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/110058.webm"
   },
   {
     "id": "12097",
@@ -627,26 +627,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/12097.webm"
   },
   {
-    "id": "110058",
-    "label": "moving seal pad down",
+    "id": "104609",
+    "label": "moving door stopper down",
     "template": "Moving [something] down",
     "placeholders": [
-      "seal pad"
+      "door stopper"
     ],
     "task": "move_object",
-    "num_frames": 51,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/110058.webm"
-  },
-  {
-    "id": "135321",
-    "label": "moving shoe down",
-    "template": "Moving [something] down",
-    "placeholders": [
-      "shoe"
-    ],
-    "task": "move_object",
-    "num_frames": 61,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/135321.webm"
+    "num_frames": 37,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/104609.webm"
   },
   {
     "id": "107629",
@@ -682,6 +671,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/180148.webm"
   },
   {
+    "id": "135321",
+    "label": "moving shoe down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "shoe"
+    ],
+    "task": "move_object",
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/135321.webm"
+  },
+  {
     "id": "23963",
     "label": "moving notebook up",
     "template": "Moving [something] up",
@@ -691,28 +691,6 @@
     "task": "move_object",
     "num_frames": 33,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/23963.webm"
-  },
-  {
-    "id": "22359",
-    "label": "pushing plush from left to right",
-    "template": "Pushing [something] from left to right",
-    "placeholders": [
-      "plush"
-    ],
-    "task": "move_object",
-    "num_frames": 60,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/22359.webm"
-  },
-  {
-    "id": "36558",
-    "label": "pulling rock from right to left",
-    "template": "Pulling [something] from right to left",
-    "placeholders": [
-      "rock"
-    ],
-    "task": "move_object",
-    "num_frames": 34,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/36558.webm"
   },
   {
     "id": "132599",
@@ -726,6 +704,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/132599.webm"
   },
   {
+    "id": "36558",
+    "label": "pulling rock from right to left",
+    "template": "Pulling [something] from right to left",
+    "placeholders": [
+      "rock"
+    ],
+    "task": "move_object",
+    "num_frames": 34,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/36558.webm"
+  },
+  {
+    "id": "22359",
+    "label": "pushing plush from left to right",
+    "template": "Pushing [something] from left to right",
+    "placeholders": [
+      "plush"
+    ],
+    "task": "move_object",
+    "num_frames": 60,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/22359.webm"
+  },
+  {
     "id": "27267",
     "label": "moving thimble up",
     "template": "Moving [something] up",
@@ -735,28 +735,6 @@
     "task": "move_object",
     "num_frames": 55,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27267.webm"
-  },
-  {
-    "id": "9153",
-    "label": "pushing bike light from left to right",
-    "template": "Pushing [something] from left to right",
-    "placeholders": [
-      "bike light"
-    ],
-    "task": "move_object",
-    "num_frames": 47,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/9153.webm"
-  },
-  {
-    "id": "55300",
-    "label": "pushing plate from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "plate"
-    ],
-    "task": "move_object",
-    "num_frames": 67,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55300.webm"
   },
   {
     "id": "156292",
@@ -770,26 +748,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/156292.webm"
   },
   {
-    "id": "86574",
-    "label": "pushing iphone adapter from right to left",
-    "template": "Pushing [something] from right to left",
+    "id": "9153",
+    "label": "pushing bike light from left to right",
+    "template": "Pushing [something] from left to right",
     "placeholders": [
-      "iphone adapter"
+      "bike light"
     ],
     "task": "move_object",
-    "num_frames": 70,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86574.webm"
-  },
-  {
-    "id": "86333",
-    "label": "pulling mug from left to right",
-    "template": "Pulling [something] from left to right",
-    "placeholders": [
-      "mug"
-    ],
-    "task": "move_object",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86333.webm"
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/9153.webm"
   },
   {
     "id": "110594",
@@ -803,15 +770,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/110594.webm"
   },
   {
-    "id": "189969",
-    "label": "moving leaf down",
-    "template": "Moving [something] down",
+    "id": "55300",
+    "label": "pushing plate from right to left",
+    "template": "Pushing [something] from right to left",
     "placeholders": [
-      "leaf"
+      "plate"
     ],
     "task": "move_object",
-    "num_frames": 42,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189969.webm"
+    "num_frames": 67,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55300.webm"
   },
   {
     "id": "59986",
@@ -825,26 +792,37 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/59986.webm"
   },
   {
-    "id": "68922",
-    "label": "moving fuel can away from the camera",
-    "template": "Moving [something] away from the camera",
+    "id": "86333",
+    "label": "pulling mug from left to right",
+    "template": "Pulling [something] from left to right",
     "placeholders": [
-      "fuel can"
+      "mug"
     ],
     "task": "move_object",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/68922.webm"
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86333.webm"
   },
   {
-    "id": "5009",
-    "label": "pulling zipper from right to left",
-    "template": "Pulling [something] from right to left",
+    "id": "189969",
+    "label": "moving leaf down",
+    "template": "Moving [something] down",
     "placeholders": [
-      "zipper"
+      "leaf"
     ],
     "task": "move_object",
-    "num_frames": 31,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/5009.webm"
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189969.webm"
+  },
+  {
+    "id": "86574",
+    "label": "pushing iphone adapter from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "iphone adapter"
+    ],
+    "task": "move_object",
+    "num_frames": 70,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86574.webm"
   },
   {
     "id": "174884",
@@ -858,26 +836,37 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/174884.webm"
   },
   {
-    "id": "189640",
-    "label": "moving shoe up",
-    "template": "Moving [something] up",
+    "id": "5009",
+    "label": "pulling zipper from right to left",
+    "template": "Pulling [something] from right to left",
     "placeholders": [
-      "shoe"
+      "zipper"
     ],
     "task": "move_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189640.webm"
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/5009.webm"
   },
   {
-    "id": "195177",
-    "label": "pushing battery from right to left",
-    "template": "Pushing [something] from right to left",
+    "id": "112584",
+    "label": "moving cucumber down",
+    "template": "Moving [something] down",
     "placeholders": [
-      "battery"
+      "cucumber"
     ],
     "task": "move_object",
-    "num_frames": 61,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/195177.webm"
+    "num_frames": 34,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/112584.webm"
+  },
+  {
+    "id": "68922",
+    "label": "moving fuel can away from the camera",
+    "template": "Moving [something] away from the camera",
+    "placeholders": [
+      "fuel can"
+    ],
+    "task": "move_object",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/68922.webm"
   },
   {
     "id": "29495",
@@ -891,26 +880,59 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29495.webm"
   },
   {
-    "id": "201362",
-    "label": "moving a phone away from the camera",
-    "template": "Moving [something] away from the camera",
+    "id": "125857",
+    "label": "moving an eraser up",
+    "template": "Moving [something] up",
     "placeholders": [
-      "a phone"
+      "an eraser"
     ],
     "task": "move_object",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/201362.webm"
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125857.webm"
   },
   {
-    "id": "112584",
-    "label": "moving cucumber down",
-    "template": "Moving [something] down",
+    "id": "6968",
+    "label": "moving green chalk towards the camera",
+    "template": "Moving [something] towards the camera",
     "placeholders": [
-      "cucumber"
+      "green chalk"
     ],
     "task": "move_object",
-    "num_frames": 34,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/112584.webm"
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6968.webm"
+  },
+  {
+    "id": "189640",
+    "label": "moving shoe up",
+    "template": "Moving [something] up",
+    "placeholders": [
+      "shoe"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189640.webm"
+  },
+  {
+    "id": "37052",
+    "label": "moving toy down",
+    "template": "Moving [something] down",
+    "placeholders": [
+      "toy"
+    ],
+    "task": "move_object",
+    "num_frames": 15,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/37052.webm"
+  },
+  {
+    "id": "195177",
+    "label": "pushing battery from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "battery"
+    ],
+    "task": "move_object",
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/195177.webm"
   },
   {
     "id": "68709",
@@ -935,26 +957,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50424.webm"
   },
   {
-    "id": "37052",
-    "label": "moving toy down",
-    "template": "Moving [something] down",
+    "id": "201362",
+    "label": "moving a phone away from the camera",
+    "template": "Moving [something] away from the camera",
     "placeholders": [
-      "toy"
+      "a phone"
     ],
     "task": "move_object",
-    "num_frames": 15,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/37052.webm"
-  },
-  {
-    "id": "125857",
-    "label": "moving an eraser up",
-    "template": "Moving [something] up",
-    "placeholders": [
-      "an eraser"
-    ],
-    "task": "move_object",
-    "num_frames": 42,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125857.webm"
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/201362.webm"
   },
   {
     "id": "28022",
@@ -968,15 +979,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/28022.webm"
   },
   {
-    "id": "6968",
-    "label": "moving green chalk towards the camera",
-    "template": "Moving [something] towards the camera",
+    "id": "69064",
+    "label": "pushing pen from right to left",
+    "template": "Pushing [something] from right to left",
     "placeholders": [
-      "green chalk"
+      "pen"
     ],
     "task": "move_object",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6968.webm"
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/69064.webm"
   },
   {
     "id": "28905",
@@ -1001,28 +1012,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149505.webm"
   },
   {
-    "id": "217376",
-    "label": "pushing nail paint remover from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "nail paint remover"
-    ],
-    "task": "move_object",
-    "num_frames": 49,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/217376.webm"
-  },
-  {
-    "id": "69064",
-    "label": "pushing pen from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "pen"
-    ],
-    "task": "move_object",
-    "num_frames": 61,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/69064.webm"
-  },
-  {
     "id": "106031",
     "label": "moving tapemeasure across a surface without it falling down",
     "template": "Moving [something] across a surface without it falling down",
@@ -1034,17 +1023,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106031.webm"
   },
   {
-    "id": "57358",
-    "label": "pulling scissor from left to right",
-    "template": "Pulling [something] from left to right",
-    "placeholders": [
-      "scissor"
-    ],
-    "task": "move_object",
-    "num_frames": 31,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57358.webm"
-  },
-  {
     "id": "149112",
     "label": "moving pencil up",
     "template": "Moving [something] up",
@@ -1054,28 +1032,6 @@
     "task": "move_object",
     "num_frames": 53,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149112.webm"
-  },
-  {
-    "id": "135901",
-    "label": "moving red spoon towards the camera",
-    "template": "Moving [something] towards the camera",
-    "placeholders": [
-      "red spoon"
-    ],
-    "task": "move_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/135901.webm"
-  },
-  {
-    "id": "129811",
-    "label": "pushing ring from right to left",
-    "template": "Pushing [something] from right to left",
-    "placeholders": [
-      "ring"
-    ],
-    "task": "move_object",
-    "num_frames": 59,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/129811.webm"
   },
   {
     "id": "168066",
@@ -1090,6 +1046,39 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/168066.webm"
   },
   {
+    "id": "129811",
+    "label": "pushing ring from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "ring"
+    ],
+    "task": "move_object",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/129811.webm"
+  },
+  {
+    "id": "217376",
+    "label": "pushing nail paint remover from right to left",
+    "template": "Pushing [something] from right to left",
+    "placeholders": [
+      "nail paint remover"
+    ],
+    "task": "move_object",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/217376.webm"
+  },
+  {
+    "id": "57358",
+    "label": "pulling scissor from left to right",
+    "template": "Pulling [something] from left to right",
+    "placeholders": [
+      "scissor"
+    ],
+    "task": "move_object",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57358.webm"
+  },
+  {
     "id": "46296",
     "label": "moving wristwatch up",
     "template": "Moving [something] up",
@@ -1099,6 +1088,17 @@
     "task": "move_object",
     "num_frames": 33,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/46296.webm"
+  },
+  {
+    "id": "135901",
+    "label": "moving red spoon towards the camera",
+    "template": "Moving [something] towards the camera",
+    "placeholders": [
+      "red spoon"
+    ],
+    "task": "move_object",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/135901.webm"
   },
   {
     "id": "35677",
@@ -1112,16 +1112,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35677.webm"
   },
   {
-    "id": "121756",
-    "label": "dropping a cigarette pack behind a lighter",
+    "id": "72077",
+    "label": "dropping sellotape behind box",
     "template": "Dropping [something] behind [something]",
     "placeholders": [
-      "a cigarette pack",
-      "a lighter"
+      "sellotape",
+      "box"
     ],
     "task": "drop_object",
-    "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/121756.webm"
+    "num_frames": 32,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72077.webm"
   },
   {
     "id": "146221",
@@ -1136,6 +1136,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/146221.webm"
   },
   {
+    "id": "121756",
+    "label": "dropping a cigarette pack behind a lighter",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a cigarette pack",
+      "a lighter"
+    ],
+    "task": "drop_object",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/121756.webm"
+  },
+  {
     "id": "63783",
     "label": "dropping pillow behind basket",
     "template": "Dropping [something] behind [something]",
@@ -1148,16 +1160,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/63783.webm"
   },
   {
-    "id": "72077",
-    "label": "dropping sellotape behind box",
-    "template": "Dropping [something] behind [something]",
+    "id": "163473",
+    "label": "dropping book onto bed",
+    "template": "Dropping [something] onto [something]",
     "placeholders": [
-      "sellotape",
-      "box"
+      "book",
+      "bed"
     ],
     "task": "drop_object",
-    "num_frames": 32,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72077.webm"
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/163473.webm"
   },
   {
     "id": "139260",
@@ -1182,18 +1194,6 @@
     "task": "drop_object",
     "num_frames": 30,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/49683.webm"
-  },
-  {
-    "id": "163473",
-    "label": "dropping book onto bed",
-    "template": "Dropping [something] onto [something]",
-    "placeholders": [
-      "book",
-      "bed"
-    ],
-    "task": "drop_object",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/163473.webm"
   },
   {
     "id": "108440",
@@ -1232,18 +1232,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/114475.webm"
   },
   {
-    "id": "191903",
-    "label": "dropping red hair band in front of spectacle box",
-    "template": "Dropping [something] in front of [something]",
-    "placeholders": [
-      "red hair band",
-      "spectacle box"
-    ],
-    "task": "drop_object",
-    "num_frames": 50,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/191903.webm"
-  },
-  {
     "id": "91216",
     "label": "dropping a toothpick behind a belt",
     "template": "Dropping [something] behind [something]",
@@ -1268,18 +1256,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/188672.webm"
   },
   {
-    "id": "119376",
-    "label": "dropping a coin in front of a matchbox",
-    "template": "Dropping [something] in front of [something]",
-    "placeholders": [
-      "a coin",
-      "a matchbox"
-    ],
-    "task": "drop_object",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119376.webm"
-  },
-  {
     "id": "195353",
     "label": "dropping a toothpick onto a ruler",
     "template": "Dropping [something] onto [something]",
@@ -1292,6 +1268,30 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/195353.webm"
   },
   {
+    "id": "119376",
+    "label": "dropping a coin in front of a matchbox",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "a coin",
+      "a matchbox"
+    ],
+    "task": "drop_object",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119376.webm"
+  },
+  {
+    "id": "191903",
+    "label": "dropping red hair band in front of spectacle box",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "red hair band",
+      "spectacle box"
+    ],
+    "task": "drop_object",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/191903.webm"
+  },
+  {
     "id": "149908",
     "label": "dropping a pin in front of a handkerchief",
     "template": "Dropping [something] in front of [something]",
@@ -1302,6 +1302,18 @@
     "task": "drop_object",
     "num_frames": 68,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149908.webm"
+  },
+  {
+    "id": "141900",
+    "label": "dropping a textbook onto a box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a textbook",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 48,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/141900.webm"
   },
   {
     "id": "40949",
@@ -1328,16 +1340,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86174.webm"
   },
   {
-    "id": "141900",
-    "label": "dropping a textbook onto a box",
-    "template": "Dropping [something] onto [something]",
+    "id": "215647",
+    "label": "dropping a matchbox next to a pencil",
+    "template": "Dropping [something] next to [something]",
     "placeholders": [
-      "a textbook",
-      "a box"
+      "a matchbox",
+      "a pencil"
     ],
     "task": "drop_object",
-    "num_frames": 48,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/141900.webm"
+    "num_frames": 67,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/215647.webm"
   },
   {
     "id": "125766",
@@ -1352,16 +1364,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125766.webm"
   },
   {
-    "id": "215647",
-    "label": "dropping a matchbox next to a pencil",
+    "id": "16575",
+    "label": "dropping game next to paper",
     "template": "Dropping [something] next to [something]",
     "placeholders": [
-      "a matchbox",
-      "a pencil"
+      "game",
+      "paper"
     ],
     "task": "drop_object",
-    "num_frames": 67,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/215647.webm"
+    "num_frames": 27,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/16575.webm"
   },
   {
     "id": "148067",
@@ -1388,42 +1400,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/162571.webm"
   },
   {
-    "id": "16575",
-    "label": "dropping game next to paper",
-    "template": "Dropping [something] next to [something]",
-    "placeholders": [
-      "game",
-      "paper"
-    ],
-    "task": "drop_object",
-    "num_frames": 27,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/16575.webm"
-  },
-  {
-    "id": "42290",
-    "label": "dropping lighter behind box",
-    "template": "Dropping [something] behind [something]",
-    "placeholders": [
-      "lighter",
-      "box"
-    ],
-    "task": "drop_object",
-    "num_frames": 40,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/42290.webm"
-  },
-  {
-    "id": "50783",
-    "label": "dropping pen next to pencil case",
-    "template": "Dropping [something] next to [something]",
-    "placeholders": [
-      "pen",
-      "pencil case"
-    ],
-    "task": "drop_object",
-    "num_frames": 34,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50783.webm"
-  },
-  {
     "id": "219477",
     "label": "dropping a coin behind a container",
     "template": "Dropping [something] behind [something]",
@@ -1446,6 +1422,30 @@
     "task": "drop_object",
     "num_frames": 26,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/203633.webm"
+  },
+  {
+    "id": "50783",
+    "label": "dropping pen next to pencil case",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "pen",
+      "pencil case"
+    ],
+    "task": "drop_object",
+    "num_frames": 34,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50783.webm"
+  },
+  {
+    "id": "42290",
+    "label": "dropping lighter behind box",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "lighter",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 40,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/42290.webm"
   },
   {
     "id": "47264",
@@ -1496,16 +1496,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106813.webm"
   },
   {
-    "id": "142168",
-    "label": "dropping pencil onto coaster",
-    "template": "Dropping [something] onto [something]",
+    "id": "116514",
+    "label": "dropping a groundnut next to keys",
+    "template": "Dropping [something] next to [something]",
     "placeholders": [
-      "pencil",
-      "coaster"
+      "a groundnut",
+      "keys"
     ],
     "task": "drop_object",
-    "num_frames": 49,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142168.webm"
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/116514.webm"
   },
   {
     "id": "214951",
@@ -1520,16 +1520,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/214951.webm"
   },
   {
-    "id": "116514",
-    "label": "dropping a groundnut next to keys",
-    "template": "Dropping [something] next to [something]",
+    "id": "142168",
+    "label": "dropping pencil onto coaster",
+    "template": "Dropping [something] onto [something]",
     "placeholders": [
-      "a groundnut",
-      "keys"
+      "pencil",
+      "coaster"
     ],
     "task": "drop_object",
-    "num_frames": 53,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/116514.webm"
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142168.webm"
   },
   {
     "id": "43682",
@@ -1544,18 +1544,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/43682.webm"
   },
   {
-    "id": "145448",
-    "label": "dropping container next to book",
-    "template": "Dropping [something] next to [something]",
-    "placeholders": [
-      "container",
-      "book"
-    ],
-    "task": "drop_object",
-    "num_frames": 42,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/145448.webm"
-  },
-  {
     "id": "192944",
     "label": "dropping smartphone in front of feet",
     "template": "Dropping [something] in front of [something]",
@@ -1566,6 +1554,18 @@
     "task": "drop_object",
     "num_frames": 20,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/192944.webm"
+  },
+  {
+    "id": "145448",
+    "label": "dropping container next to book",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "container",
+      "book"
+    ],
+    "task": "drop_object",
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/145448.webm"
   },
   {
     "id": "190613",
@@ -1628,18 +1628,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/205253.webm"
   },
   {
-    "id": "203364",
-    "label": "dropping marker onto table",
-    "template": "Dropping [something] onto [something]",
-    "placeholders": [
-      "marker",
-      "table"
-    ],
-    "task": "drop_object",
-    "num_frames": 42,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/203364.webm"
-  },
-  {
     "id": "71761",
     "label": "dropping a matchbox in front of a bowl",
     "template": "Dropping [something] in front of [something]",
@@ -1652,52 +1640,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/71761.webm"
   },
   {
-    "id": "67222",
-    "label": "dropping paper next to person",
-    "template": "Dropping [something] next to [something]",
+    "id": "203364",
+    "label": "dropping marker onto table",
+    "template": "Dropping [something] onto [something]",
     "placeholders": [
-      "paper",
-      "person"
+      "marker",
+      "table"
     ],
     "task": "drop_object",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/67222.webm"
-  },
-  {
-    "id": "108662",
-    "label": "dropping coins into milk jug",
-    "template": "Dropping [something] into [something]",
-    "placeholders": [
-      "coins",
-      "milk jug"
-    ],
-    "task": "drop_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/108662.webm"
-  },
-  {
-    "id": "220",
-    "label": "dropping a peg next to a wallet",
-    "template": "Dropping [something] next to [something]",
-    "placeholders": [
-      "a peg",
-      "a wallet"
-    ],
-    "task": "drop_object",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/220.webm"
-  },
-  {
-    "id": "207999",
-    "label": "dropping coffee in front of canister",
-    "template": "Dropping [something] in front of [something]",
-    "placeholders": [
-      "coffee",
-      "canister"
-    ],
-    "task": "drop_object",
-    "num_frames": 25,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/207999.webm"
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/203364.webm"
   },
   {
     "id": "11925",
@@ -1712,16 +1664,52 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/11925.webm"
   },
   {
-    "id": "171502",
-    "label": "dropping a badminton bat next to a pair of shoes",
-    "template": "Dropping [something] next to [something]",
+    "id": "108662",
+    "label": "dropping coins into milk jug",
+    "template": "Dropping [something] into [something]",
     "placeholders": [
-      "a badminton bat",
-      "a pair of shoes"
+      "coins",
+      "milk jug"
     ],
     "task": "drop_object",
-    "num_frames": 22,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/171502.webm"
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/108662.webm"
+  },
+  {
+    "id": "207999",
+    "label": "dropping coffee in front of canister",
+    "template": "Dropping [something] in front of [something]",
+    "placeholders": [
+      "coffee",
+      "canister"
+    ],
+    "task": "drop_object",
+    "num_frames": 25,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/207999.webm"
+  },
+  {
+    "id": "220",
+    "label": "dropping a peg next to a wallet",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a peg",
+      "a wallet"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/220.webm"
+  },
+  {
+    "id": "67222",
+    "label": "dropping paper next to person",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "paper",
+      "person"
+    ],
+    "task": "drop_object",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/67222.webm"
   },
   {
     "id": "150963",
@@ -1736,16 +1724,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/150963.webm"
   },
   {
-    "id": "147834",
-    "label": "dropping battery next to yellow container",
+    "id": "171502",
+    "label": "dropping a badminton bat next to a pair of shoes",
     "template": "Dropping [something] next to [something]",
     "placeholders": [
-      "battery",
-      "yellow container"
+      "a badminton bat",
+      "a pair of shoes"
     ],
     "task": "drop_object",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147834.webm"
+    "num_frames": 22,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/171502.webm"
   },
   {
     "id": "32984",
@@ -1770,6 +1758,18 @@
     "task": "drop_object",
     "num_frames": 64,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/166061.webm"
+  },
+  {
+    "id": "147834",
+    "label": "dropping battery next to yellow container",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "battery",
+      "yellow container"
+    ],
+    "task": "drop_object",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147834.webm"
   },
   {
     "id": "112644",
@@ -1808,18 +1808,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/140169.webm"
   },
   {
-    "id": "97159",
-    "label": "dropping paper clip next to medicine bottle",
-    "template": "Dropping [something] next to [something]",
-    "placeholders": [
-      "paper clip",
-      "medicine bottle"
-    ],
-    "task": "drop_object",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/97159.webm"
-  },
-  {
     "id": "68995",
     "label": "dropping white chalk in front of duster",
     "template": "Dropping [something] in front of [something]",
@@ -1830,18 +1818,6 @@
     "task": "drop_object",
     "num_frames": 46,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/68995.webm"
-  },
-  {
-    "id": "190494",
-    "label": "dropping a clothes hanger behind a basket",
-    "template": "Dropping [something] behind [something]",
-    "placeholders": [
-      "a clothes hanger",
-      "a basket"
-    ],
-    "task": "drop_object",
-    "num_frames": 60,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/190494.webm"
   },
   {
     "id": "40619",
@@ -1856,6 +1832,30 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/40619.webm"
   },
   {
+    "id": "190494",
+    "label": "dropping a clothes hanger behind a basket",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a clothes hanger",
+      "a basket"
+    ],
+    "task": "drop_object",
+    "num_frames": 60,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/190494.webm"
+  },
+  {
+    "id": "97159",
+    "label": "dropping paper clip next to medicine bottle",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "paper clip",
+      "medicine bottle"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/97159.webm"
+  },
+  {
     "id": "140496",
     "label": "dropping marker onto envelope",
     "template": "Dropping [something] onto [something]",
@@ -1866,30 +1866,6 @@
     "task": "drop_object",
     "num_frames": 51,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/140496.webm"
-  },
-  {
-    "id": "4951",
-    "label": "dropping a watch into a hat",
-    "template": "Dropping [something] into [something]",
-    "placeholders": [
-      "a watch",
-      "a hat"
-    ],
-    "task": "drop_object",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/4951.webm"
-  },
-  {
-    "id": "60417",
-    "label": "dropping box into trash can",
-    "template": "Dropping [something] into [something]",
-    "placeholders": [
-      "box",
-      "trash can"
-    ],
-    "task": "drop_object",
-    "num_frames": 35,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/60417.webm"
   },
   {
     "id": "212014",
@@ -1904,18 +1880,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/212014.webm"
   },
   {
-    "id": "29804",
-    "label": "dropping bottle into bagback",
-    "template": "Dropping [something] into [something]",
-    "placeholders": [
-      "bottle",
-      "bagback"
-    ],
-    "task": "drop_object",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29804.webm"
-  },
-  {
     "id": "140369",
     "label": "dropping a container next to a shoe brush",
     "template": "Dropping [something] next to [something]",
@@ -1928,28 +1892,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/140369.webm"
   },
   {
-    "id": "14077",
-    "label": "dropping pen onto box",
-    "template": "Dropping [something] onto [something]",
+    "id": "29804",
+    "label": "dropping bottle into bagback",
+    "template": "Dropping [something] into [something]",
     "placeholders": [
-      "pen",
-      "box"
+      "bottle",
+      "bagback"
     ],
     "task": "drop_object",
-    "num_frames": 15,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/14077.webm"
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29804.webm"
   },
   {
-    "id": "113757",
-    "label": "dropping a matchstick behind a book",
-    "template": "Dropping [something] behind [something]",
+    "id": "4951",
+    "label": "dropping a watch into a hat",
+    "template": "Dropping [something] into [something]",
     "placeholders": [
-      "a matchstick",
-      "a book"
+      "a watch",
+      "a hat"
     ],
     "task": "drop_object",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/113757.webm"
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/4951.webm"
   },
   {
     "id": "55934",
@@ -1964,16 +1928,40 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55934.webm"
   },
   {
-    "id": "35812",
-    "label": "dropping box in front of trash can",
-    "template": "Dropping [something] in front of [something]",
+    "id": "60417",
+    "label": "dropping box into trash can",
+    "template": "Dropping [something] into [something]",
     "placeholders": [
       "box",
       "trash can"
     ],
     "task": "drop_object",
-    "num_frames": 37,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35812.webm"
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/60417.webm"
+  },
+  {
+    "id": "113757",
+    "label": "dropping a matchstick behind a book",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "a matchstick",
+      "a book"
+    ],
+    "task": "drop_object",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/113757.webm"
+  },
+  {
+    "id": "14077",
+    "label": "dropping pen onto box",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "pen",
+      "box"
+    ],
+    "task": "drop_object",
+    "num_frames": 15,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/14077.webm"
   },
   {
     "id": "169163",
@@ -1988,16 +1976,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/169163.webm"
   },
   {
-    "id": "35249",
-    "label": "dropping torch next to shoe",
-    "template": "Dropping [something] next to [something]",
+    "id": "35812",
+    "label": "dropping box in front of trash can",
+    "template": "Dropping [something] in front of [something]",
     "placeholders": [
-      "torch",
-      "shoe"
+      "box",
+      "trash can"
     ],
     "task": "drop_object",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35249.webm"
+    "num_frames": 37,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35812.webm"
   },
   {
     "id": "112404",
@@ -2024,16 +2012,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/67477.webm"
   },
   {
-    "id": "171329",
-    "label": "dropping pen onto bowl",
-    "template": "Dropping [something] onto [something]",
+    "id": "35249",
+    "label": "dropping torch next to shoe",
+    "template": "Dropping [something] next to [something]",
     "placeholders": [
-      "pen",
-      "bowl"
+      "torch",
+      "shoe"
     ],
     "task": "drop_object",
-    "num_frames": 35,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/171329.webm"
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35249.webm"
   },
   {
     "id": "189290",
@@ -2048,28 +2036,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189290.webm"
   },
   {
-    "id": "134845",
-    "label": "dropping an envelope behind a box",
-    "template": "Dropping [something] behind [something]",
-    "placeholders": [
-      "an envelope",
-      "a box"
-    ],
-    "task": "drop_object",
-    "num_frames": 66,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134845.webm"
-  },
-  {
-    "id": "213417",
-    "label": "dropping box onto pillow",
+    "id": "171329",
+    "label": "dropping pen onto bowl",
     "template": "Dropping [something] onto [something]",
     "placeholders": [
-      "box",
-      "pillow"
+      "pen",
+      "bowl"
     ],
     "task": "drop_object",
-    "num_frames": 38,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213417.webm"
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/171329.webm"
   },
   {
     "id": "130409",
@@ -2084,16 +2060,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130409.webm"
   },
   {
-    "id": "200178",
-    "label": "dropping trash into a trash can",
-    "template": "Dropping [something] into [something]",
+    "id": "213417",
+    "label": "dropping box onto pillow",
+    "template": "Dropping [something] onto [something]",
     "placeholders": [
-      "trash",
-      "a trash can"
+      "box",
+      "pillow"
     ],
     "task": "drop_object",
-    "num_frames": 40,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/200178.webm"
+    "num_frames": 38,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213417.webm"
+  },
+  {
+    "id": "134845",
+    "label": "dropping an envelope behind a box",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "an envelope",
+      "a box"
+    ],
+    "task": "drop_object",
+    "num_frames": 66,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134845.webm"
   },
   {
     "id": "212126",
@@ -2108,6 +2096,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/212126.webm"
   },
   {
+    "id": "200178",
+    "label": "dropping trash into a trash can",
+    "template": "Dropping [something] into [something]",
+    "placeholders": [
+      "trash",
+      "a trash can"
+    ],
+    "task": "drop_object",
+    "num_frames": 40,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/200178.webm"
+  },
+  {
     "id": "216736",
     "label": "dropping bracelet behind hand bag",
     "template": "Dropping [something] behind [something]",
@@ -2118,6 +2118,18 @@
     "task": "drop_object",
     "num_frames": 56,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/216736.webm"
+  },
+  {
+    "id": "98825",
+    "label": "dropping a matchbox next to a spoon",
+    "template": "Dropping [something] next to [something]",
+    "placeholders": [
+      "a matchbox",
+      "a spoon"
+    ],
+    "task": "drop_object",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/98825.webm"
   },
   {
     "id": "95863",
@@ -2168,16 +2180,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/1077.webm"
   },
   {
-    "id": "98825",
-    "label": "dropping a matchbox next to a spoon",
-    "template": "Dropping [something] next to [something]",
+    "id": "48989",
+    "label": "dropping a box in front of a comb",
+    "template": "Dropping [something] in front of [something]",
     "placeholders": [
-      "a matchbox",
-      "a spoon"
+      "a box",
+      "a comb"
     ],
     "task": "drop_object",
     "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/98825.webm"
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/48989.webm"
   },
   {
     "id": "39687",
@@ -2192,28 +2204,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/39687.webm"
   },
   {
-    "id": "48989",
-    "label": "dropping a box in front of a comb",
-    "template": "Dropping [something] in front of [something]",
+    "id": "57796",
+    "label": "dropping pen next to box",
+    "template": "Dropping [something] next to [something]",
     "placeholders": [
-      "a box",
-      "a comb"
+      "pen",
+      "box"
     ],
     "task": "drop_object",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/48989.webm"
-  },
-  {
-    "id": "91634",
-    "label": "dropping a shoe brush into a box",
-    "template": "Dropping [something] into [something]",
-    "placeholders": [
-      "a shoe brush",
-      "a box"
-    ],
-    "task": "drop_object",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91634.webm"
+    "num_frames": 38,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57796.webm"
   },
   {
     "id": "21494",
@@ -2240,40 +2240,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/74976.webm"
   },
   {
-    "id": "159326",
-    "label": "dropping pen behind glass",
-    "template": "Dropping [something] behind [something]",
+    "id": "91634",
+    "label": "dropping a shoe brush into a box",
+    "template": "Dropping [something] into [something]",
     "placeholders": [
-      "pen",
-      "glass"
+      "a shoe brush",
+      "a box"
     ],
     "task": "drop_object",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/159326.webm"
-  },
-  {
-    "id": "127511",
-    "label": "dropping a pencil onto a towel",
-    "template": "Dropping [something] onto [something]",
-    "placeholders": [
-      "a pencil",
-      "a towel"
-    ],
-    "task": "drop_object",
-    "num_frames": 49,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127511.webm"
-  },
-  {
-    "id": "57796",
-    "label": "dropping pen next to box",
-    "template": "Dropping [something] next to [something]",
-    "placeholders": [
-      "pen",
-      "box"
-    ],
-    "task": "drop_object",
-    "num_frames": 38,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57796.webm"
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91634.webm"
   },
   {
     "id": "84869",
@@ -2288,6 +2264,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/84869.webm"
   },
   {
+    "id": "159326",
+    "label": "dropping pen behind glass",
+    "template": "Dropping [something] behind [something]",
+    "placeholders": [
+      "pen",
+      "glass"
+    ],
+    "task": "drop_object",
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/159326.webm"
+  },
+  {
     "id": "159299",
     "label": "dropping a knife next to a matchbox",
     "template": "Dropping [something] next to [something]",
@@ -2298,6 +2286,30 @@
     "task": "drop_object",
     "num_frames": 52,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/159299.webm"
+  },
+  {
+    "id": "127511",
+    "label": "dropping a pencil onto a towel",
+    "template": "Dropping [something] onto [something]",
+    "placeholders": [
+      "a pencil",
+      "a towel"
+    ],
+    "task": "drop_object",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127511.webm"
+  },
+  {
+    "id": "35883",
+    "label": "putting a remote control onto a book",
+    "template": "Putting [something] onto [something]",
+    "placeholders": [
+      "a remote control",
+      "a book"
+    ],
+    "task": "cover_object",
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35883.webm"
   },
   {
     "id": "160945",
@@ -2335,30 +2347,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/131342.webm"
   },
   {
-    "id": "204548",
-    "label": "covering stapler with red pouch",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "stapler",
-      "red pouch"
-    ],
-    "task": "cover_object",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204548.webm"
-  },
-  {
-    "id": "35883",
-    "label": "putting a remote control onto a book",
-    "template": "Putting [something] onto [something]",
-    "placeholders": [
-      "a remote control",
-      "a book"
-    ],
-    "task": "cover_object",
-    "num_frames": 33,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/35883.webm"
-  },
-  {
     "id": "21421",
     "label": "putting bottle on a surface",
     "template": "Putting [something] on a surface",
@@ -2368,17 +2356,6 @@
     "task": "cover_object",
     "num_frames": 44,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/21421.webm"
-  },
-  {
-    "id": "96361",
-    "label": "putting a glass on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "a glass"
-    ],
-    "task": "cover_object",
-    "num_frames": 62,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/96361.webm"
   },
   {
     "id": "91105",
@@ -2392,6 +2369,29 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91105.webm"
   },
   {
+    "id": "204548",
+    "label": "covering stapler with red pouch",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "stapler",
+      "red pouch"
+    ],
+    "task": "cover_object",
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204548.webm"
+  },
+  {
+    "id": "96361",
+    "label": "putting a glass on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "a glass"
+    ],
+    "task": "cover_object",
+    "num_frames": 62,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/96361.webm"
+  },
+  {
     "id": "101982",
     "label": "putting kaugummi-packung on a surface",
     "template": "Putting [something] on a surface",
@@ -2401,6 +2401,18 @@
     "task": "cover_object",
     "num_frames": 31,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/101982.webm"
+  },
+  {
+    "id": "2970",
+    "label": "covering tablet with handkerchief",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "tablet",
+      "handkerchief"
+    ],
+    "task": "cover_object",
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/2970.webm"
   },
   {
     "id": "62548",
@@ -2450,30 +2462,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/193595.webm"
   },
   {
-    "id": "2970",
-    "label": "covering tablet with handkerchief",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "tablet",
-      "handkerchief"
-    ],
-    "task": "cover_object",
-    "num_frames": 35,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/2970.webm"
-  },
-  {
-    "id": "213513",
-    "label": "covering pen with paper",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "pen",
-      "paper"
-    ],
-    "task": "cover_object",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213513.webm"
-  },
-  {
     "id": "157330",
     "label": "covering bottle with big bottle",
     "template": "Covering [something] with [something]",
@@ -2498,6 +2486,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85174.webm"
   },
   {
+    "id": "213513",
+    "label": "covering pen with paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "pen",
+      "paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213513.webm"
+  },
+  {
     "id": "4946",
     "label": "putting tissues on a surface",
     "template": "Putting [something] on a surface",
@@ -2509,16 +2509,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/4946.webm"
   },
   {
-    "id": "175715",
-    "label": "covering a phone with a book",
-    "template": "Covering [something] with [something]",
+    "id": "70639",
+    "label": "putting a bottle on a surface",
+    "template": "Putting [something] on a surface",
     "placeholders": [
-      "a phone",
-      "a book"
+      "a bottle"
     ],
     "task": "cover_object",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/175715.webm"
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/70639.webm"
   },
   {
     "id": "85158",
@@ -2533,26 +2532,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85158.webm"
   },
   {
-    "id": "199173",
-    "label": "putting a bottle of water on a surface",
-    "template": "Putting [something] on a surface",
+    "id": "175715",
+    "label": "covering a phone with a book",
+    "template": "Covering [something] with [something]",
     "placeholders": [
-      "a bottle of water"
+      "a phone",
+      "a book"
     ],
     "task": "cover_object",
-    "num_frames": 36,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199173.webm"
-  },
-  {
-    "id": "70639",
-    "label": "putting a bottle on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "a bottle"
-    ],
-    "task": "cover_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/70639.webm"
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/175715.webm"
   },
   {
     "id": "204859",
@@ -2567,26 +2556,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204859.webm"
   },
   {
-    "id": "95522",
-    "label": "putting soft drink pack on a surface",
+    "id": "199173",
+    "label": "putting a bottle of water on a surface",
     "template": "Putting [something] on a surface",
     "placeholders": [
-      "soft drink pack"
+      "a bottle of water"
     ],
     "task": "cover_object",
-    "num_frames": 50,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/95522.webm"
-  },
-  {
-    "id": "17011",
-    "label": "putting book on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "book"
-    ],
-    "task": "cover_object",
-    "num_frames": 35,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/17011.webm"
+    "num_frames": 36,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199173.webm"
   },
   {
     "id": "191873",
@@ -2601,6 +2579,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/191873.webm"
   },
   {
+    "id": "17011",
+    "label": "putting book on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "book"
+    ],
+    "task": "cover_object",
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/17011.webm"
+  },
+  {
+    "id": "95522",
+    "label": "putting soft drink pack on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "soft drink pack"
+    ],
+    "task": "cover_object",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/95522.webm"
+  },
+  {
     "id": "139776",
     "label": "putting ridsect on a flat surface without letting it roll",
     "template": "Putting [something] on a flat surface without letting it roll",
@@ -2610,18 +2610,6 @@
     "task": "cover_object",
     "num_frames": 52,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/139776.webm"
-  },
-  {
-    "id": "213168",
-    "label": "covering remote control with hand",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "remote control",
-      "hand"
-    ],
-    "task": "cover_object",
-    "num_frames": 34,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213168.webm"
   },
   {
     "id": "79242",
@@ -2647,16 +2635,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106598.webm"
   },
   {
-    "id": "106669",
-    "label": "putting envelope on the edge of chair so it is not supported and falls down",
-    "template": "Putting [something] on the edge of [something] so it is not supported and falls down",
+    "id": "213168",
+    "label": "covering remote control with hand",
+    "template": "Covering [something] with [something]",
     "placeholders": [
-      "envelope",
-      "chair"
+      "remote control",
+      "hand"
     ],
     "task": "cover_object",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106669.webm"
+    "num_frames": 34,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213168.webm"
   },
   {
     "id": "188132",
@@ -2668,40 +2656,6 @@
     "task": "cover_object",
     "num_frames": 35,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/188132.webm"
-  },
-  {
-    "id": "34187",
-    "label": "putting ball onto glass",
-    "template": "Putting [something] onto [something]",
-    "placeholders": [
-      "ball",
-      "glass"
-    ],
-    "task": "cover_object",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/34187.webm"
-  },
-  {
-    "id": "174333",
-    "label": "putting pen on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "pen"
-    ],
-    "task": "cover_object",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/174333.webm"
-  },
-  {
-    "id": "148162",
-    "label": "putting a steel wheel on a flat surface without letting it roll",
-    "template": "Putting [something] on a flat surface without letting it roll",
-    "placeholders": [
-      "a steel wheel"
-    ],
-    "task": "cover_object",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/148162.webm"
   },
   {
     "id": "216111",
@@ -2716,6 +2670,29 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/216111.webm"
   },
   {
+    "id": "106669",
+    "label": "putting envelope on the edge of chair so it is not supported and falls down",
+    "template": "Putting [something] on the edge of [something] so it is not supported and falls down",
+    "placeholders": [
+      "envelope",
+      "chair"
+    ],
+    "task": "cover_object",
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106669.webm"
+  },
+  {
+    "id": "174333",
+    "label": "putting pen on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "pen"
+    ],
+    "task": "cover_object",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/174333.webm"
+  },
+  {
     "id": "104599",
     "label": "covering tissue with clothes",
     "template": "Covering [something] with [something]",
@@ -2726,6 +2703,29 @@
     "task": "cover_object",
     "num_frames": 58,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/104599.webm"
+  },
+  {
+    "id": "148162",
+    "label": "putting a steel wheel on a flat surface without letting it roll",
+    "template": "Putting [something] on a flat surface without letting it roll",
+    "placeholders": [
+      "a steel wheel"
+    ],
+    "task": "cover_object",
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/148162.webm"
+  },
+  {
+    "id": "34187",
+    "label": "putting ball onto glass",
+    "template": "Putting [something] onto [something]",
+    "placeholders": [
+      "ball",
+      "glass"
+    ],
+    "task": "cover_object",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/34187.webm"
   },
   {
     "id": "13224",
@@ -2775,6 +2775,29 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182311.webm"
   },
   {
+    "id": "118265",
+    "label": "putting ball on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "cover_object",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/118265.webm"
+  },
+  {
+    "id": "219646",
+    "label": "covering bottle with plate",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "bottle",
+      "plate"
+    ],
+    "task": "cover_object",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/219646.webm"
+  },
+  {
     "id": "38752",
     "label": "putting matchbox on the edge of laptop so it is not supported and falls down",
     "template": "Putting [something] on the edge of [something] so it is not supported and falls down",
@@ -2785,6 +2808,17 @@
     "task": "cover_object",
     "num_frames": 59,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/38752.webm"
+  },
+  {
+    "id": "202588",
+    "label": "putting ruler on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "ruler"
+    ],
+    "task": "cover_object",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/202588.webm"
   },
   {
     "id": "6570",
@@ -2811,18 +2845,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125802.webm"
   },
   {
-    "id": "219646",
-    "label": "covering bottle with plate",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "bottle",
-      "plate"
-    ],
-    "task": "cover_object",
-    "num_frames": 50,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/219646.webm"
-  },
-  {
     "id": "167671",
     "label": "covering teething ring with bib",
     "template": "Covering [something] with [something]",
@@ -2833,28 +2855,6 @@
     "task": "cover_object",
     "num_frames": 55,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/167671.webm"
-  },
-  {
-    "id": "118265",
-    "label": "putting ball on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "cover_object",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/118265.webm"
-  },
-  {
-    "id": "202588",
-    "label": "putting ruler on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "ruler"
-    ],
-    "task": "cover_object",
-    "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/202588.webm"
   },
   {
     "id": "56440",
@@ -2868,6 +2868,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/56440.webm"
   },
   {
+    "id": "177289",
+    "label": "putting a cup on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "a cup"
+    ],
+    "task": "cover_object",
+    "num_frames": 48,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/177289.webm"
+  },
+  {
     "id": "186803",
     "label": "covering a lid with a paper heart",
     "template": "Covering [something] with [something]",
@@ -2878,29 +2889,6 @@
     "task": "cover_object",
     "num_frames": 41,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/186803.webm"
-  },
-  {
-    "id": "55968",
-    "label": "covering doll with doily",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "doll",
-      "doily"
-    ],
-    "task": "cover_object",
-    "num_frames": 47,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55968.webm"
-  },
-  {
-    "id": "177289",
-    "label": "putting a cup on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "a cup"
-    ],
-    "task": "cover_object",
-    "num_frames": 48,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/177289.webm"
   },
   {
     "id": "89190",
@@ -2927,28 +2915,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/37190.webm"
   },
   {
-    "id": "208665",
-    "label": "putting stone onto stool",
-    "template": "Putting [something] onto [something]",
-    "placeholders": [
-      "stone",
-      "stool"
-    ],
-    "task": "cover_object",
-    "num_frames": 55,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/208665.webm"
-  },
-  {
-    "id": "57857",
-    "label": "covering usb cable with cloth",
+    "id": "55968",
+    "label": "covering doll with doily",
     "template": "Covering [something] with [something]",
     "placeholders": [
-      "usb cable",
-      "cloth"
+      "doll",
+      "doily"
     ],
     "task": "cover_object",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57857.webm"
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55968.webm"
   },
   {
     "id": "23791",
@@ -2963,16 +2939,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/23791.webm"
   },
   {
-    "id": "31984",
-    "label": "putting keys onto bag",
-    "template": "Putting [something] onto [something]",
+    "id": "57857",
+    "label": "covering usb cable with cloth",
+    "template": "Covering [something] with [something]",
     "placeholders": [
-      "keys",
-      "bag"
+      "usb cable",
+      "cloth"
     ],
     "task": "cover_object",
-    "num_frames": 28,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/31984.webm"
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57857.webm"
+  },
+  {
+    "id": "208665",
+    "label": "putting stone onto stool",
+    "template": "Putting [something] onto [something]",
+    "placeholders": [
+      "stone",
+      "stool"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/208665.webm"
   },
   {
     "id": "217772",
@@ -2987,6 +2975,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/217772.webm"
   },
   {
+    "id": "31984",
+    "label": "putting keys onto bag",
+    "template": "Putting [something] onto [something]",
+    "placeholders": [
+      "keys",
+      "bag"
+    ],
+    "task": "cover_object",
+    "num_frames": 28,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/31984.webm"
+  },
+  {
     "id": "123295",
     "label": "covering coaster with box",
     "template": "Covering [something] with [something]",
@@ -2997,18 +2997,6 @@
     "task": "cover_object",
     "num_frames": 27,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/123295.webm"
-  },
-  {
-    "id": "90367",
-    "label": "covering calculator with newspaper",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "calculator",
-      "newspaper"
-    ],
-    "task": "cover_object",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/90367.webm"
   },
   {
     "id": "190769",
@@ -3034,6 +3022,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/172411.webm"
   },
   {
+    "id": "90367",
+    "label": "covering calculator with newspaper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "calculator",
+      "newspaper"
+    ],
+    "task": "cover_object",
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/90367.webm"
+  },
+  {
     "id": "174300",
     "label": "putting scieser on the edge of box so it is not supported and falls down",
     "template": "Putting [something] on the edge of [something] so it is not supported and falls down",
@@ -3057,6 +3057,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50909.webm"
   },
   {
+    "id": "18353",
+    "label": "putting apple on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "apple"
+    ],
+    "task": "cover_object",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/18353.webm"
+  },
+  {
     "id": "66269",
     "label": "covering cell phone with envelope",
     "template": "Covering [something] with [something]",
@@ -3067,17 +3078,6 @@
     "task": "cover_object",
     "num_frames": 47,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/66269.webm"
-  },
-  {
-    "id": "18353",
-    "label": "putting apple on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "apple"
-    ],
-    "task": "cover_object",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/18353.webm"
   },
   {
     "id": "218804",
@@ -3128,15 +3128,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/45293.webm"
   },
   {
-    "id": "119993",
-    "label": "putting a bird on a surface",
-    "template": "Putting [something] on a surface",
+    "id": "41130",
+    "label": "covering a stuffed rabbit with a blanket",
+    "template": "Covering [something] with [something]",
     "placeholders": [
-      "a bird"
+      "a stuffed rabbit",
+      "a blanket"
     ],
     "task": "cover_object",
-    "num_frames": 27,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119993.webm"
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/41130.webm"
   },
   {
     "id": "52415",
@@ -3151,6 +3152,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52415.webm"
   },
   {
+    "id": "119993",
+    "label": "putting a bird on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "a bird"
+    ],
+    "task": "cover_object",
+    "num_frames": 27,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119993.webm"
+  },
+  {
     "id": "24898",
     "label": "putting gear wheel onto black pouch",
     "template": "Putting [something] onto [something]",
@@ -3161,18 +3173,6 @@
     "task": "cover_object",
     "num_frames": 47,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/24898.webm"
-  },
-  {
-    "id": "41130",
-    "label": "covering a stuffed rabbit with a blanket",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "a stuffed rabbit",
-      "a blanket"
-    ],
-    "task": "cover_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/41130.webm"
   },
   {
     "id": "27320",
@@ -3187,17 +3187,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27320.webm"
   },
   {
-    "id": "102120",
-    "label": "putting a drill on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "a drill"
-    ],
-    "task": "cover_object",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102120.webm"
-  },
-  {
     "id": "9344",
     "label": "covering duster with scarf",
     "template": "Covering [something] with [something]",
@@ -3208,39 +3197,6 @@
     "task": "cover_object",
     "num_frames": 67,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/9344.webm"
-  },
-  {
-    "id": "50906",
-    "label": "putting plastic container on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "plastic container"
-    ],
-    "task": "cover_object",
-    "num_frames": 55,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50906.webm"
-  },
-  {
-    "id": "28065",
-    "label": "putting mouse on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "mouse"
-    ],
-    "task": "cover_object",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/28065.webm"
-  },
-  {
-    "id": "59360",
-    "label": "putting bottled ponzu sauce on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "bottled ponzu sauce"
-    ],
-    "task": "cover_object",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/59360.webm"
   },
   {
     "id": "24498",
@@ -3255,6 +3211,50 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/24498.webm"
   },
   {
+    "id": "102120",
+    "label": "putting a drill on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "a drill"
+    ],
+    "task": "cover_object",
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102120.webm"
+  },
+  {
+    "id": "131456",
+    "label": "putting cushion on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "cushion"
+    ],
+    "task": "cover_object",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/131456.webm"
+  },
+  {
+    "id": "28065",
+    "label": "putting mouse on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "mouse"
+    ],
+    "task": "cover_object",
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/28065.webm"
+  },
+  {
+    "id": "50906",
+    "label": "putting plastic container on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "plastic container"
+    ],
+    "task": "cover_object",
+    "num_frames": 55,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50906.webm"
+  },
+  {
     "id": "126004",
     "label": "covering a coin with paper",
     "template": "Covering [something] with [something]",
@@ -3265,6 +3265,29 @@
     "task": "cover_object",
     "num_frames": 49,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/126004.webm"
+  },
+  {
+    "id": "59360",
+    "label": "putting bottled ponzu sauce on a surface",
+    "template": "Putting [something] on a surface",
+    "placeholders": [
+      "bottled ponzu sauce"
+    ],
+    "task": "cover_object",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/59360.webm"
+  },
+  {
+    "id": "114635",
+    "label": "covering a pencil with a paper",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "a pencil",
+      "a paper"
+    ],
+    "task": "cover_object",
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/114635.webm"
   },
   {
     "id": "4004",
@@ -3278,15 +3301,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/4004.webm"
   },
   {
-    "id": "131456",
-    "label": "putting cushion on a surface",
-    "template": "Putting [something] on a surface",
+    "id": "36892",
+    "label": "covering eraser with hand",
+    "template": "Covering [something] with [something]",
     "placeholders": [
-      "cushion"
+      "eraser",
+      "hand"
     ],
     "task": "cover_object",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/131456.webm"
+    "num_frames": 66,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/36892.webm"
   },
   {
     "id": "211585",
@@ -3312,28 +3336,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/63599.webm"
   },
   {
-    "id": "114635",
-    "label": "covering a pencil with a paper",
+    "id": "142963",
+    "label": "covering a candle with a cover",
     "template": "Covering [something] with [something]",
     "placeholders": [
-      "a pencil",
-      "a paper"
+      "a candle",
+      "a cover"
     ],
     "task": "cover_object",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/114635.webm"
-  },
-  {
-    "id": "36892",
-    "label": "covering eraser with hand",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "eraser",
-      "hand"
-    ],
-    "task": "cover_object",
-    "num_frames": 66,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/36892.webm"
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142963.webm"
   },
   {
     "id": "55204",
@@ -3371,16 +3383,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/194342.webm"
   },
   {
-    "id": "142963",
-    "label": "covering a candle with a cover",
-    "template": "Covering [something] with [something]",
+    "id": "138396",
+    "label": "putting white envelope on a surface",
+    "template": "Putting [something] on a surface",
     "placeholders": [
-      "a candle",
-      "a cover"
+      "white envelope"
     ],
     "task": "cover_object",
-    "num_frames": 53,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142963.webm"
+    "num_frames": 67,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/138396.webm"
   },
   {
     "id": "167927",
@@ -3393,29 +3404,6 @@
     "task": "cover_object",
     "num_frames": 54,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/167927.webm"
-  },
-  {
-    "id": "138396",
-    "label": "putting white envelope on a surface",
-    "template": "Putting [something] on a surface",
-    "placeholders": [
-      "white envelope"
-    ],
-    "task": "cover_object",
-    "num_frames": 67,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/138396.webm"
-  },
-  {
-    "id": "27662",
-    "label": "covering keys with cloth",
-    "template": "Covering [something] with [something]",
-    "placeholders": [
-      "keys",
-      "cloth"
-    ],
-    "task": "cover_object",
-    "num_frames": 54,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27662.webm"
   },
   {
     "id": "219234",
@@ -3442,6 +3430,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72855.webm"
   },
   {
+    "id": "27662",
+    "label": "covering keys with cloth",
+    "template": "Covering [something] with [something]",
+    "placeholders": [
+      "keys",
+      "cloth"
+    ],
+    "task": "cover_object",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27662.webm"
+  },
+  {
     "id": "123891",
     "label": "covering eye of stove with towel",
     "template": "Covering [something] with [something]",
@@ -3454,6 +3454,29 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/123891.webm"
   },
   {
+    "id": "127607",
+    "label": "throwing shoe polish container in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "shoe polish container"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 28,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127607.webm"
+  },
+  {
+    "id": "174626",
+    "label": "plugging plug into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plug",
+      "outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/174626.webm"
+  },
+  {
     "id": "86804",
     "label": "putting key on a surface",
     "template": "Putting [something] on a surface",
@@ -3463,5 +3486,1140 @@
     "task": "cover_object",
     "num_frames": 68,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86804.webm"
+  },
+  {
+    "id": "189110",
+    "label": "throwing towel in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "towel"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 24,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189110.webm"
+  },
+  {
+    "id": "30813",
+    "label": "throwing a jar in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a jar"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30813.webm"
+  },
+  {
+    "id": "138903",
+    "label": "plugging a usb into a pc but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a usb",
+      "a pc"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/138903.webm"
+  },
+  {
+    "id": "65485",
+    "label": "plugging juice machine into electric socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "juice machine",
+      "electric socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 11,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/65485.webm"
+  },
+  {
+    "id": "94328",
+    "label": "throwing a computer duster in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a computer duster"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/94328.webm"
+  },
+  {
+    "id": "197861",
+    "label": "throwing remote in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "remote"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/197861.webm"
+  },
+  {
+    "id": "81420",
+    "label": "throwing a pen in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a pen"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/81420.webm"
+  },
+  {
+    "id": "19600",
+    "label": "throwing charger in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "charger"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 17,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/19600.webm"
+  },
+  {
+    "id": "62151",
+    "label": "throwing wallet in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "wallet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62151.webm"
+  },
+  {
+    "id": "91079",
+    "label": "letting a ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 36,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91079.webm"
+  },
+  {
+    "id": "23102",
+    "label": "plugging charger into plug hole but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "plug hole"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 68,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/23102.webm"
+  },
+  {
+    "id": "145229",
+    "label": "plugging a charger into an outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a charger",
+      "an outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/145229.webm"
+  },
+  {
+    "id": "156133",
+    "label": "letting something roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "something"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/156133.webm"
+  },
+  {
+    "id": "45474",
+    "label": "plugging wire into microcontroller but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "wire",
+      "microcontroller"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 69,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/45474.webm"
+  },
+  {
+    "id": "102548",
+    "label": "throwing a stuffed animal in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a stuffed animal"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102548.webm"
+  },
+  {
+    "id": "86353",
+    "label": "plugging a plug into the socket to the wall but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a plug",
+      "the socket to the wall"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86353.webm"
+  },
+  {
+    "id": "130289",
+    "label": "plugging cable into headphones but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cable",
+      "headphones"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130289.webm"
+  },
+  {
+    "id": "6102",
+    "label": "plugging usb cord into power block but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb cord",
+      "power block"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6102.webm"
+  },
+  {
+    "id": "155728",
+    "label": "letting a pencil roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a pencil"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/155728.webm"
+  },
+  {
+    "id": "115061",
+    "label": "plugging charger into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/115061.webm"
+  },
+  {
+    "id": "58097",
+    "label": "plugging a cord into a phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cord",
+      "a phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/58097.webm"
+  },
+  {
+    "id": "107257",
+    "label": "plugging a cable into a computer but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cable",
+      "a computer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/107257.webm"
+  },
+  {
+    "id": "151836",
+    "label": "plugging box into extension cord but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "box",
+      "extension cord"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/151836.webm"
+  },
+  {
+    "id": "77203",
+    "label": "plugging charger into wall outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "wall outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/77203.webm"
+  },
+  {
+    "id": "215316",
+    "label": "plugging charger into swicth but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "swicth"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 32,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/215316.webm"
+  },
+  {
+    "id": "130569",
+    "label": "letting a candle roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a candle"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130569.webm"
+  },
+  {
+    "id": "55818",
+    "label": "throwing headphones in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "headphones"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55818.webm"
+  },
+  {
+    "id": "24020",
+    "label": "plugging a plug into an outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a plug",
+      "an outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 69,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/24020.webm"
+  },
+  {
+    "id": "80697",
+    "label": "throwing a clementine in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a clementine"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/80697.webm"
+  },
+  {
+    "id": "147065",
+    "label": "plugging earphones into the computer but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "earphones",
+      "the computer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147065.webm"
+  },
+  {
+    "id": "52685",
+    "label": "plugging plug into plug socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plug",
+      "plug socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 37,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52685.webm"
+  },
+  {
+    "id": "128019",
+    "label": "plugging a cable into a adapter but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cable",
+      "a adapter"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 51,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/128019.webm"
+  },
+  {
+    "id": "77722",
+    "label": "plugging plugg into charger but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plugg",
+      "charger"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/77722.webm"
+  },
+  {
+    "id": "61492",
+    "label": "plugging a charger into an extension cord but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a charger",
+      "an extension cord"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 36,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/61492.webm"
+  },
+  {
+    "id": "47486",
+    "label": "plugging charger into wall socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "wall socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 22,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/47486.webm"
+  },
+  {
+    "id": "54579",
+    "label": "plugging adaptor into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "adaptor",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/54579.webm"
+  },
+  {
+    "id": "158708",
+    "label": "throwing fruit in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "fruit"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/158708.webm"
+  },
+  {
+    "id": "25707",
+    "label": "plugging hands-free into mobile phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "hands-free",
+      "mobile phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/25707.webm"
+  },
+  {
+    "id": "93464",
+    "label": "plugging usb into port but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "port"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/93464.webm"
+  },
+  {
+    "id": "200865",
+    "label": "plugging cable into charger but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cable",
+      "charger"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/200865.webm"
+  },
+  {
+    "id": "15512",
+    "label": "plugging cord into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/15512.webm"
+  },
+  {
+    "id": "72702",
+    "label": "throwing banana in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "banana"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72702.webm"
+  },
+  {
+    "id": "170900",
+    "label": "plugging something into something but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "something",
+      "something"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 23,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/170900.webm"
+  },
+  {
+    "id": "32510",
+    "label": "plugging power cable into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "power cable",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/32510.webm"
+  },
+  {
+    "id": "11687",
+    "label": "plugging a charger into a phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a charger",
+      "a phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/11687.webm"
+  },
+  {
+    "id": "149542",
+    "label": "throwing cigarette lighter in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "cigarette lighter"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149542.webm"
+  },
+  {
+    "id": "65311",
+    "label": "throwing tomato in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "tomato"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/65311.webm"
+  },
+  {
+    "id": "209741",
+    "label": "letting packing tape roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "packing tape"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 38,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/209741.webm"
+  },
+  {
+    "id": "83581",
+    "label": "letting exercise cylinder roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "exercise cylinder"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 48,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/83581.webm"
+  },
+  {
+    "id": "92401",
+    "label": "letting ball toy roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball toy"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92401.webm"
+  },
+  {
+    "id": "204109",
+    "label": "plugging usb into adaptor but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "adaptor"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204109.webm"
+  },
+  {
+    "id": "95742",
+    "label": "throwing keys in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "keys"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 27,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/95742.webm"
+  },
+  {
+    "id": "82024",
+    "label": "plugging a computer charger into a wall outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a computer charger",
+      "a wall outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 72,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/82024.webm"
+  },
+  {
+    "id": "4407",
+    "label": "throwing clementine in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "clementine"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/4407.webm"
+  },
+  {
+    "id": "153558",
+    "label": "plugging usb into block but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "block"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/153558.webm"
+  },
+  {
+    "id": "199645",
+    "label": "throwing bottle in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "bottle"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199645.webm"
+  },
+  {
+    "id": "57786",
+    "label": "letting bottle roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "bottle"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57786.webm"
+  },
+  {
+    "id": "120436",
+    "label": "plugging an adapter into an outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "an adapter",
+      "an outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120436.webm"
+  },
+  {
+    "id": "85616",
+    "label": "plugging plug into surge protector but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plug",
+      "surge protector"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85616.webm"
+  },
+  {
+    "id": "218666",
+    "label": "plugging usb into port but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "port"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/218666.webm"
+  },
+  {
+    "id": "194875",
+    "label": "plugging charger into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/194875.webm"
+  },
+  {
+    "id": "134849",
+    "label": "plugging charger into wall socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "wall socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134849.webm"
+  },
+  {
+    "id": "144274",
+    "label": "throwing a stuffed bird in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a stuffed bird"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 28,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/144274.webm"
+  },
+  {
+    "id": "214178",
+    "label": "throwing bottle cap in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "bottle cap"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/214178.webm"
+  },
+  {
+    "id": "19698",
+    "label": "throwing a phone in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/19698.webm"
+  },
+  {
+    "id": "100240",
+    "label": "plugging usb cable into smarthphone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb cable",
+      "smarthphone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/100240.webm"
+  },
+  {
+    "id": "109906",
+    "label": "throwing lemon in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "lemon"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/109906.webm"
+  },
+  {
+    "id": "8713",
+    "label": "plugging light into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "light",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/8713.webm"
+  },
+  {
+    "id": "136669",
+    "label": "plugging baby monitor cord into power outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "baby monitor cord",
+      "power outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 65,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/136669.webm"
+  },
+  {
+    "id": "159108",
+    "label": "throwing a soft toy in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a soft toy"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/159108.webm"
+  },
+  {
+    "id": "31941",
+    "label": "throwing bag in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "bag"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/31941.webm"
+  },
+  {
+    "id": "105308",
+    "label": "plugging cord into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/105308.webm"
+  },
+  {
+    "id": "157213",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 23,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157213.webm"
+  },
+  {
+    "id": "62930",
+    "label": "plugging an electric plug into an outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "an electric plug",
+      "an outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 54,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62930.webm"
+  },
+  {
+    "id": "78060",
+    "label": "throwing pen in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pen"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/78060.webm"
+  },
+  {
+    "id": "194501",
+    "label": "throwing bear in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "bear"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/194501.webm"
+  },
+  {
+    "id": "151940",
+    "label": "letting deodorant container roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "deodorant container"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/151940.webm"
+  },
+  {
+    "id": "196329",
+    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/196329.webm"
+  },
+  {
+    "id": "27664",
+    "label": "plugging charger into wall outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "wall outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27664.webm"
+  },
+  {
+    "id": "125234",
+    "label": "plugging phone changer into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "phone changer",
+      "outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125234.webm"
+  },
+  {
+    "id": "52242",
+    "label": "plugging usb into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb",
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 71,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52242.webm"
+  },
+  {
+    "id": "180769",
+    "label": "throwing chocolate pretzel sticks in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "chocolate pretzel sticks"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/180769.webm"
+  },
+  {
+    "id": "188211",
+    "label": "letting a ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 20,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/188211.webm"
+  },
+  {
+    "id": "85427",
+    "label": "throwing pipeapple in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pipeapple"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 32,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85427.webm"
+  },
+  {
+    "id": "29141",
+    "label": "throwing remote control in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "remote control"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 38,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29141.webm"
+  },
+  {
+    "id": "75252",
+    "label": "plugging a cablle into a laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cablle",
+      "a laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 62,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/75252.webm"
+  },
+  {
+    "id": "132932",
+    "label": "plugging power cable into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "power cable",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/132932.webm"
+  },
+  {
+    "id": "51535",
+    "label": "throwing stuffed animal in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "stuffed animal"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 66,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/51535.webm"
+  },
+  {
+    "id": "146799",
+    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/146799.webm"
+  },
+  {
+    "id": "166033",
+    "label": "throwing throwing something on the air in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "throwing something on the air"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/166033.webm"
+  },
+  {
+    "id": "131816",
+    "label": "plugging hair dryer into wall outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "hair dryer",
+      "wall outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 51,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/131816.webm"
+  },
+  {
+    "id": "72154",
+    "label": "plugging key into lock but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "key",
+      "lock"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72154.webm"
+  },
+  {
+    "id": "206241",
+    "label": "plugging charging cable into portable game device but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charging cable",
+      "portable game device"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 70,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/206241.webm"
+  },
+  {
+    "id": "85066",
+    "label": "plugging a usb cable into a desktop microphone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a usb cable",
+      "a desktop microphone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85066.webm"
+  },
+  {
+    "id": "52026",
+    "label": "plugging phone wire into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "phone wire",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52026.webm"
+  },
+  {
+    "id": "27776",
+    "label": "plugging electric plug into an electric outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "electric plug",
+      "an electric outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 69,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27776.webm"
+  },
+  {
+    "id": "90874",
+    "label": "plugging usb cable into notebook but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb cable",
+      "notebook"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/90874.webm"
+  },
+  {
+    "id": "55458",
+    "label": "plugging charger into wall but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "wall"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 65,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/55458.webm"
   }
 ]

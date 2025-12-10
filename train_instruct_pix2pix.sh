@@ -16,21 +16,21 @@ export TRANSFORMERS_CACHE="${HF_HOME}/hub"
 export HF_DATASETS_CACHE="${HF_HOME}/datasets"
 
 # Configuration
-OUTPUT_DIR="./outputs/instruct_pix2pix_128_progress_next5"
+OUTPUT_DIR="./outputs/instruct_pix2pix_128_next5"
 DATA_DIR="./data/sthv2"
 RESOLUTION=128
 BATCH_SIZE=8           # Adjust based on GPU memory (8-16 for RTX 5090)
 GRADIENT_ACCUM=2       # Effective batch size = 8 * 2 = 16
 EPOCHS=20
 LEARNING_RATE=5e-6     # Lower LR for InstructPix2Pix (fine-tuning)
-CHECKPOINTING_STEPS=500
-PROGRESS=True
+CHECKPOINTING_STEPS=1000
+PROGRESS=False
 INPUT_FRAME_IDX=20
 TARGET_FRAME_IDX=25
 TASK="basic"  # Options: basic, backforth
 
 # Validation setup
-VALIDATION_EPOCHS=5    # Validate every 5 epoch
+VALIDATION_EPOCHS=10    # Validate every 5 epoch
 NUM_VALIDATION_IMAGES=4  # Number of samples from val_filtered.json to use for validation
 
 # Parse command-line arguments

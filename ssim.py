@@ -46,6 +46,10 @@ def batch_test_ssim_psnr(data_dir):
     target_dir = data_dir / 'target'
     output_dir = data_dir / 'output'
 
+    # 确保目录存在
+    target_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     # 获取图像文件列表
     target_imgs = sorted([f for f in os.listdir(target_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg'))])
     output_imgs = sorted([f for f in os.listdir(output_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg'))])

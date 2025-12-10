@@ -22,18 +22,19 @@ ENV/
 
 # Data
 data/sthv2/videos/
-data/sthv2/frames_96x96/
-data/sthv2/frames_128x128/
+data/sthv2/frames_*/
 *.zip
 *.tar.gz
 *.tar
 
 # Model outputs
+test_result/
 outputs/
 checkpoints/
 logs/
 wandb/
 test_output/
+progress_evaluator/checkpoints/
 
 # Jupyter
 *.ipynb_checkpoints
@@ -45,6 +46,7 @@ Thumbs.db
 # Other
 diffusers/
 extract_videos.sh
+.tex
 
 # HuggingFace cache
 .cache/

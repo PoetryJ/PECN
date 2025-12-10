@@ -1,26 +1,14 @@
 [
   {
-    "id": "174626",
-    "label": "plugging plug into outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "plug",
-      "outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/174626.webm"
-  },
-  {
-    "id": "30813",
-    "label": "throwing a jar in the air and catching it",
+    "id": "189110",
+    "label": "throwing towel in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "a jar"
+      "towel"
     ],
     "task": "back_and_forth",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30813.webm"
+    "num_frames": 24,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189110.webm"
   },
   {
     "id": "127607",
@@ -32,17 +20,6 @@
     "task": "back_and_forth",
     "num_frames": 28,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127607.webm"
-  },
-  {
-    "id": "189110",
-    "label": "throwing towel in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "towel"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 24,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/189110.webm"
   },
   {
     "id": "197861",
@@ -68,15 +45,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/65485.webm"
   },
   {
-    "id": "94328",
-    "label": "throwing a computer duster in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "174626",
+    "label": "plugging plug into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a computer duster"
+      "plug",
+      "outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/94328.webm"
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/174626.webm"
   },
   {
     "id": "138903",
@@ -91,15 +69,48 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/138903.webm"
   },
   {
-    "id": "91079",
-    "label": "letting a ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "94328",
+    "label": "throwing a computer duster in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "a ball"
+      "a computer duster"
     ],
     "task": "back_and_forth",
-    "num_frames": 36,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91079.webm"
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/94328.webm"
+  },
+  {
+    "id": "30813",
+    "label": "throwing a jar in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a jar"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30813.webm"
+  },
+  {
+    "id": "81420",
+    "label": "throwing a pen in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a pen"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/81420.webm"
+  },
+  {
+    "id": "19600",
+    "label": "throwing charger in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "charger"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 17,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/19600.webm"
   },
   {
     "id": "23102",
@@ -114,15 +125,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/23102.webm"
   },
   {
-    "id": "81420",
-    "label": "throwing a pen in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "91079",
+    "label": "letting a ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
     "placeholders": [
-      "a pen"
+      "a ball"
     ],
     "task": "back_and_forth",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/81420.webm"
+    "num_frames": 36,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91079.webm"
   },
   {
     "id": "62151",
@@ -134,28 +145,6 @@
     "task": "back_and_forth",
     "num_frames": 35,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62151.webm"
-  },
-  {
-    "id": "19600",
-    "label": "throwing charger in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "charger"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 17,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/19600.webm"
-  },
-  {
-    "id": "156133",
-    "label": "letting something roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "something"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 33,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/156133.webm"
   },
   {
     "id": "145229",
@@ -170,17 +159,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/145229.webm"
   },
   {
-    "id": "102548",
-    "label": "throwing a stuffed animal in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "a stuffed animal"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102548.webm"
-  },
-  {
     "id": "45474",
     "label": "plugging wire into microcontroller but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -193,27 +171,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/45474.webm"
   },
   {
-    "id": "130289",
-    "label": "plugging cable into headphones but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cable",
-      "headphones"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 31,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130289.webm"
-  },
-  {
-    "id": "155728",
-    "label": "letting a pencil roll up a slanted surface, so it rolls back down",
+    "id": "156133",
+    "label": "letting something roll up a slanted surface, so it rolls back down",
     "template": "Letting [something] roll up a slanted surface, so it rolls back down",
     "placeholders": [
-      "a pencil"
+      "something"
     ],
     "task": "back_and_forth",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/155728.webm"
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/156133.webm"
+  },
+  {
+    "id": "102548",
+    "label": "throwing a stuffed animal in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a stuffed animal"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102548.webm"
   },
   {
     "id": "86353",
@@ -228,16 +205,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86353.webm"
   },
   {
-    "id": "58097",
-    "label": "plugging a cord into a phone but pulling it right out as you remove your hand",
+    "id": "130289",
+    "label": "plugging cable into headphones but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a cord",
-      "a phone"
+      "cable",
+      "headphones"
     ],
     "task": "back_and_forth",
-    "num_frames": 60,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/58097.webm"
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130289.webm"
   },
   {
     "id": "6102",
@@ -252,6 +229,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6102.webm"
   },
   {
+    "id": "155728",
+    "label": "letting a pencil roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a pencil"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/155728.webm"
+  },
+  {
     "id": "115061",
     "label": "plugging charger into socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -262,6 +250,30 @@
     "task": "back_and_forth",
     "num_frames": 59,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/115061.webm"
+  },
+  {
+    "id": "58097",
+    "label": "plugging a cord into a phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cord",
+      "a phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/58097.webm"
+  },
+  {
+    "id": "107257",
+    "label": "plugging a cable into a computer but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cable",
+      "a computer"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/107257.webm"
   },
   {
     "id": "151836",
@@ -288,29 +300,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/77203.webm"
   },
   {
-    "id": "107257",
-    "label": "plugging a cable into a computer but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "a cable",
-      "a computer"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/107257.webm"
-  },
-  {
-    "id": "130569",
-    "label": "letting a candle roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "a candle"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130569.webm"
-  },
-  {
     "id": "55818",
     "label": "throwing headphones in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -334,6 +323,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/215316.webm"
   },
   {
+    "id": "130569",
+    "label": "letting a candle roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a candle"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130569.webm"
+  },
+  {
     "id": "24020",
     "label": "plugging a plug into an outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -346,15 +346,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/24020.webm"
   },
   {
-    "id": "80697",
-    "label": "throwing a clementine in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "147065",
+    "label": "plugging earphones into the computer but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a clementine"
+      "earphones",
+      "the computer"
     ],
     "task": "back_and_forth",
-    "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/80697.webm"
+    "num_frames": 49,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147065.webm"
   },
   {
     "id": "128019",
@@ -369,16 +370,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/128019.webm"
   },
   {
-    "id": "147065",
-    "label": "plugging earphones into the computer but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "80697",
+    "label": "throwing a clementine in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "earphones",
-      "the computer"
+      "a clementine"
     ],
     "task": "back_and_forth",
-    "num_frames": 49,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147065.webm"
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/80697.webm"
+  },
+  {
+    "id": "52685",
+    "label": "plugging plug into plug socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "plug",
+      "plug socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 37,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52685.webm"
   },
   {
     "id": "61492",
@@ -405,30 +417,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/77722.webm"
   },
   {
-    "id": "52685",
-    "label": "plugging plug into plug socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "plug",
-      "plug socket"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 37,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52685.webm"
-  },
-  {
-    "id": "54579",
-    "label": "plugging adaptor into socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "adaptor",
-      "socket"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/54579.webm"
-  },
-  {
     "id": "47486",
     "label": "plugging charger into wall socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -441,16 +429,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/47486.webm"
   },
   {
-    "id": "25707",
-    "label": "plugging hands-free into mobile phone but pulling it right out as you remove your hand",
+    "id": "54579",
+    "label": "plugging adaptor into socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "hands-free",
-      "mobile phone"
+      "adaptor",
+      "socket"
     ],
     "task": "back_and_forth",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/25707.webm"
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/54579.webm"
   },
   {
     "id": "93464",
@@ -476,6 +464,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/158708.webm"
   },
   {
+    "id": "25707",
+    "label": "plugging hands-free into mobile phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "hands-free",
+      "mobile phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/25707.webm"
+  },
+  {
     "id": "72702",
     "label": "throwing banana in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -485,18 +485,6 @@
     "task": "back_and_forth",
     "num_frames": 55,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72702.webm"
-  },
-  {
-    "id": "15512",
-    "label": "plugging cord into socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cord",
-      "socket"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 59,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/15512.webm"
   },
   {
     "id": "200865",
@@ -511,6 +499,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/200865.webm"
   },
   {
+    "id": "15512",
+    "label": "plugging cord into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/15512.webm"
+  },
+  {
     "id": "170900",
     "label": "plugging something into something but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -521,18 +521,6 @@
     "task": "back_and_forth",
     "num_frames": 23,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/170900.webm"
-  },
-  {
-    "id": "11687",
-    "label": "plugging a charger into a phone but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "a charger",
-      "a phone"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 47,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/11687.webm"
   },
   {
     "id": "32510",
@@ -547,15 +535,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/32510.webm"
   },
   {
-    "id": "149542",
-    "label": "throwing cigarette lighter in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "11687",
+    "label": "plugging a charger into a phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "cigarette lighter"
+      "a charger",
+      "a phone"
     ],
     "task": "back_and_forth",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149542.webm"
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/11687.webm"
   },
   {
     "id": "65311",
@@ -569,6 +558,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/65311.webm"
   },
   {
+    "id": "149542",
+    "label": "throwing cigarette lighter in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "cigarette lighter"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149542.webm"
+  },
+  {
     "id": "209741",
     "label": "letting packing tape roll up a slanted surface, so it rolls back down",
     "template": "Letting [something] roll up a slanted surface, so it rolls back down",
@@ -580,17 +580,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/209741.webm"
   },
   {
-    "id": "92401",
-    "label": "letting ball toy roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "ball toy"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92401.webm"
-  },
-  {
     "id": "83581",
     "label": "letting exercise cylinder roll up a slanted surface, so it rolls back down",
     "template": "Letting [something] roll up a slanted surface, so it rolls back down",
@@ -600,6 +589,17 @@
     "task": "back_and_forth",
     "num_frames": 48,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/83581.webm"
+  },
+  {
+    "id": "92401",
+    "label": "letting ball toy roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball toy"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92401.webm"
   },
   {
     "id": "204109",
@@ -637,16 +637,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/82024.webm"
   },
   {
-    "id": "120436",
-    "label": "plugging an adapter into an outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "199645",
+    "label": "throwing bottle in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "an adapter",
-      "an outlet"
+      "bottle"
     ],
     "task": "back_and_forth",
-    "num_frames": 59,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120436.webm"
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199645.webm"
   },
   {
     "id": "153558",
@@ -683,15 +682,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/57786.webm"
   },
   {
-    "id": "199645",
-    "label": "throwing bottle in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "120436",
+    "label": "plugging an adapter into an outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "bottle"
+      "an adapter",
+      "an outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/199645.webm"
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120436.webm"
   },
   {
     "id": "85616",
@@ -730,16 +730,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/194875.webm"
   },
   {
-    "id": "100240",
-    "label": "plugging usb cable into smarthphone but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "144274",
+    "label": "throwing a stuffed bird in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "usb cable",
-      "smarthphone"
+      "a stuffed bird"
     ],
     "task": "back_and_forth",
-    "num_frames": 47,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/100240.webm"
+    "num_frames": 28,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/144274.webm"
   },
   {
     "id": "134849",
@@ -754,15 +753,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134849.webm"
   },
   {
-    "id": "144274",
-    "label": "throwing a stuffed bird in the air and catching it",
+    "id": "214178",
+    "label": "throwing bottle cap in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "a stuffed bird"
+      "bottle cap"
     ],
     "task": "back_and_forth",
-    "num_frames": 28,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/144274.webm"
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/214178.webm"
   },
   {
     "id": "19698",
@@ -774,6 +773,29 @@
     "task": "back_and_forth",
     "num_frames": 41,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/19698.webm"
+  },
+  {
+    "id": "109906",
+    "label": "throwing lemon in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "lemon"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/109906.webm"
+  },
+  {
+    "id": "100240",
+    "label": "plugging usb cable into smarthphone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb cable",
+      "smarthphone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/100240.webm"
   },
   {
     "id": "8713",
@@ -788,29 +810,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/8713.webm"
   },
   {
-    "id": "136669",
-    "label": "plugging baby monitor cord into power outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "baby monitor cord",
-      "power outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 65,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/136669.webm"
-  },
-  {
-    "id": "214178",
-    "label": "throwing bottle cap in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "bottle cap"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/214178.webm"
-  },
-  {
     "id": "159108",
     "label": "throwing a soft toy in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -822,17 +821,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/159108.webm"
   },
   {
-    "id": "109906",
-    "label": "throwing lemon in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "lemon"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 31,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/109906.webm"
-  },
-  {
     "id": "31941",
     "label": "throwing bag in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -842,17 +830,6 @@
     "task": "back_and_forth",
     "num_frames": 33,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/31941.webm"
-  },
-  {
-    "id": "157213",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 23,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157213.webm"
   },
   {
     "id": "105308",
@@ -867,15 +844,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/105308.webm"
   },
   {
-    "id": "78060",
-    "label": "throwing pen in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "136669",
+    "label": "plugging baby monitor cord into power outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "pen"
+      "baby monitor cord",
+      "power outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 33,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/78060.webm"
+    "num_frames": 65,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/136669.webm"
+  },
+  {
+    "id": "157213",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 23,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157213.webm"
   },
   {
     "id": "62930",
@@ -890,27 +879,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62930.webm"
   },
   {
-    "id": "151940",
-    "label": "letting deodorant container roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "78060",
+    "label": "throwing pen in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "deodorant container"
+      "pen"
     ],
     "task": "back_and_forth",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/151940.webm"
-  },
-  {
-    "id": "125234",
-    "label": "plugging phone changer into outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "phone changer",
-      "outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125234.webm"
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/78060.webm"
   },
   {
     "id": "194501",
@@ -922,6 +899,17 @@
     "task": "back_and_forth",
     "num_frames": 45,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/194501.webm"
+  },
+  {
+    "id": "151940",
+    "label": "letting deodorant container roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "deodorant container"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/151940.webm"
   },
   {
     "id": "196329",
@@ -948,6 +936,41 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52242.webm"
   },
   {
+    "id": "27664",
+    "label": "plugging charger into wall outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "wall outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27664.webm"
+  },
+  {
+    "id": "125234",
+    "label": "plugging phone changer into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "phone changer",
+      "outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125234.webm"
+  },
+  {
+    "id": "188211",
+    "label": "letting a ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 20,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/188211.webm"
+  },
+  {
     "id": "180769",
     "label": "throwing chocolate pretzel sticks in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -959,16 +982,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/180769.webm"
   },
   {
-    "id": "27664",
-    "label": "plugging charger into wall outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "29141",
+    "label": "throwing remote control in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "charger",
-      "wall outlet"
+      "remote control"
     ],
     "task": "back_and_forth",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27664.webm"
+    "num_frames": 38,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29141.webm"
+  },
+  {
+    "id": "85427",
+    "label": "throwing pipeapple in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pipeapple"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 32,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85427.webm"
   },
   {
     "id": "75252",
@@ -983,39 +1016,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/75252.webm"
   },
   {
-    "id": "29141",
-    "label": "throwing remote control in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "remote control"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 38,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29141.webm"
-  },
-  {
-    "id": "188211",
-    "label": "letting a ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "a ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 20,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/188211.webm"
-  },
-  {
-    "id": "85427",
-    "label": "throwing pipeapple in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "pipeapple"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 32,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85427.webm"
-  },
-  {
     "id": "132932",
     "label": "plugging power cable into socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1026,6 +1026,17 @@
     "task": "back_and_forth",
     "num_frames": 59,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/132932.webm"
+  },
+  {
+    "id": "51535",
+    "label": "throwing stuffed animal in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "stuffed animal"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 66,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/51535.webm"
   },
   {
     "id": "146799",
@@ -1040,6 +1051,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/146799.webm"
   },
   {
+    "id": "166033",
+    "label": "throwing throwing something on the air in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "throwing something on the air"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 29,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/166033.webm"
+  },
+  {
     "id": "131816",
     "label": "plugging hair dryer into wall outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1050,17 +1072,6 @@
     "task": "back_and_forth",
     "num_frames": 51,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/131816.webm"
-  },
-  {
-    "id": "51535",
-    "label": "throwing stuffed animal in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "stuffed animal"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 66,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/51535.webm"
   },
   {
     "id": "72154",
@@ -1075,27 +1086,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/72154.webm"
   },
   {
-    "id": "166033",
-    "label": "throwing throwing something on the air in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "throwing something on the air"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 29,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/166033.webm"
-  },
-  {
-    "id": "52026",
-    "label": "plugging phone wire into phone but pulling it right out as you remove your hand",
+    "id": "206241",
+    "label": "plugging charging cable into portable game device but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "phone wire",
-      "phone"
+      "charging cable",
+      "portable game device"
     ],
     "task": "back_and_forth",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52026.webm"
+    "num_frames": 70,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/206241.webm"
   },
   {
     "id": "85066",
@@ -1110,28 +1110,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85066.webm"
   },
   {
-    "id": "206241",
-    "label": "plugging charging cable into portable game device but pulling it right out as you remove your hand",
+    "id": "52026",
+    "label": "plugging phone wire into phone but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "charging cable",
-      "portable game device"
+      "phone wire",
+      "phone"
     ],
     "task": "back_and_forth",
-    "num_frames": 70,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/206241.webm"
-  },
-  {
-    "id": "90874",
-    "label": "plugging usb cable into notebook but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "usb cable",
-      "notebook"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 53,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/90874.webm"
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52026.webm"
   },
   {
     "id": "59950",
@@ -1144,6 +1132,18 @@
     "task": "back_and_forth",
     "num_frames": 29,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/59950.webm"
+  },
+  {
+    "id": "90874",
+    "label": "plugging usb cable into notebook but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "usb cable",
+      "notebook"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/90874.webm"
   },
   {
     "id": "27776",
@@ -1169,15 +1169,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147245.webm"
   },
   {
-    "id": "61314",
-    "label": "throwing a ball in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "152272",
+    "label": "plugging cord into power socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a ball"
+      "cord",
+      "power socket"
     ],
     "task": "back_and_forth",
-    "num_frames": 16,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/61314.webm"
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/152272.webm"
   },
   {
     "id": "140125",
@@ -1192,16 +1193,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/140125.webm"
   },
   {
-    "id": "152272",
-    "label": "plugging cord into power socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "58840",
+    "label": "throwing lemon in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "cord",
-      "power socket"
+      "lemon"
     ],
     "task": "back_and_forth",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/152272.webm"
+    "num_frames": 20,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/58840.webm"
+  },
+  {
+    "id": "61314",
+    "label": "throwing a ball in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 16,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/61314.webm"
   },
   {
     "id": "55458",
@@ -1227,17 +1238,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/33128.webm"
   },
   {
-    "id": "58840",
-    "label": "throwing lemon in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "lemon"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 20,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/58840.webm"
-  },
-  {
     "id": "12636",
     "label": "plugging a building block into another building block but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1248,18 +1248,6 @@
     "task": "back_and_forth",
     "num_frames": 70,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/12636.webm"
-  },
-  {
-    "id": "109252",
-    "label": "plugging a charger into an outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "a charger",
-      "an outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 61,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/109252.webm"
   },
   {
     "id": "214030",
@@ -1286,27 +1274,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/5709.webm"
   },
   {
-    "id": "146846",
-    "label": "plugging a cord into a surge protector but pulling it right out as you remove your hand",
+    "id": "109252",
+    "label": "plugging a charger into an outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a cord",
-      "a surge protector"
+      "a charger",
+      "an outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/146846.webm"
-  },
-  {
-    "id": "120781",
-    "label": "throwing ball in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120781.webm"
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/109252.webm"
   },
   {
     "id": "146754",
@@ -1332,16 +1309,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/153678.webm"
   },
   {
-    "id": "163017",
-    "label": "plugging cable into laptop but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "120781",
+    "label": "throwing ball in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "cable",
-      "laptop"
+      "ball"
     ],
     "task": "back_and_forth",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/163017.webm"
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120781.webm"
+  },
+  {
+    "id": "146846",
+    "label": "plugging a cord into a surge protector but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cord",
+      "a surge protector"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/146846.webm"
   },
   {
     "id": "60451",
@@ -1356,15 +1344,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/60451.webm"
   },
   {
-    "id": "105986",
-    "label": "throwing battery in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "163017",
+    "label": "plugging cable into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "battery"
+      "cable",
+      "laptop"
     ],
     "task": "back_and_forth",
-    "num_frames": 55,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/105986.webm"
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/163017.webm"
   },
   {
     "id": "3082",
@@ -1379,6 +1368,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/3082.webm"
   },
   {
+    "id": "105986",
+    "label": "throwing battery in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "battery"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 55,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/105986.webm"
+  },
+  {
     "id": "137966",
     "label": "plugging plug into plug socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1389,18 +1389,6 @@
     "task": "back_and_forth",
     "num_frames": 35,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/137966.webm"
-  },
-  {
-    "id": "50067",
-    "label": "plugging electrical plug into an outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "electrical plug",
-      "an outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 65,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50067.webm"
   },
   {
     "id": "24846",
@@ -1426,16 +1414,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157854.webm"
   },
   {
-    "id": "220500",
-    "label": "plugging charger into power strip but pulling it right out as you remove your hand",
+    "id": "50067",
+    "label": "plugging electrical plug into an outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "charger",
-      "power strip"
+      "electrical plug",
+      "an outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/220500.webm"
+    "num_frames": 65,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50067.webm"
   },
   {
     "id": "123928",
@@ -1447,6 +1435,18 @@
     "task": "back_and_forth",
     "num_frames": 40,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/123928.webm"
+  },
+  {
+    "id": "220500",
+    "label": "plugging charger into power strip but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "power strip"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/220500.webm"
   },
   {
     "id": "2076",
@@ -1529,29 +1529,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/50750.webm"
   },
   {
-    "id": "142889",
-    "label": "plugging cable into charger but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cable",
-      "charger"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142889.webm"
-  },
-  {
-    "id": "101590",
-    "label": "letting can roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "can"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 50,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/101590.webm"
-  },
-  {
     "id": "29578",
     "label": "throwing nutrition bar in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -1574,15 +1551,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/201433.webm"
   },
   {
-    "id": "38000",
-    "label": "letting something roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "142889",
+    "label": "plugging cable into charger but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "something"
+      "cable",
+      "charger"
     ],
     "task": "back_and_forth",
-    "num_frames": 27,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/38000.webm"
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142889.webm"
   },
   {
     "id": "46143",
@@ -1596,15 +1574,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/46143.webm"
   },
   {
-    "id": "14293",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "id": "38000",
+    "label": "letting something roll up a slanted surface, so it rolls back down",
     "template": "Letting [something] roll up a slanted surface, so it rolls back down",
     "placeholders": [
-      "ball"
+      "something"
     ],
     "task": "back_and_forth",
-    "num_frames": 48,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/14293.webm"
+    "num_frames": 27,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/38000.webm"
+  },
+  {
+    "id": "101590",
+    "label": "letting can roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "can"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 50,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/101590.webm"
   },
   {
     "id": "74999",
@@ -1619,6 +1608,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/74999.webm"
   },
   {
+    "id": "14293",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 48,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/14293.webm"
+  },
+  {
     "id": "62750",
     "label": "plugging charger into wall but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1631,18 +1631,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62750.webm"
   },
   {
-    "id": "66545",
-    "label": "plugging a plug into a wall plug but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "a plug",
-      "a wall plug"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 72,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/66545.webm"
-  },
-  {
     "id": "95874",
     "label": "plugging a cable into the wall but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1653,6 +1641,18 @@
     "task": "back_and_forth",
     "num_frames": 29,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/95874.webm"
+  },
+  {
+    "id": "66545",
+    "label": "plugging a plug into a wall plug but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a plug",
+      "a wall plug"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 72,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/66545.webm"
   },
   {
     "id": "195308",
@@ -1679,18 +1679,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/38859.webm"
   },
   {
-    "id": "69566",
-    "label": "plugging cable into phone but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cable",
-      "phone"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 72,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/69566.webm"
-  },
-  {
     "id": "16293",
     "label": "plugging charger into mobile but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1701,6 +1689,18 @@
     "task": "back_and_forth",
     "num_frames": 47,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/16293.webm"
+  },
+  {
+    "id": "69566",
+    "label": "plugging cable into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cable",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 72,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/69566.webm"
   },
   {
     "id": "78015",
@@ -1714,17 +1714,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/78015.webm"
   },
   {
-    "id": "152226",
-    "label": "throwing a junggling ball in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "a junggling ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 35,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/152226.webm"
-  },
-  {
     "id": "74098",
     "label": "throwing ball in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -1736,15 +1725,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/74098.webm"
   },
   {
-    "id": "166977",
-    "label": "throwing pillow in the air and catching it",
+    "id": "152226",
+    "label": "throwing a junggling ball in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "pillow"
+      "a junggling ball"
     ],
     "task": "back_and_forth",
-    "num_frames": 40,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/166977.webm"
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/152226.webm"
   },
   {
     "id": "84998",
@@ -1756,17 +1745,6 @@
     "task": "back_and_forth",
     "num_frames": 57,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/84998.webm"
-  },
-  {
-    "id": "92487",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92487.webm"
   },
   {
     "id": "183412",
@@ -1781,6 +1759,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/183412.webm"
   },
   {
+    "id": "166977",
+    "label": "throwing pillow in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pillow"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 40,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/166977.webm"
+  },
+  {
     "id": "6750",
     "label": "plugging a plug into a socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1791,6 +1780,17 @@
     "task": "back_and_forth",
     "num_frames": 58,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6750.webm"
+  },
+  {
+    "id": "92487",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92487.webm"
   },
   {
     "id": "172134",
@@ -1805,15 +1805,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/172134.webm"
   },
   {
-    "id": "215973",
-    "label": "throwing a cell phone in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "86780",
+    "label": "plugging charger into wall but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a cell phone"
+      "charger",
+      "wall"
     ],
     "task": "back_and_forth",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/215973.webm"
+    "num_frames": 61,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86780.webm"
   },
   {
     "id": "213350",
@@ -1826,6 +1827,29 @@
     "task": "back_and_forth",
     "num_frames": 43,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213350.webm"
+  },
+  {
+    "id": "215973",
+    "label": "throwing a cell phone in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "a cell phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/215973.webm"
+  },
+  {
+    "id": "213228",
+    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 62,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213228.webm"
   },
   {
     "id": "137165",
@@ -1864,30 +1888,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/130330.webm"
   },
   {
-    "id": "86780",
-    "label": "plugging charger into wall but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "charger",
-      "wall"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 61,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/86780.webm"
-  },
-  {
-    "id": "213228",
-    "label": "plugging charger into phone but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "charger",
-      "phone"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 62,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/213228.webm"
-  },
-  {
     "id": "218385",
     "label": "letting a small iron rod roll up a slanted surface, so it rolls back down",
     "template": "Letting [something] roll up a slanted surface, so it rolls back down",
@@ -1911,18 +1911,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127980.webm"
   },
   {
-    "id": "76344",
-    "label": "plugging charger into power board but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "charger",
-      "power board"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 40,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/76344.webm"
-  },
-  {
     "id": "177267",
     "label": "plugging a charger into power outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -1935,63 +1923,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/177267.webm"
   },
   {
-    "id": "108687",
-    "label": "plugging cord into power strip but pulling it right out as you remove your hand",
+    "id": "76344",
+    "label": "plugging charger into power board but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "cord",
-      "power strip"
+      "charger",
+      "power board"
     ],
     "task": "back_and_forth",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/108687.webm"
-  },
-  {
-    "id": "8537",
-    "label": "plugging headphone into computer jack but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "headphone",
-      "computer jack"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 70,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/8537.webm"
-  },
-  {
-    "id": "49280",
-    "label": "plugging machine into wall but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "machine",
-      "wall"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 48,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/49280.webm"
-  },
-  {
-    "id": "137928",
-    "label": "plugging battery charger into laptop but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "battery charger",
-      "laptop"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/137928.webm"
-  },
-  {
-    "id": "216261",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 30,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/216261.webm"
+    "num_frames": 40,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/76344.webm"
   },
   {
     "id": "102036",
@@ -2006,15 +1947,63 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/102036.webm"
   },
   {
-    "id": "91770",
-    "label": "throwing ear muffs in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "49280",
+    "label": "plugging machine into wall but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "ear muffs"
+      "machine",
+      "wall"
     ],
     "task": "back_and_forth",
-    "num_frames": 32,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91770.webm"
+    "num_frames": 48,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/49280.webm"
+  },
+  {
+    "id": "8537",
+    "label": "plugging headphone into computer jack but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "headphone",
+      "computer jack"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 70,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/8537.webm"
+  },
+  {
+    "id": "137928",
+    "label": "plugging battery charger into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "battery charger",
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/137928.webm"
+  },
+  {
+    "id": "108687",
+    "label": "plugging cord into power strip but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "power strip"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/108687.webm"
+  },
+  {
+    "id": "216261",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 30,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/216261.webm"
   },
   {
     "id": "187835",
@@ -2041,15 +2030,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/203238.webm"
   },
   {
-    "id": "62606",
-    "label": "throwing ball in the air and catching it",
+    "id": "91770",
+    "label": "throwing ear muffs in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "ball"
+      "ear muffs"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 32,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/91770.webm"
+  },
+  {
+    "id": "103203",
+    "label": "throwing cellphone in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "cellphone"
     ],
     "task": "back_and_forth",
     "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62606.webm"
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/103203.webm"
   },
   {
     "id": "149185",
@@ -2064,15 +2064,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/149185.webm"
   },
   {
-    "id": "103203",
-    "label": "throwing cellphone in the air and catching it",
+    "id": "62606",
+    "label": "throwing ball in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "cellphone"
+      "ball"
     ],
     "task": "back_and_forth",
     "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/103203.webm"
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/62606.webm"
   },
   {
     "id": "82165",
@@ -2099,15 +2099,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/208724.webm"
   },
   {
-    "id": "179520",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "208801",
+    "label": "plugging headphones into a smartphone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "ball"
+      "headphones",
+      "a smartphone"
     ],
     "task": "back_and_forth",
-    "num_frames": 59,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/179520.webm"
+    "num_frames": 57,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/208801.webm"
   },
   {
     "id": "144130",
@@ -2122,16 +2123,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/144130.webm"
   },
   {
-    "id": "208801",
-    "label": "plugging headphones into a smartphone but pulling it right out as you remove your hand",
+    "id": "85262",
+    "label": "plugging night light into outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "headphones",
-      "a smartphone"
+      "night light",
+      "outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 57,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/208801.webm"
+    "num_frames": 72,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85262.webm"
+  },
+  {
+    "id": "179520",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/179520.webm"
   },
   {
     "id": "44055",
@@ -2146,29 +2158,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/44055.webm"
   },
   {
-    "id": "73350",
-    "label": "throwing car keys in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "car keys"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/73350.webm"
-  },
-  {
-    "id": "85262",
-    "label": "plugging night light into outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "night light",
-      "outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 72,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/85262.webm"
-  },
-  {
     "id": "88665",
     "label": "throwing a toy microphone in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -2180,16 +2169,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/88665.webm"
   },
   {
-    "id": "216535",
-    "label": "plugging charger into outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "73350",
+    "label": "throwing car keys in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "charger",
-      "outlet"
+      "car keys"
     ],
     "task": "back_and_forth",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/216535.webm"
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/73350.webm"
   },
   {
     "id": "65822",
@@ -2214,16 +2202,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/53661.webm"
   },
   {
-    "id": "193177",
-    "label": "plugging usb stick into laptop but pulling it right out as you remove your hand",
+    "id": "216535",
+    "label": "plugging charger into outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "usb stick",
-      "laptop"
+      "charger",
+      "outlet"
     ],
     "task": "back_and_forth",
-    "num_frames": 33,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/193177.webm"
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/216535.webm"
   },
   {
     "id": "143743",
@@ -2238,18 +2226,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/143743.webm"
   },
   {
-    "id": "133940",
-    "label": "plugging a power cord into a laptop but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "a power cord",
-      "a laptop"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 46,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/133940.webm"
-  },
-  {
     "id": "182914",
     "label": "plugging charger into outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2262,15 +2238,28 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182914.webm"
   },
   {
-    "id": "204122",
-    "label": "throwing a pillow in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "193177",
+    "label": "plugging usb stick into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a pillow"
+      "usb stick",
+      "laptop"
     ],
     "task": "back_and_forth",
-    "num_frames": 20,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204122.webm"
+    "num_frames": 33,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/193177.webm"
+  },
+  {
+    "id": "133940",
+    "label": "plugging a power cord into a laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a power cord",
+      "a laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 46,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/133940.webm"
   },
   {
     "id": "51249",
@@ -2284,16 +2273,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/51249.webm"
   },
   {
-    "id": "29699",
-    "label": "plugging headphones into computer but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "204122",
+    "label": "throwing a pillow in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "headphones",
-      "computer"
+      "a pillow"
     ],
     "task": "back_and_forth",
-    "num_frames": 59,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29699.webm"
+    "num_frames": 20,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204122.webm"
   },
   {
     "id": "63861",
@@ -2320,16 +2308,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/106909.webm"
   },
   {
-    "id": "6597",
-    "label": "plugging a cable into a phone but pulling it right out as you remove your hand",
+    "id": "29699",
+    "label": "plugging headphones into computer but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a cable",
-      "a phone"
+      "headphones",
+      "computer"
     ],
     "task": "back_and_forth",
-    "num_frames": 66,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6597.webm"
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/29699.webm"
   },
   {
     "id": "219710",
@@ -2354,6 +2342,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/122642.webm"
   },
   {
+    "id": "6597",
+    "label": "plugging a cable into a phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a cable",
+      "a phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 66,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/6597.webm"
+  },
+  {
     "id": "127573",
     "label": "plugging earphones into a laptop computer but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2366,6 +2366,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/127573.webm"
   },
   {
+    "id": "53974",
+    "label": "plugging cord into outlet but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "outlet"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/53974.webm"
+  },
+  {
     "id": "157575",
     "label": "throwing red cup in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -2375,17 +2387,6 @@
     "task": "back_and_forth",
     "num_frames": 39,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157575.webm"
-  },
-  {
-    "id": "119313",
-    "label": "throwing control in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "control"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 23,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119313.webm"
   },
   {
     "id": "178084",
@@ -2400,6 +2401,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/178084.webm"
   },
   {
+    "id": "119313",
+    "label": "throwing control in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "control"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 23,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119313.webm"
+  },
+  {
     "id": "187593",
     "label": "plugging cord into wall but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2410,18 +2422,6 @@
     "task": "back_and_forth",
     "num_frames": 53,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/187593.webm"
-  },
-  {
-    "id": "53974",
-    "label": "plugging cord into outlet but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cord",
-      "outlet"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/53974.webm"
   },
   {
     "id": "166720",
@@ -2447,18 +2447,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157374.webm"
   },
   {
-    "id": "182027",
-    "label": "plugging earphones into a laptop but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "earphones",
-      "a laptop"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 64,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182027.webm"
-  },
-  {
     "id": "182007",
     "label": "plugging power adapter into a wall outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2469,6 +2457,18 @@
     "task": "back_and_forth",
     "num_frames": 40,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182007.webm"
+  },
+  {
+    "id": "182027",
+    "label": "plugging earphones into a laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "earphones",
+      "a laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 64,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/182027.webm"
   },
   {
     "id": "27728",
@@ -2483,17 +2483,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/27728.webm"
   },
   {
-    "id": "186553",
-    "label": "throwing pillow in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "pillow"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/186553.webm"
-  },
-  {
     "id": "124756",
     "label": "throwing bottle in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -2505,6 +2494,17 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/124756.webm"
   },
   {
+    "id": "186553",
+    "label": "throwing pillow in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pillow"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/186553.webm"
+  },
+  {
     "id": "202431",
     "label": "throwing can in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
@@ -2514,28 +2514,6 @@
     "task": "back_and_forth",
     "num_frames": 57,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/202431.webm"
-  },
-  {
-    "id": "103151",
-    "label": "throwing pen in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "pen"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 60,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/103151.webm"
-  },
-  {
-    "id": "142547",
-    "label": "letting makeup bottle roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "makeup bottle"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 47,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142547.webm"
   },
   {
     "id": "220641",
@@ -2574,16 +2552,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/52275.webm"
   },
   {
-    "id": "157613",
-    "label": "plugging charger into pluge but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "142547",
+    "label": "letting makeup bottle roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
     "placeholders": [
-      "charger",
-      "pluge"
+      "makeup bottle"
     ],
     "task": "back_and_forth",
-    "num_frames": 44,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157613.webm"
+    "num_frames": 47,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142547.webm"
+  },
+  {
+    "id": "103151",
+    "label": "throwing pen in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
+    "placeholders": [
+      "pen"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 60,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/103151.webm"
   },
   {
     "id": "94920",
@@ -2609,16 +2597,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/191966.webm"
   },
   {
-    "id": "32372",
-    "label": "plugging phone into charger but pulling it right out as you remove your hand",
+    "id": "157613",
+    "label": "plugging charger into pluge but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "phone",
-      "charger"
+      "charger",
+      "pluge"
     ],
     "task": "back_and_forth",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/32372.webm"
+    "num_frames": 44,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/157613.webm"
   },
   {
     "id": "112844",
@@ -2644,16 +2632,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/139906.webm"
   },
   {
-    "id": "1255",
-    "label": "plugging a plug head into an extension lead but pulling it right out as you remove your hand",
+    "id": "32372",
+    "label": "plugging phone into charger but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a plug head",
-      "an extension lead"
+      "phone",
+      "charger"
     ],
     "task": "back_and_forth",
     "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/1255.webm"
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/32372.webm"
   },
   {
     "id": "175179",
@@ -2665,18 +2653,6 @@
     "task": "back_and_forth",
     "num_frames": 56,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/175179.webm"
-  },
-  {
-    "id": "14538",
-    "label": "plugging cord into socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cord",
-      "socket"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 67,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/14538.webm"
   },
   {
     "id": "107951",
@@ -2691,6 +2667,30 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/107951.webm"
   },
   {
+    "id": "1255",
+    "label": "plugging a plug head into an extension lead but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "a plug head",
+      "an extension lead"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/1255.webm"
+  },
+  {
+    "id": "14538",
+    "label": "plugging cord into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "socket"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 67,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/14538.webm"
+  },
+  {
     "id": "158153",
     "label": "plugging a portable charger into a wall outlet but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2701,18 +2701,6 @@
     "task": "back_and_forth",
     "num_frames": 36,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/158153.webm"
-  },
-  {
-    "id": "210479",
-    "label": "plugging otg into mobile but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "otg",
-      "mobile"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 66,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/210479.webm"
   },
   {
     "id": "88989",
@@ -2739,6 +2727,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/77290.webm"
   },
   {
+    "id": "210479",
+    "label": "plugging otg into mobile but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "otg",
+      "mobile"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 66,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/210479.webm"
+  },
+  {
     "id": "159935",
     "label": "plugging something into something but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2749,6 +2749,17 @@
     "task": "back_and_forth",
     "num_frames": 29,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/159935.webm"
+  },
+  {
+    "id": "123327",
+    "label": "letting baseball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "baseball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 45,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/123327.webm"
   },
   {
     "id": "30354",
@@ -2762,15 +2773,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30354.webm"
   },
   {
-    "id": "123327",
-    "label": "letting baseball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "142943",
+    "label": "plugging usb cable into usb port but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "baseball"
+      "usb cable",
+      "usb port"
     ],
     "task": "back_and_forth",
-    "num_frames": 45,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/123327.webm"
+    "num_frames": 42,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142943.webm"
   },
   {
     "id": "198362",
@@ -2794,18 +2806,6 @@
     "task": "back_and_forth",
     "num_frames": 33,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/118329.webm"
-  },
-  {
-    "id": "142943",
-    "label": "plugging usb cable into usb port but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "usb cable",
-      "usb port"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 42,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/142943.webm"
   },
   {
     "id": "19108",
@@ -2912,15 +2912,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/196305.webm"
   },
   {
-    "id": "59287",
-    "label": "letting ping pong ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "160424",
+    "label": "plugging charger into socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "ping pong ball"
+      "charger",
+      "socket"
     ],
     "task": "back_and_forth",
-    "num_frames": 41,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/59287.webm"
+    "num_frames": 59,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/160424.webm"
   },
   {
     "id": "83682",
@@ -2932,6 +2933,29 @@
     "task": "back_and_forth",
     "num_frames": 59,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/83682.webm"
+  },
+  {
+    "id": "59287",
+    "label": "letting ping pong ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ping pong ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 41,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/59287.webm"
+  },
+  {
+    "id": "73665",
+    "label": "plugging sink plug into sink with running water but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "sink plug",
+      "sink with running water"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 46,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/73665.webm"
   },
   {
     "id": "470",
@@ -2946,18 +2970,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/470.webm"
   },
   {
-    "id": "160424",
-    "label": "plugging charger into socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "charger",
-      "socket"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 59,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/160424.webm"
-  },
-  {
     "id": "18865",
     "label": "plugging plug into plug cage but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -2970,16 +2982,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/18865.webm"
   },
   {
-    "id": "73665",
-    "label": "plugging sink plug into sink with running water but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "158297",
+    "label": "throwing an eraser in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "sink plug",
-      "sink with running water"
+      "an eraser"
     ],
     "task": "back_and_forth",
-    "num_frames": 46,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/73665.webm"
+    "num_frames": 55,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/158297.webm"
   },
   {
     "id": "80418",
@@ -3005,28 +3016,6 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/77033.webm"
   },
   {
-    "id": "20048",
-    "label": "throwing ball in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 35,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/20048.webm"
-  },
-  {
-    "id": "158297",
-    "label": "throwing an eraser in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "an eraser"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 55,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/158297.webm"
-  },
-  {
     "id": "161435",
     "label": "plugging a plug into an adaptor but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -3039,15 +3028,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/161435.webm"
   },
   {
-    "id": "147885",
-    "label": "throwing earrings in the air and catching it",
+    "id": "20048",
+    "label": "throwing ball in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "earrings"
+      "ball"
     ],
     "task": "back_and_forth",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147885.webm"
+    "num_frames": 35,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/20048.webm"
   },
   {
     "id": "54227",
@@ -3062,15 +3051,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/54227.webm"
   },
   {
-    "id": "23157",
-    "label": "letting pen roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "125171",
+    "label": "plugging a plug into a socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "pen"
+      "a plug",
+      "a socket"
     ],
     "task": "back_and_forth",
-    "num_frames": 63,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/23157.webm"
+    "num_frames": 65,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125171.webm"
   },
   {
     "id": "19621",
@@ -3084,38 +3074,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/19621.webm"
   },
   {
-    "id": "169827",
-    "label": "throwing empty water bottle in the air and catching it",
+    "id": "147885",
+    "label": "throwing earrings in the air and catching it",
     "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "empty water bottle"
+      "earrings"
     ],
     "task": "back_and_forth",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/169827.webm"
-  },
-  {
-    "id": "125171",
-    "label": "plugging a plug into a socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "a plug",
-      "a socket"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 65,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125171.webm"
-  },
-  {
-    "id": "145187",
-    "label": "letting superball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "superball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 32,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/145187.webm"
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/147885.webm"
   },
   {
     "id": "150548",
@@ -3130,26 +3097,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/150548.webm"
   },
   {
-    "id": "125237",
-    "label": "letting a pen roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "169827",
+    "label": "throwing empty water bottle in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "a pen"
+      "empty water bottle"
     ],
     "task": "back_and_forth",
-    "num_frames": 31,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125237.webm"
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/169827.webm"
   },
   {
-    "id": "93367",
-    "label": "letting container roll up a slanted surface, so it rolls back down",
+    "id": "23157",
+    "label": "letting pen roll up a slanted surface, so it rolls back down",
     "template": "Letting [something] roll up a slanted surface, so it rolls back down",
     "placeholders": [
-      "container"
+      "pen"
     ],
     "task": "back_and_forth",
-    "num_frames": 22,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/93367.webm"
+    "num_frames": 63,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/23157.webm"
   },
   {
     "id": "206488",
@@ -3164,6 +3131,39 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/206488.webm"
   },
   {
+    "id": "125237",
+    "label": "letting a pen roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "a pen"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/125237.webm"
+  },
+  {
+    "id": "145187",
+    "label": "letting superball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "superball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 32,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/145187.webm"
+  },
+  {
+    "id": "93367",
+    "label": "letting container roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "container"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 22,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/93367.webm"
+  },
+  {
     "id": "49120",
     "label": "plugging plug into adapter but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -3176,16 +3176,26 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/49120.webm"
   },
   {
-    "id": "217957",
-    "label": "plugging a power supply into a wall socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "190430",
+    "label": "throwing a bottle in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "a power supply",
-      "a wall socket"
+      "a bottle"
     ],
     "task": "back_and_forth",
-    "num_frames": 31,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/217957.webm"
+    "num_frames": 34,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/190430.webm"
+  },
+  {
+    "id": "119971",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 21,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119971.webm"
   },
   {
     "id": "169808",
@@ -3200,15 +3210,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/169808.webm"
   },
   {
-    "id": "190430",
-    "label": "throwing a bottle in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "217957",
+    "label": "plugging a power supply into a wall socket but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a bottle"
+      "a power supply",
+      "a wall socket"
     ],
     "task": "back_and_forth",
-    "num_frames": 34,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/190430.webm"
+    "num_frames": 31,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/217957.webm"
+  },
+  {
+    "id": "218375",
+    "label": "letting ball roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "placeholders": [
+      "ball"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 44,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/218375.webm"
   },
   {
     "id": "99735",
@@ -3223,38 +3245,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/99735.webm"
   },
   {
-    "id": "119971",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
+    "id": "198272",
+    "label": "throwing a plastic bottle cap in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "ball"
+      "a plastic bottle cap"
     ],
     "task": "back_and_forth",
-    "num_frames": 21,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/119971.webm"
+    "num_frames": 39,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/198272.webm"
   },
   {
-    "id": "22712",
-    "label": "plugging cord into power strip but pulling it right out as you remove your hand",
+    "id": "92691",
+    "label": "plugging a plug into a socket but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "cord",
-      "power strip"
+      "a plug",
+      "a socket"
     ],
     "task": "back_and_forth",
-    "num_frames": 56,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/22712.webm"
-  },
-  {
-    "id": "218375",
-    "label": "letting ball roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "ball"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 44,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/218375.webm"
+    "num_frames": 53,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92691.webm"
   },
   {
     "id": "30666",
@@ -3268,26 +3279,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/30666.webm"
   },
   {
-    "id": "198272",
-    "label": "throwing a plastic bottle cap in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
+    "id": "22712",
+    "label": "plugging cord into power strip but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "a plastic bottle cap"
+      "cord",
+      "power strip"
     ],
     "task": "back_and_forth",
-    "num_frames": 39,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/198272.webm"
-  },
-  {
-    "id": "134509",
-    "label": "letting car roll up a slanted surface, so it rolls back down",
-    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
-    "placeholders": [
-      "car"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 21,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134509.webm"
+    "num_frames": 56,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/22712.webm"
   },
   {
     "id": "165871",
@@ -3312,40 +3313,15 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/53422.webm"
   },
   {
-    "id": "92691",
-    "label": "plugging a plug into a socket but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "134509",
+    "label": "letting car roll up a slanted surface, so it rolls back down",
+    "template": "Letting [something] roll up a slanted surface, so it rolls back down",
     "placeholders": [
-      "a plug",
-      "a socket"
+      "car"
     ],
     "task": "back_and_forth",
-    "num_frames": 53,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/92691.webm"
-  },
-  {
-    "id": "98332",
-    "label": "plugging lead into laptop but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "lead",
-      "laptop"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 58,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/98332.webm"
-  },
-  {
-    "id": "69683",
-    "label": "plugging cord into amp but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
-    "placeholders": [
-      "cord",
-      "amp"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 40,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/69683.webm"
+    "num_frames": 21,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/134509.webm"
   },
   {
     "id": "181428",
@@ -3360,6 +3336,18 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/181428.webm"
   },
   {
+    "id": "69683",
+    "label": "plugging cord into amp but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "cord",
+      "amp"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 40,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/69683.webm"
+  },
+  {
     "id": "152269",
     "label": "plugging box into wall but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
@@ -3372,16 +3360,27 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/152269.webm"
   },
   {
-    "id": "120887",
-    "label": "plugging an audio cable into headphones but pulling it right out as you remove your hand",
-    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "id": "83542",
+    "label": "throwing pen in the air and catching it",
+    "template": "Throwing [something] in the air and catching it",
     "placeholders": [
-      "an audio cable",
-      "headphones"
+      "pen"
     ],
     "task": "back_and_forth",
-    "num_frames": 52,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120887.webm"
+    "num_frames": 43,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/83542.webm"
+  },
+  {
+    "id": "98332",
+    "label": "plugging lead into laptop but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "lead",
+      "laptop"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 58,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/98332.webm"
   },
   {
     "id": "196227",
@@ -3396,27 +3395,16 @@
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/196227.webm"
   },
   {
-    "id": "83542",
-    "label": "throwing pen in the air and catching it",
-    "template": "Throwing [something] in the air and catching it",
-    "placeholders": [
-      "pen"
-    ],
-    "task": "back_and_forth",
-    "num_frames": 43,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/83542.webm"
-  },
-  {
-    "id": "101461",
-    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "id": "120887",
+    "label": "plugging an audio cable into headphones but pulling it right out as you remove your hand",
     "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
     "placeholders": [
-      "charger",
-      "phone"
+      "an audio cable",
+      "headphones"
     ],
     "task": "back_and_forth",
-    "num_frames": 46,
-    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/101461.webm"
+    "num_frames": 52,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/120887.webm"
   },
   {
     "id": "204534",
@@ -3429,6 +3417,18 @@
     "task": "back_and_forth",
     "num_frames": 19,
     "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/204534.webm"
+  },
+  {
+    "id": "101461",
+    "label": "plugging charger into phone but pulling it right out as you remove your hand",
+    "template": "Plugging [something] into [something] but pulling it right out as you remove your hand",
+    "placeholders": [
+      "charger",
+      "phone"
+    ],
+    "task": "back_and_forth",
+    "num_frames": 46,
+    "video_path": "/root/autodl-tmp/PECN/data/sthv2/videos/101461.webm"
   },
   {
     "id": "154287",

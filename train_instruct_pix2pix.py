@@ -16,10 +16,14 @@
 
 """Script to fine-tune Stable Diffusion for InstructPix2Pix."""
 
+# Set HuggingFace mirror before any imports
+import os
+HF_MIRROR = "https://hf-mirror.com"
+os.environ["HF_ENDPOINT"] = HF_MIRROR
+
 import argparse
 import logging
 import math
-import os
 import shutil
 from contextlib import nullcontext
 from datetime import datetime
@@ -111,6 +115,8 @@ def log_validation(
         frames_dir = train_data_path / "frames_96x96"
     elif resolution == 128:
         frames_dir = train_data_path / "frames_128x128"
+    elif resolution == 224:
+        frames_dir = train_data_path / "frames_224x224"
     else:
         frames_dir = train_data_path / "frames_96x96"
         logger.warning(f"Resolution {resolution} not found, defaulting to frames_96x96")
@@ -619,16 +625,19 @@ def main():
     tokenizer = CLIPTokenizer.from_pretrained(
         args.pretrained_model_name_or_path, subfolder="tokenizer", revision=args.revision
     )
+    logger.info("Tokenizer loaded successfully")
     text_encoder = CLIPTextModel.from_pretrained(
         args.pretrained_model_name_or_path, subfolder="text_encoder", revision=args.revision, variant=args.variant
     )
+    logger.info("Text encoder loaded successfully")
     vae = AutoencoderKL.from_pretrained(
         args.pretrained_model_name_or_path, subfolder="vae", revision=args.revision, variant=args.variant
     )
+    logger.info("VAE loaded successfully")
     unet = UNet2DConditionModel.from_pretrained(
         args.pretrained_model_name_or_path, subfolder="unet", revision=args.non_ema_revision
     )
-
+    logger.info("UNet loaded successfully")
     # InstructPix2Pix uses an additional image for conditioning. To accommodate that,
     # it uses 8 channels (instead of 4) in the first (conv) layer of the UNet. This UNet is
     # then fine-tuned on the custom InstructPix2Pix dataset. This modified UNet is initialized
@@ -786,6 +795,8 @@ def main():
                     frames_dir = train_data_path / "frames_96x96"
                 elif resolution == 128:
                     frames_dir = train_data_path / "frames_128x128"
+                elif resolution == 224:
+                    frames_dir = train_data_path / "frames_224x224"
                 else:
                     # Default to 96x96 if resolution doesn't match
                     frames_dir = train_data_path / "frames_96x96"

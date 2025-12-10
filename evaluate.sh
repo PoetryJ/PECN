@@ -8,11 +8,11 @@ set -e
 # ==================== Configuration ====================
 
 # Model and data paths
-MODEL_DIR="${MODEL_DIR:-outputs/instruct_pix2pix_128}"
+MODEL_DIR="${MODEL_DIR:-outputs/instruct_pix2pix_128_backforth_progress}"
 PRETRAINED_MODEL="${PRETRAINED_MODEL:-timbrooks/instruct-pix2pix}"
 FRAMES_DIR="${FRAMES_DIR:-data/sthv2/frames_128x128}"
-VAL_ANNOTATIONS="${VAL_ANNOTATIONS:-data/sthv2/annotations/val_filtered.json}"
-OUTPUT_DIR="${OUTPUT_DIR:-test_result/instruct_pix2pix_128}"
+VAL_ANNOTATIONS="${VAL_ANNOTATIONS:-data/sthv2/annotations/val_filtered_backforth.json}"
+OUTPUT_DIR="${OUTPUT_DIR:-test_result/instruct_pix2pix_128_backforth_progress}"
 
 # Frame indices
 INPUT_FRAME_IDX="${INPUT_FRAME_IDX:-20}"
@@ -23,6 +23,12 @@ NUM_SAMPLES="${NUM_SAMPLES:-100}"
 SEED="${SEED:-42}"
 NUM_INFERENCE_STEPS="${NUM_INFERENCE_STEPS:-25}"
 IMAGE_GUIDANCE_SCALE="${IMAGE_GUIDANCE_SCALE:-1.5}"
+
+# Progress estimator parameters
+USE_PROGRESS_ESTIMATOR="${USE_PROGRESS_ESTIMATOR:-true}"
+PROGRESS_MODEL_PATH="${PROGRESS_MODEL_PATH:-progress_evaluator/checkpoints/checkpoint_ep20.pth}"
+PROGRESS_NUM_FRAMES="${PROGRESS_NUM_FRAMES:-20}"
+PROGRESS_HIDDEN_DIM="${PROGRESS_HIDDEN_DIM:-512}"
 
 # ==================== Validation ====================
 
@@ -42,6 +48,13 @@ echo "Number of samples: $NUM_SAMPLES"
 echo "Random seed: $SEED"
 echo "Inference steps: $NUM_INFERENCE_STEPS"
 echo "Image guidance scale: $IMAGE_GUIDANCE_SCALE"
+echo ""
+echo "Progress estimator: $USE_PROGRESS_ESTIMATOR"
+if [ "$USE_PROGRESS_ESTIMATOR" = "true" ]; then
+    echo "  Model path: $PROGRESS_MODEL_PATH"
+    echo "  Num frames: $PROGRESS_NUM_FRAMES"
+    echo "  Hidden dim: $PROGRESS_HIDDEN_DIM"
+fi
 echo "========================================="
 echo ""
 
@@ -65,23 +78,47 @@ if [ ! -f "$VAL_ANNOTATIONS" ]; then
     exit 1
 fi
 
+# Check progress estimator configuration
+if [ "$USE_PROGRESS_ESTIMATOR" = "true" ]; then
+    if [ -z "$PROGRESS_MODEL_PATH" ]; then
+        echo "Error: PROGRESS_MODEL_PATH must be set when USE_PROGRESS_ESTIMATOR=true"
+        exit 1
+    fi
+    if [ ! -f "$PROGRESS_MODEL_PATH" ]; then
+        echo "Warning: Progress model not found at $PROGRESS_MODEL_PATH"
+        echo "Progress estimation may fail"
+    fi
+fi
+
 # ==================== Run Sampling ====================
 
 echo "Starting InstructPix2Pix sampling..."
 echo ""
 
-python sample_from_pix2pix.py \
-    --model_dir="$MODEL_DIR" \
-    --pretrained_model="$PRETRAINED_MODEL" \
-    --frames_dir="$FRAMES_DIR" \
-    --val_annotations="$VAL_ANNOTATIONS" \
-    --output_dir="$OUTPUT_DIR" \
-    --input_frame_idx=$INPUT_FRAME_IDX \
-    --target_frame_idx=$TARGET_FRAME_IDX \
-    --num_samples=$NUM_SAMPLES \
-    --seed=$SEED \
-    --num_inference_steps=$NUM_INFERENCE_STEPS \
+# Build command arguments
+CMD_ARGS=(
+    --model_dir="$MODEL_DIR"
+    --pretrained_model="$PRETRAINED_MODEL"
+    --frames_dir="$FRAMES_DIR"
+    --val_annotations="$VAL_ANNOTATIONS"
+    --output_dir="$OUTPUT_DIR"
+    --input_frame_idx=$INPUT_FRAME_IDX
+    --target_frame_idx=$TARGET_FRAME_IDX
+    --num_samples=$NUM_SAMPLES
+    --seed=$SEED
+    --num_inference_steps=$NUM_INFERENCE_STEPS
     --image_guidance_scale=$IMAGE_GUIDANCE_SCALE
+)
+
+# Add progress estimator arguments if enabled
+if [ "$USE_PROGRESS_ESTIMATOR" = "true" ]; then
+    CMD_ARGS+=(--use_progress_estimator)
+    CMD_ARGS+=(--progress_model_path="$PROGRESS_MODEL_PATH")
+    CMD_ARGS+=(--progress_num_frames=$PROGRESS_NUM_FRAMES)
+    CMD_ARGS+=(--progress_hidden_dim=$PROGRESS_HIDDEN_DIM)
+fi
+
+python sample_from_pix2pix.py "${CMD_ARGS[@]}"
 
 echo ""
 echo "========================================="

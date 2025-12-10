@@ -29,8 +29,8 @@ DROP_OBJECT_TEMPLATES = [
     "Dropping something behind something",
     "Dropping something into something",
     "Dropping something next to something",
-     "Something falling like a rock",
-     "Something falling like a feather or paper",
+    "Something falling like a rock",
+    "Something falling like a feather or paper",
 ]
 
 COVER_OBJECT_TEMPLATES = [
@@ -211,17 +211,18 @@ if __name__ == "__main__":
         train_json, 
         val_json, 
         output_dir,
-        train_samples_per_task=1000,
+        tasks=['move_object', 'drop_object', 'cover_object', 'back_and_forth'],
+        train_samples_per_task=2000,
         val_samples_per_task=100
     )
 
-    # filter back and forth movements
-    filter_dataset(
-        train_json,
-        val_json,
-        output_dir,
-        tasks=['back_and_forth'],
-        train_samples_per_task=3000,
-        val_samples_per_task=300
-    )
+    # # filter back and forth movements
+    # filter_dataset(
+    #     train_json,
+    #     val_json,
+    #     output_dir,
+    #     tasks=['back_and_forth'],
+    #     train_samples_per_task=6000,
+    #     val_samples_per_task=300
+    # )
 
