@@ -53,6 +53,20 @@ PECN/
 - `test_result/` - Evaluation results
 - `.cache/` - HuggingFace model cache
 
+**Progress-Aware Cross-modal Network：** This is a motion progress prediction system based on the Something-Something v2 (SSv2) dataset. It predicts the percentage of motion completion at frame 20 by watching the first 20 frames of a video.
+
+## Project Structure
+
+```
+├── progress_evaluator/                 # Progress estimation module (PAC-Net)
+├── train_reg.py                        # Regression version training script
+├── train_class.py                      # Classification version training script
+├── student.py                          # Regression model definition
+├── model_class.py                      # Classification model definition
+├── predict.py                          # Regression version evaluation script
+├── predict_class.py                    # Classification version evaluation script
+```
+
 ## Quick Start
 
 ### 1. Setup
@@ -68,6 +82,7 @@ export HF_ENDPOINT=https://hf-mirror.com
 
 # Install dependencies
 pip install -r requirements.txt
+pip install torch torchvision transformers timm opencv-python matplotlib tqdm
 ```
 
 **Note**: Add `export HF_ENDPOINT=https://hf-mirror.com` to `~/.bashrc` for permanent use.
